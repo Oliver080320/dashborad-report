@@ -1,0 +1,282 @@
+Filters
+
+Treat as today
+
+Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+
+Selected date is 2026/08/18. Select the second date.
+
+Callers
+
+Karthik Suriyan
+Harsh Purswani
+Hemant Dongrani
+Arun Prabhakaran
+
+Series
+
+Per person
+
+Total
+
+Data: Sales Queue/data/*.csv. See the Data notes tab for what is approximated.
+
+Deploy
+Monitoring dashboard · sales queue
+Rebuilt from CSV exports · today = Tue 18 Aug 2026 · all 4 callers
+LAST WORKING DAY (17 AUG)
+Calls
+66
+across all 4 callers
+Queue worked
+39.7%
+96 of 242 surfaced
+Backlog
+214
+carry-over rows
+Contact rate
+75.4%
+46 of 61 reached
+TODAY (IN PROGRESS)
+Calls today
+43
+across all 4 callers
+Queue worked
+22.8%
+44 of 193 surfaced
+Backlog now
+135
+carry-over quotes · oldest 50d
+Contact rate
+82.1%
+32 of 39 reached
+keyboard_arrow_right
+
+🔎 Quote timeline — search a quote (e.g. TDU00456 or 456)
+
+Team activity
+
+Workload & capacity
+
+Account intelligence
+
+Quote pipeline
+
+By person
+
+Data notes
+
+Calls logged
+
+Call entries per caller per day, last 14 days (Sundays hidden). Grey = quotes surfaced to that caller that day.
+05 Aug
+06 Aug
+07 Aug
+08 Aug
+10 Aug
+11 Aug
+12 Aug
+13 Aug
+14 Aug
+15 Aug
+17 Aug
+18 Aug
+0
+20
+40
+60
+80
+100
+Calls
+Karthik Suriyan
+Harsh Purswani
+Hemant Dongrani
+Arun Prabhakaran
+
+% of queue worked
+
+Surfaced quotes that got a logged outcome, Accepted, Requote or Rejected the same day.
+05 Aug
+06 Aug
+07 Aug
+08 Aug
+10 Aug
+11 Aug
+12 Aug
+13 Aug
+14 Aug
+15 Aug
+17 Aug
+18 Aug
+0
+20
+40
+60
+80
+100
+% worked
+Karthik Suriyan
+Harsh Purswani
+Hemant Dongrani
+Arun Prabhakaran
+
+Contact / connect rate
+
+Reached (interested, next_call, inbound_call) ÷ reached + no_answer_email.
+05 Aug
+06 Aug
+07 Aug
+08 Aug
+10 Aug
+11 Aug
+12 Aug
+13 Aug
+14 Aug
+15 Aug
+17 Aug
+18 Aug
+0
+20
+40
+60
+80
+100
+Contact rate %
+Karthik Suriyan
+Harsh Purswani
+Hemant Dongrani
+Arun Prabhakaran
+
+Outcome mix (last 14 days)
+
+Call outcomes per caller.
+Harsh Purswani
+Hemant Dongrani
+Arun Prabhakaran
+0
+50
+100
+150
+Calls
+next_call
+no_answer_email
+interested
+inbound_call
+
+Channel mix
+
+Phone / WhatsApp / email per caller.
+🚫
+
+Not available from this export — channel lives in tdu_quotes_followup_ext, which wasn't exported.
+
+Calls by hour of day (India time)
+
+Average calls per active day, last 90 days, 9am–6pm IST.
+09:00
+10:00
+11:00
+12:00
+13:00
+14:00
+15:00
+16:00
+17:00
+18:00
+0
+2
+4
+6
+Calls / active day
+Karthik Suriyan
+Harsh Purswani
+Hemant Dongrani
+Arun Prabhakaran
+
+Accepted this month (August 2026)
+
+First Accepted date per quote, credited to its current owner. Internal account excluded.
+
+22 FIT (2 unassigned) + 7 Groups = 29 total
+
+01 Aug
+03 Aug
+04 Aug
+05 Aug
+07 Aug
+10 Aug
+11 Aug
+12 Aug
+14 Aug
+17 Aug
+0
+2
+4
+6
+Accepted
+Karthik Suriyan
+Harsh Purswani
+Hemant Dongrani
+Arun Prabhakaran
+Unassigned (FIT)
+Unassigned (Groups)
+
+Download list (CSV)
+
+Quote lifecycle (this month)
+
+Stage-change events per owner — accepted / rejected / requote.
+Karthik Suriyan
+Harsh Purswani
+Hemant Dongrani
+Arun Prabhakaran
+0
+100
+50
+Events
+accepted
+rejected
+requote
+
+Win rate (Accepted vs Rejected)
+
+Business-wide, this month. Days with nothing resolved are gaps.
+
+12.4% (29/233)
+
+01 Aug
+03 Aug
+04 Aug
+05 Aug
+06 Aug
+07 Aug
+08 Aug
+10 Aug
+11 Aug
+12 Aug
+13 Aug
+14 Aug
+15 Aug
+17 Aug
+18 Aug
+0
+20
+40
+60
+80
+100
+Win rate %
+
+Cycle time: Created → Accepted
+
+Average days from quote creation to Accepted, this month.
+Karthik Suriyan
+Harsh Purswani
+Hemant Dongrani
+Arun Prabhakaran
+0
+20
+40
+60
+80
+Avg days

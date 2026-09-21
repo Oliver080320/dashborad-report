@@ -1,0 +1,17 @@
+.findings-report { max-width: 960px; margin: 0 auto; padding: 32px 36px 70px; box-sizing:border-box; }
+.findings-report .report-hero { margin-bottom: 28px; }
+.findings-report .report-hero h1 { font-size: clamp(30px,4vw,46px); line-height: 1.15; }
+.findings-nav { display:flex; flex-wrap:wrap; gap:8px 18px; padding:18px 0; border-top:1px solid var(--border); border-bottom:1px solid var(--border); font-size:14px; }
+.findings-nav a { color:var(--text); }
+.findings-section { margin-top:42px; scroll-margin-top:90px; }
+.findings-report p,.findings-report li { line-height:1.65; }
+.findings-report table { border-collapse:collapse; width:100%; font-size:13px; }
+.findings-report th,.findings-report td { text-align:left; padding:10px 9px; border-bottom:1px solid var(--border); vertical-align:top; }
+.findings-report th { font-weight:650; }
+.findings-report td.numeric { text-align:right; font-variant-numeric:tabular-nums; }
+.evidence-table { overflow-x:auto; max-width:100%; margin:16px 0; }
+.evidence-table td { min-width:90px; }
+.issue-evidence details { padding:16px 0; border-bottom:1px solid var(--border); }
+.issue-evidence summary { cursor:pointer; font-weight:600; line-height:1.5; }
+.extract-button { display:block; margin:12px 0; padding:8px 12px; border:1px solid var(--border); border-radius:6px; background:var(--surface); color:var(--text); cursor:pointer; font:inherit; }
+@media(max-width:600px){ .findings-report { padding:24px 20px 60px; } .findings-report table{font-size:12px;} .findings-section {margin-top:28px;} }

@@ -1,0 +1,128 @@
+Filters
+
+Treat as today
+
+Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+
+Selected date is 2026/08/18. Select the second date.
+
+Callers
+
+Karthik Suriyan
+Harsh Purswani
+Hemant Dongrani
+Arun Prabhakaran
+
+Series
+
+Per person
+
+Total
+
+Data: Sales Queue/data/*.csv. See the Data notes tab for what is approximated.
+
+Deploy
+Monitoring dashboard · sales queue
+Rebuilt from CSV exports · today = Tue 18 Aug 2026 · all 4 callers
+LAST WORKING DAY (17 AUG)
+Calls
+66
+across all 4 callers
+Queue worked
+39.7%
+96 of 242 surfaced
+Backlog
+214
+carry-over rows
+Contact rate
+75.4%
+46 of 61 reached
+TODAY (IN PROGRESS)
+Calls today
+43
+across all 4 callers
+Queue worked
+22.8%
+44 of 193 surfaced
+Backlog now
+135
+carry-over quotes · oldest 50d
+Contact rate
+82.1%
+32 of 39 reached
+keyboard_arrow_right
+
+🔎 Quote timeline — search a quote (e.g. TDU00456 or 456)
+
+Team activity
+
+Workload & capacity
+
+Account intelligence
+
+Quote pipeline
+
+By person
+
+Data notes
+
+Unresponsive organisations
+
+≥3 contact days in the last 90, and ≥80% of them unanswered. Top 10.
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+% days unanswered
+Account #12535579
+
+Sort
+
+By volume
+
+By rejection rate
+
+Account insights
+
+Top 10 accounts, all time. Organisation names aren't in the export, so IDs are shown.
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+200
+220
+240
+260
+Quotes
+Account #91445
+Account #526083
+Account #53703
+Account #53637
+Account #12535768
+Account #831237
+Account #53466
+Account #145159
+Account #1563440
+Account #12535073
+Accepted
+Rejected
+In progress
+
+Why we lose — rejection reasons
+
+🚫
+
+Not available from this export — reasons are stored in tdu_quote_closure_feedback, which wasn't exported.

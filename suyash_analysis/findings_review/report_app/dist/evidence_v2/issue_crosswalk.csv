@@ -1,0 +1,23 @@
+master_id,original_reference,location,display_id,count
+I01,I01_queue_without_team_calls,Appendix A,I01,9
+I02,I02_missing_amount,Appendix A,I02,9646
+I03,I03_missing_trip,Appendix A,I03,86
+I04,I04_missing_owner,Separate dashboard review,T01,7198
+I05,I05_country_unusable,Appendix A,I04,75
+I06,I07_trip_before_creation,Appendix A,I05,140
+I07,orphan_vtiger_quote_stage_track,Appendix A,I06,9154
+I08,I08_stage_duplicate_candidates,Appendix A,I07,7846
+I09,I09_followup_duplicate_candidates,Appendix A,I08,129
+I10,I10_stage_spelling,Separate dashboard review,T02,20
+I11,I11_call_outcomes_missing,Appendix A,I09,9626
+I12,I12_call_before_creation,Appendix A,I10,286
+I13,I13_future_quotes_in_historical_basket,Separate dashboard review,T03,36
+I14,I14_owner_lookahead,Separate dashboard review,T04,52
+I15,I15_open_past_trips,Appendix A,I11,51
+I16,I16_large_party_review,Appendix A,I12,92
+I17,I18_future_call_dates,Appendix A,I13,1
+I18,I19_payment_dates,Appendix A,I14,1037
+I19,I20_pax_disagreement,Appendix A,I15,1433
+I20,I21_country_case,Appendix A,I16,2
+I21,I22_creation_batch,Appendix A,I17,327
+I22,I23_acceptance_audit_gap,Appendix A,I18,179

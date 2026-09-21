@@ -1,0 +1,184 @@
+Filters
+
+Treat as today
+
+Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+
+Selected date is 2026/08/18. Select the second date.
+
+Callers
+
+Karthik Suriyan
+Harsh Purswani
+Hemant Dongrani
+Arun Prabhakaran
+
+Series
+
+Per person
+
+Total
+
+Data: Sales Queue/data/*.csv. See the Data notes tab for what is approximated.
+
+Deploy
+Monitoring dashboard · sales queue
+Rebuilt from CSV exports · today = Tue 18 Aug 2026 · all 4 callers
+LAST WORKING DAY (17 AUG)
+Calls
+66
+across all 4 callers
+Queue worked
+39.7%
+96 of 242 surfaced
+Backlog
+214
+carry-over rows
+Contact rate
+75.4%
+46 of 61 reached
+TODAY (IN PROGRESS)
+Calls today
+43
+across all 4 callers
+Queue worked
+22.8%
+44 of 193 surfaced
+Backlog now
+135
+carry-over quotes · oldest 50d
+Contact rate
+82.1%
+32 of 39 reached
+keyboard_arrow_right
+
+🔎 Quote timeline — search a quote (e.g. TDU00456 or 456)
+
+Team activity
+
+Workload & capacity
+
+Account intelligence
+
+Quote pipeline
+
+By person
+
+Data notes
+
+Backlog (carry-over) over time & age
+
+Carry-over rows in each caller's queue, last 14 days. Red at 3+ days behind.
+05 Aug
+06 Aug
+07 Aug
+08 Aug
+10 Aug
+11 Aug
+12 Aug
+13 Aug
+14 Aug
+15 Aug
+17 Aug
+18 Aug
+0
+20
+40
+60
+80
+100
+Carry-over rows
+Karthik Suriyan
+Harsh Purswani
+Hemant Dongrani
+Arun Prabhakaran
+
+Karthik Suriyan 0-2d: 03d+: 88   Harsh Purswani 0-2d: 33d+: 11   Hemant Dongrani 0-2d: 13d+: 0   Arun Prabhakaran 0-2d: 53d+: 27
+
+keyboard_arrow_right
+
+Carry-over quotes today (135)
+
+Coverage: are we surfacing everything?
+
+Distinct quotes surfaced ÷ live quotes with a trip still ahead. All callers.
+05 Aug
+06 Aug
+07 Aug
+08 Aug
+10 Aug
+11 Aug
+12 Aug
+13 Aug
+14 Aug
+15 Aug
+17 Aug
+18 Aug
+0
+20
+40
+60
+80
+100
+Coverage %
+
+Quotes owned right now
+
+Live Created / Requote quotes per owner.
+Karthik Suriyan
+Harsh Purswani
+Hemant Dongrani
+Arun Prabhakaran
+0
+100
+50
+150
+Quotes
+
+Capacity vs demand
+
+Follow-up cohort sorted into SP1–SP4 as of each day. Dashed line = daily slot budget.
+05 Aug
+06 Aug
+07 Aug
+08 Aug
+10 Aug
+11 Aug
+12 Aug
+13 Aug
+14 Aug
+15 Aug
+17 Aug
+18 Aug
+0
+50
+100
+150
+200
+250
+300
+350
+Quotes
+sp1
+sp2
+sp3
+sp4
+
+Budget 336/day = 8 regions × ⌊70 × 0.6⌋
+
+Queue composition over time
+
+What each day's queue was made of, by bucket.
+Karthik Suriyan
+Harsh Purswani
+Hemant Dongrani
+Arun Prabhakaran
+0
+1,000
+500
+Queue rows (14 days)
+sp1
+sp2
+sp3
+sp4
+carryover

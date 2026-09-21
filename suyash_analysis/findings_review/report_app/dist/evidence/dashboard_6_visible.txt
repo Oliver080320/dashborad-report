@@ -1,0 +1,90 @@
+Filters
+
+Treat as today
+
+Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+
+Selected date is 2026/08/18. Select the second date.
+
+Callers
+
+Karthik Suriyan
+Harsh Purswani
+Hemant Dongrani
+Arun Prabhakaran
+
+Series
+
+Per person
+
+Total
+
+Data: Sales Queue/data/*.csv. See the Data notes tab for what is approximated.
+
+Deploy
+Monitoring dashboard · sales queue
+Rebuilt from CSV exports · today = Tue 18 Aug 2026 · all 4 callers
+LAST WORKING DAY (17 AUG)
+Calls
+66
+across all 4 callers
+Queue worked
+39.7%
+96 of 242 surfaced
+Backlog
+214
+carry-over rows
+Contact rate
+75.4%
+46 of 61 reached
+TODAY (IN PROGRESS)
+Calls today
+43
+across all 4 callers
+Queue worked
+22.8%
+44 of 193 surfaced
+Backlog now
+135
+carry-over quotes · oldest 50d
+Contact rate
+82.1%
+32 of 39 reached
+keyboard_arrow_right
+
+🔎 Quote timeline — search a quote (e.g. TDU00456 or 456)
+
+Team activity
+
+Workload & capacity
+
+Account intelligence
+
+Quote pipeline
+
+By person
+
+Data notes
+
+What this is
+
+A Python rebuild of the PHP monitoring dashboard (tdu_queue/monitoring_system), run against the seven CSV exports in Sales Queue/data/. Every calculation follows the PHP logic. Where the export is missing a table the PHP needs, the stand-in is listed below.
+
+Stand-ins for missing tables
+Needed by the PHP	Missing table	Used instead
+Quote owner	vtiger_quotes_info.assigned_to_sales_agent	Caller on the quote's latest daily_runs row, else created_by when it's one of the four callers
+Region filter	vtiger_quotes_info.assigned_to_region	Quotes that ever appeared in daily_runs, which only happens for India regions
+"Worked" via closure	tdu_quote_closure_feedback	A "Change Stage to Rejected" event that day
+Organisation names	tdu_organisation	Account #<accountid>
+Slot budget	per-region config	8 India regions × ⌊70 × 0.6⌋ = 336
+Not buildable from this export
+
+Channel mix · Rejection reasons · "Where are our quotes?" map · Region/Priority breakdown in By person.
+
+Snapshot caveat
+
+"Today" is set to 18 Aug 2026. Stages and next-call dates are as of the export (Sep 2026), so historical days use current stages — the PHP does the same for the coverage and capacity charts.
+
+Callers
+
+karthik = Karthik Suriyan, HarshP = Harsh Purswani, hemant = Hemant Dongrani, ArunP = Arun Prabhakaran. Arun (Arun Karotiya) is a different person from ArunP.

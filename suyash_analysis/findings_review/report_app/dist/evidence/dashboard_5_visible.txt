@@ -1,0 +1,194 @@
+Filters
+
+Treat as today
+
+Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+
+Selected date is 2026/08/18. Select the second date.
+
+Callers
+
+Karthik Suriyan
+Harsh Purswani
+Hemant Dongrani
+Arun Prabhakaran
+
+Series
+
+Per person
+
+Total
+
+Data: Sales Queue/data/*.csv. See the Data notes tab for what is approximated.
+
+Deploy
+Monitoring dashboard · sales queue
+Rebuilt from CSV exports · today = Tue 18 Aug 2026 · all 4 callers
+LAST WORKING DAY (17 AUG)
+Calls
+66
+across all 4 callers
+Queue worked
+39.7%
+96 of 242 surfaced
+Backlog
+214
+carry-over rows
+Contact rate
+75.4%
+46 of 61 reached
+TODAY (IN PROGRESS)
+Calls today
+43
+across all 4 callers
+Queue worked
+22.8%
+44 of 193 surfaced
+Backlog now
+135
+carry-over quotes · oldest 50d
+Contact rate
+82.1%
+32 of 39 reached
+keyboard_arrow_right
+
+🔎 Quote timeline — search a quote (e.g. TDU00456 or 456)
+
+Team activity
+
+Workload & capacity
+
+Account intelligence
+
+Quote pipeline
+
+By person
+
+Data notes
+
+Caller
+
+Karthik Suriyan
+
+Range
+
+This month
+
+This year
+
+Custom
+
+Karthik Suriyan · 01 Aug 2026 → 18 Aug 2026
+
+Total
+
+23
+
+Companies
+
+23
+
+Created
+
+15
+
+Requote
+
+0
+
+Accepted
+
+4
+
+Rejected
+
+4
+
+Inbound calls
+
+0
+
+Conversion
+
+50.0%
+
+Avg first response
+
+5.6 d
+
+Avg cycle time
+
+38.8 d
+
+keyboard_arrow_right
+
+Quotes created in range (23)
+
+Calls by hour (India time)
+
+Raw call counts in the selected range.
+09:00
+10:00
+11:00
+12:00
+13:00
+14:00
+15:00
+16:00
+17:00
+18:00
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+Calls
+
+Upcoming follow-ups
+
+100 live Created / Requote quotes owned by Karthik.
+Overdue
+Today
+Tomorrow
+Thu 20
+Fri 21
+Sat 22
+Sun 23
+Mon 24
+Next week
+2+ weeks
+Not scheduled
+0
+10
+20
+30
+40
+50
+Quotes
+
+Live book by travel month
+
+Aug 2026
+Sep 2026
+Oct 2026
+Nov 2026
+Dec 2026
+Jan 2027
+Feb 2027
+Mar 2027
+Apr 2027
+0
+10
+20
+30
+Quotes
+
+Live book
+
+Filter by quote number
+
+🚫
+
+Not available from this export — the Region / Priority breakdown donut needs vtiger_quotes_info.

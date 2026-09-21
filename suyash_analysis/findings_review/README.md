@@ -1,3 +1,7 @@
+# Current revision
+
+See [README_v2.md](README_v2.md) for the updated dashboard, Word report and review pack.
+
 # Sales findings review
 
 Prepared for Oliver's review on 21 September 2026. Nothing has been published or sent.

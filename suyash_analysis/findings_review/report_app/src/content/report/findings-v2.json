@@ -1,0 +1,1230 @@
+{
+  "version": 2,
+  "title": "Sales insights report",
+  "subtitle": "Review draft for Suyash • Intended audience: Abhishek and the sales team • Historical exports reviewed 21 September 2026",
+  "pages": [
+    {
+      "id": "scorecard",
+      "section": "1. Scorecard",
+      "title": "Quote requests fell 18%; repeat work needs attention",
+      "blocks": [
+        {
+          "type": "kpis"
+        },
+        {
+          "type": "text",
+          "text": "**Five things to know**\n\n- **362 quotes in August, down from 439.** Australia accounts for the whole net fall.\n- **13% win rate** for January?July decided quotes.\n- **76% carry-over** in the 18 August follow-up list.\n- **21% automatically rejected** across the full quote base.\n- **47% of open future trips** fall in November?December 2026."
+        },
+        {
+          "type": "text",
+          "text": "The three operational problems to resolve first are repeated work filling the call list, automatically closed quotes without a visible explanation, and uncertainty over who is assigned the work and whether calls are being recorded. The recommended response is to check intake, confirm assignments, then improve follow-up rules."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "First action",
+            "Proposed owner",
+            "When"
+          ],
+          "rows": [
+            [
+              "Check Australian intake and routing",
+              "Suyash with Abhishek",
+              "Within 2 working days of review"
+            ],
+            [
+              "Confirm caller assignments and logging coverage",
+              "Suyash with the dev team",
+              "Before named team comparisons are shared"
+            ],
+            [
+              "Review repeat queue entries and automatic closures",
+              "Sales operations with the dev team",
+              "Within 5 working days of review"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "**Review status:** draft for Suyash before circulation to Abhishek or the team. Names in the team comparison require assignment checks. Action owners and timing below are proposals for approval, not confirmed commitments."
+        },
+        {
+          "type": "text",
+          "text": "**What these tiles measure:** quote counts, not revenue. August is the last complete quote month in the supplied files; the team review uses 5–18 August, and the backlog uses the 18 August view. Snapshot counts reflect the supplied export. Confidence is High for recorded quote counts, Medium for assigned workload and modeled backlog. The reporting gaps are explained on the trust page."
+        }
+      ],
+      "queries": [
+        "v2_kpis",
+        "v2_country_change",
+        "v2_queue",
+        "v2_travel"
+      ]
+    },
+    {
+      "id": "trends",
+      "section": "2. How sales are trending",
+      "title": "Fewer quote requests; the apparent win-rate jump is too early to judge",
+      "blocks": [
+        {
+          "type": "insight",
+          "title": "August received 77 fewer quotes than July",
+          "text": "July produced **439 quotes** and August **362**, an **18% decline**. August is also **41% below August 2025’s 615 quotes**. The longer series shows that the fall is meaningful in context, rather than simply a comparison with one unusually busy day.",
+          "action": "Suyash with Abhishek: review Australian intake and routing within 2 working days.",
+          "confidence": "High",
+          "reason": "Counts are taken directly from quote records; September is partial.",
+          "figure": "monthly-volume-chart"
+        },
+        {
+          "type": "insight",
+          "title": "The useful benchmark is 13%, not August’s 32%",
+          "text": "Across January–July 2026, **270 of 2,105 decided quotes were wins (13%)**, about **one in eight**. Monthly rates ran from **11% to 18%**. August shows **20 wins from only 63 decided quotes (32%)**, while most August quotes remain undecided.",
+          "action": "Abhishek with Suyash: choose one conversion improvement to test and compare equally aged quotes.",
+          "confidence": "High",
+          "reason": "The counts are reliable; recent months have not had equal time to finish.",
+          "figure": "win-rate-chart"
+        },
+        {
+          "type": "text",
+          "text": "The trend spans 24 displayed months, October 2024–September 2026. The grey endpoint is partial. The October 2024 annotation marks **327 records created in the same second**—a suspected import that should be checked before treating that month as normal demand. No recurring annual sales cycle is established by this history."
+        }
+      ],
+      "queries": [
+        "v2_monthly",
+        "v2_win",
+        "I22_creation_batch"
+      ]
+    },
+    {
+      "id": "drivers",
+      "section": "2. How sales are trending · continued",
+      "title": "Australia explains the fall; two creation accounts concentrate it",
+      "blocks": [
+        {
+          "type": "insight",
+          "title": "Australia drove the August drop",
+          "text": "Australian quotes fell **300 → 220 (−80)**; New Zealand edged up **139 → 142 (+3)**. These movements reconcile to the **77-quote overall decline**. The creation accounts **abhisheks (−37)** and **Dhiraj (−31)** together account for **68 of the 77 fewer quotes (88%)**.",
+          "action": "Suyash with Abhishek: check intake and routing with the people responsible for these creation accounts.",
+          "confidence": "High",
+          "reason": "This identifies where recorded volume changed, not why it changed.",
+          "figure": "drivers-figure"
+        },
+        {
+          "type": "text",
+          "text": "The first check is whether fewer Australian requests arrived, whether work was routed differently, or whether requests were recorded elsewhere. Compare inbound requests with created quotes for the same two months. A creator account shows who entered the record; it is not automatically the person who sold or owned the opportunity."
+        },
+        {
+          "type": "text",
+          "text": "The same decline can be viewed by trip segment: **FIT fell 327 → 270 (−57)** and **Groups 112 → 92 (−20)**. Both fell by about **18%**, so the change is broader than a single segment. Country, creator and segment are alternative views of the same 77-quote fall; they must not be added together."
+        },
+        {
+          "type": "text",
+          "text": "The expected result is a short explanation of the missing volume and a specific intake or routing action where one is warranted. A fall in requests does not by itself prove that callers converted less effectively. Keep the intake investigation separate from the conversion test."
+        }
+      ],
+      "queries": [
+        "v2_country_change",
+        "v2_creator_change",
+        "jul_aug_driver_segment"
+      ]
+    },
+    {
+      "id": "wins",
+      "section": "3. Where the wins come from",
+      "title": "Australia supplies more wins; rates are close across segments",
+      "blocks": [
+        {
+          "type": "insight",
+          "title": "Volume matters more than the small rate differences",
+          "text": "Australia has **745 accepted quotes** versus **238** for New Zealand, alongside a much larger quote base. Win rates on decided quotes are **14% and 12%**. FIT and Groups are similarly close at **13% and 14%**; there is no clear segment winner from these small differences alone.",
+          "action": "Abhishek: use volume and customer potential alongside win rate when prioritising follow-ups.",
+          "confidence": "High",
+          "reason": "These are counted outcomes; the comparison does not measure profitability.",
+          "figure": "segments-figure"
+        },
+        {
+          "type": "insight",
+          "title": "Customer #526083 leads external volume; #53082 needs a review",
+          "text": "Customer **#526083** leads this ranking with **190 quotes and 38 wins**. Separately, **#53082 lost all 31 decided quotes and still has 7 open**. Review those seven before more quoting effort goes in. The outcome history supports a conversation, not a conclusion about the customer’s reasons.",
+          "action": "Abhishek with the account contact: review the seven open quotes within 2 working days.",
+          "confidence": "Medium",
+          "reason": "Customer names and loss reasons are absent; account IDs identify the records.",
+          "figure": "accounts-figure"
+        },
+        {
+          "type": "text",
+          "text": "The top ten list counts accepted, rejected and open quotes; automatic closures are reviewed separately. It excludes the internal organisation. FIT and Groups describe the trip segment, not individual products. Prioritise a useful next conversation over a league table based on small differences."
+        }
+      ],
+      "queries": [
+        "v2_segments",
+        "v2_accounts",
+        "panel_accounts_rejection"
+      ]
+    },
+    {
+      "id": "team",
+      "section": "4. How the team is working",
+      "title": "Carry-over dominates the list; confirm assignment before judging activity",
+      "blocks": [
+        {
+          "type": "insight",
+          "title": "The assigned workload and recorded activity do not line up",
+          "text": "In **5–18 August**, recorded calls are **Hemant 164, Arun 142, Harsh 133 and Karthik 0**. The share of assigned quote-days worked is **64%, 17%, 52% and 2%**, respectively. The current assigned open book is **173, 74, 170 and 100 quotes**.",
+          "action": "Suyash: confirm assignments and logging before any named comparison reaches the team.",
+          "confidence": "Medium",
+          "reason": "Assigned caller is the best available record; this is not a settled performance assessment.",
+          "figure": "team-figure"
+        },
+        {
+          "type": "text",
+          "text": "**Suyash review required:** Karthik has **100 assigned open quotes**, **26 worked quote-days out of 1,142**, and **4 logged calls in the wider 1–18 August window**. The narrower chart window contains none. Check his role, assignment and logging first; decide separately whether this needs a private conversation with Abhishek."
+        },
+        {
+          "type": "insight",
+          "title": "Carry-over fills three-quarters of the 18 August follow-up list",
+          "text": "On **18 August, 146 of 193 follow-up rows were carry-over (76%)**. Across the shown run days, the share ranges from **66% to 88%**. That is repeated follow-up occupying most of the list, not evidence that each quote was ignored.",
+          "action": "Sales operations with the dev team: review repeat-entry and escalation rules before testing a cap.",
+          "confidence": "High",
+          "reason": "Queue composition is directly observed; the other work may also be repeat follow-up.",
+          "figure": "queue-chart"
+        }
+      ],
+      "queries": [
+        "v2_team",
+        "v2_queue",
+        "team_call_rank"
+      ]
+    },
+    {
+      "id": "pipeline",
+      "section": "5. What is stuck in the pipeline",
+      "title": "Review automatic closures and time-sensitive open quotes",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "**One in five quotes is automatically rejected:** **2,070 of 9,935 quotes (21%)** carry that status. The label does not reveal the trigger or prove nobody reviewed the quote. **Action — Sales operations with the dev team:** establish the closure rule and decide where an advance warning would help. **Confidence: High** for the count; closure reasons need confirmation."
+        },
+        {
+          "type": "text",
+          "text": "**The 18 August view contains 135 carry-over quotes**, with the oldest **50 days behind**. That is a different measure from the 146 carry-over rows in that day’s list. **Action — Sales operations:** review the oldest records and repeated appearances together. **Confidence: Medium** because the backlog view combines historical dates with the later export."
+        },
+        {
+          "type": "insight",
+          "title": "Nearly half the open future trips fall in November and December",
+          "text": "Of **643 open quotes with travel after 18 August**, **172 travel in November** and **130 in December**: **302 in total (47%)**. This is the largest visible travel cluster and a useful starting point for follow-up planning once the list is refreshed.",
+          "action": "Abhishek with assigned callers: refresh these records and agree the next contact within 3 working days.",
+          "confidence": "High",
+          "reason": "The recorded travel dates are counted directly; current availability needs a fresh check.",
+          "figure": "travel-chart"
+        },
+        {
+          "type": "text",
+          "text": "**51 of 645 open quotes (8%) have travel dates before 10 September.** They may need a revised date or an updated outcome. **Action — Abhishek with assigned callers:** inspect each before closing anything. **Confidence: Medium** because past travel is a review flag, not proof that the quote is invalid."
+        }
+      ],
+      "queries": [
+        "v2_travel",
+        "quote_stages",
+        "panel_carryover",
+        "I15_open_past_trips"
+      ]
+    },
+    {
+      "id": "actions",
+      "section": "6. What we will do",
+      "title": "Seven proposed actions, each with a clear result",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Start with the intake and assignment checks. They establish whether the team is seeing the right opportunities and whether the activity records can support a fair review. Then improve the follow-up rules and test one conversion change. The aim is a short list of decisions, not a broad data-cleaning exercise."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Action",
+            "Proposed owner",
+            "By when",
+            "Expected result"
+          ],
+          "rows": [
+            [
+              "Check Australian intake and routing",
+              "Suyash with Abhishek",
+              "Within 2 working days of review",
+              "Explain the 80-quote Australia decline and assign any routing fix."
+            ],
+            [
+              "Confirm caller assignments and logging coverage",
+              "Suyash with the dev team",
+              "Before named team comparisons are shared",
+              "Confirm Karthik’s assignment and whether the late-August export is complete."
+            ],
+            [
+              "Review repeat queue entries and automatic closures",
+              "Sales operations with the dev team",
+              "Within 5 working days of review",
+              "Agree an escalation rule; test a repeat-entry cap before rollout."
+            ],
+            [
+              "Triage November–December trips and past-trip open quotes",
+              "Abhishek with assigned callers",
+              "Within 3 working days of a refreshed export",
+              "Give each relevant quote a next step; verify 51 past-trip records individually."
+            ],
+            [
+              "Review customer #53082 before further quoting",
+              "Abhishek with the account contact",
+              "Within 2 working days of review",
+              "Review 7 open quotes and record why the previous 31 decided quotes were lost."
+            ],
+            [
+              "Choose one conversion improvement to test",
+              "Abhishek with Suyash",
+              "Agree within 1 week of review",
+              "Use a same-age quote group and a baseline win rate; avoid a target chosen from immature August results."
+            ],
+            [
+              "Repair the five decision-critical data gaps",
+              "Dev team with Suyash",
+              "Confirm scope within 1 week of review",
+              "Restore logging, ownership, time-valid history and usable commercial fields."
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "**Timing starts when Suyash approves the draft.** The refreshed export is a prerequisite for the travel-priority action. The dev team should confirm the scope of data repairs rather than be assigned an unverified completion date. Owners may change after review; no assignment or deadline has been sent."
+        },
+        {
+          "type": "text",
+          "text": "For the next readout, check whether the intake gap is explained, the caller assignments are confirmed, the seven customer quotes have next steps, and the oldest carry-over records have been reviewed. Report conversion using equally aged quotes. Do not use August’s early 32% rate as a target or a claimed improvement."
+        }
+      ],
+      "queries": [
+        "v2_country_change",
+        "v2_team",
+        "v2_travel",
+        "issues_register"
+      ]
+    },
+    {
+      "id": "trust",
+      "section": "7. How far to trust these numbers",
+      "title": "Five limits that matter to the decisions above",
+      "blocks": [
+        {
+          "type": "table",
+          "columns": [
+            "Problem",
+            "What we know",
+            "How to use the report"
+          ],
+          "rows": [
+            [
+              "Call records may be incomplete",
+              "Only 1 team call is logged on 21–31 August while 2,944 queue rows exist.",
+              "Low confidence in a logging-stop explanation until the dev team confirms it. Team comparisons stop at 18 August."
+            ],
+            [
+              "Assigned caller is not fully reliable",
+              "128 of 645 open quotes have no assigned caller in the available data.",
+              "Medium confidence in workload attribution. Confirm assignments before assessing individuals."
+            ],
+            [
+              "Historical views mix different dates",
+              "The files contain current stages, schedules and caller assignments.",
+              "Medium confidence in historical backlog. Treat 18 August as a review view, not a reconstructed live snapshot."
+            ],
+            [
+              "Recent win rates are unfinished",
+              "Only 63 of 362 August quotes are decided, against 230 of 439 July quotes.",
+              "Use the 13% January–July benchmark and compare quotes with equal time to finish."
+            ],
+            [
+              "Commercial detail and record checks are incomplete",
+              "9,646 of 9,973 quote totals are missing; possible repeated records and missing history remain.",
+              "Quote volume is usable; revenue and some event-based comparisons need reconciliation."
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Product, vendor and acquisition-source rankings are unavailable from the mapped fields supplied. This does not block the country, trip-segment and customer findings above."
+        },
+        {
+          "type": "text",
+          "text": "**Confidence tags:** High means the stated count or comparison is directly supported by the supplied records; it does not establish a cause. Medium means an assignment, definition or small sample needs checking before action. Low marks the unresolved logging question. Exact counts, examples, definitions and evidence are in the appendices."
+        },
+        {
+          "type": "text",
+          "text": "No source records were changed. This revision reorganises the same historical evidence and recalculates only the explicitly stated comparisons. It is a review draft: Suyash should clear the named-caller handling before team circulation. The complete earlier audit remains archived, and dashboard fixes are documented separately."
+        }
+      ],
+      "queries": [
+        "calls_queue_daily",
+        "missing_owner_by_stage",
+        "v2_win",
+        "I02_missing_amount"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01_queue_without_team_calls",
+      "title": "Queue runs continue on days without team call logs",
+      "count": 9,
+      "denominator": 57,
+      "percent": 15.79,
+      "meaning": "A missing log is not proof of no work. Call KPIs cannot be used as a productivity verdict when logging coverage is uncertain.",
+      "action": "Re-export follow-ups and reconcile logging coverage with source owners.",
+      "severity": "High",
+      "example": [
+        {
+          "date": "2026-06-27T00:00:00.000",
+          "team_calls": 0,
+          "all_calls": 1,
+          "queue_rows": 302
+        },
+        {
+          "date": "2026-08-15T00:00:00.000",
+          "team_calls": 0,
+          "all_calls": 0,
+          "queue_rows": 250
+        }
+      ],
+      "master_id": "I01",
+      "original_id": "I01_queue_without_team_calls",
+      "query": "I01_queue_without_team_calls",
+      "display_id": "I01"
+    },
+    {
+      "id": "I02_missing_amount",
+      "title": "Quote totals are missing",
+      "count": 9646,
+      "denominator": 9973,
+      "percent": 96.72,
+      "meaning": "Revenue and monetary product rankings are not supportable. Currency ID 1 has no exported currency-name mapping.",
+      "action": "Obtain populated quote/invoice line totals, currency definitions and revenue recognition rules.",
+      "severity": "High",
+      "example": [
+        {
+          "quoteid": "9",
+          "quote_no": "TDU00004G",
+          "created_at": "2024-09-16 22:06:03",
+          "quotestage": "On Ground",
+          "total": "NULL",
+          "currency_id": "1"
+        },
+        {
+          "quoteid": "13",
+          "quote_no": "TDU00006G",
+          "created_at": "2024-09-17 11:52:00",
+          "quotestage": "Accounts - Reconciliation",
+          "total": "NULL",
+          "currency_id": "1"
+        }
+      ],
+      "master_id": "I02",
+      "original_id": "I02_missing_amount",
+      "query": "I02_missing_amount",
+      "display_id": "I02"
+    },
+    {
+      "id": "I03_missing_trip",
+      "title": "Trip dates contain a zero-date placeholder",
+      "count": 86,
+      "denominator": 9973,
+      "percent": 0.86,
+      "meaning": "These quotes disappear from trip-horizon and future-trip cohorts.",
+      "action": "Confirm when a trip date is mandatory; backfill from authoritative itinerary data.",
+      "severity": "High",
+      "example": [
+        {
+          "quoteid": 1777358,
+          "quote_no": "TDU17961G",
+          "stage": "Rejected",
+          "created_at": "2024-10-08T17:04:46.000",
+          "trip": null,
+          "country": "Australia",
+          "pax": 1,
+          "owner": null
+        },
+        {
+          "quoteid": 1903320,
+          "quote_no": "TDU19374G",
+          "stage": "Rejected",
+          "created_at": "2024-10-08T17:04:46.000",
+          "trip": null,
+          "country": "Australia",
+          "pax": 1,
+          "owner": null
+        }
+      ],
+      "master_id": "I03",
+      "original_id": "I03_missing_trip",
+      "query": "I03_missing_trip",
+      "display_id": "I03"
+    },
+    {
+      "id": "I05_country_unusable",
+      "title": "Country is blank or N/A",
+      "count": 75,
+      "denominator": 9973,
+      "percent": 0.75,
+      "meaning": "These records cannot be assigned to Australia or New Zealand and are grouped as Unknown by the dashboard. Country is destination, not customer origin.",
+      "action": "Validate destination capture and obtain origin-region lookup tables.",
+      "severity": "High",
+      "example": [
+        {
+          "quoteid": "2028409",
+          "quote_no": "TDU20586G",
+          "country": "",
+          "created_at": "2024-10-08 17:04:46",
+          "quotestage": "Auto Rejected"
+        },
+        {
+          "quoteid": "2038482",
+          "quote_no": "TDU20699G",
+          "country": "",
+          "created_at": "2024-10-08 17:04:46",
+          "quotestage": "Rejected"
+        }
+      ],
+      "master_id": "I05",
+      "original_id": "I05_country_unusable",
+      "query": "I05_country_unusable",
+      "display_id": "I04"
+    },
+    {
+      "id": "I07_trip_before_creation",
+      "title": "Trip date precedes quote creation date",
+      "count": 140,
+      "denominator": 9973,
+      "percent": 1.4,
+      "meaning": "Historical imports or date errors could explain these records; not automatically invalid sales.",
+      "action": "Verify examples against source itineraries and import history.",
+      "severity": "Medium",
+      "example": [
+        {
+          "quoteid": 1397762,
+          "quote_no": "TDU12967G",
+          "stage": "Completed (Accounts)",
+          "created_at": "2024-10-08T17:04:46.000",
+          "trip": "2024-06-21T00:00:00.000",
+          "country": "Australia",
+          "pax": 1,
+          "owner": null
+        },
+        {
+          "quoteid": 1508672,
+          "quote_no": "TDU14645G",
+          "stage": "Auto Rejected",
+          "created_at": "2024-10-08T17:04:46.000",
+          "trip": "2024-06-01T00:00:00.000",
+          "country": "Australia",
+          "pax": 1,
+          "owner": null
+        }
+      ],
+      "master_id": "I06",
+      "original_id": "I07_trip_before_creation",
+      "query": "I07_trip_before_creation",
+      "display_id": "I05"
+    },
+    {
+      "id": "orphan_vtiger_quote_stage_track",
+      "title": "Records linked to quotes absent from the export",
+      "count": 9154,
+      "denominator": 221070,
+      "percent": 4.14,
+      "meaning": "Inner joins silently drop these child records.",
+      "action": "Reconcile export scope and parent IDs before combining tables.",
+      "severity": "High",
+      "example": [
+        {
+          "auto_id": "2",
+          "quoteid": "2347186",
+          "created_at": "2024-10-02 10:07:04",
+          "stage": "Create Project"
+        },
+        {
+          "auto_id": "5",
+          "quoteid": "2347190",
+          "created_at": "2024-10-02 13:04:20",
+          "stage": "Accepted - Groups"
+        }
+      ],
+      "master_id": "I07",
+      "original_id": "orphan_vtiger_quote_stage_track",
+      "query": "orphan_vtiger_quote_stage_track",
+      "display_id": "I06"
+    },
+    {
+      "id": "I08_stage_duplicate_candidates",
+      "title": "Possible duplicate stage records",
+      "count": 7846,
+      "denominator": 221070,
+      "percent": 3.55,
+      "meaning": "Candidate duplicate emissions; event counts can inflate. Separate IDs are not proof of distinct business transitions.",
+      "action": "Review repeated payloads and define an event idempotency key. Preserve raw logs.",
+      "severity": "High",
+      "example": [
+        {
+          "auto_id": "923",
+          "quoteid": "2347636",
+          "user_name": "RakeshM",
+          "stage": "Add Product: Hotel Stay - Rydges Rotorua or Simila",
+          "created_at": "2024-12-02 20:21:36"
+        },
+        {
+          "auto_id": "924",
+          "quoteid": "2347636",
+          "user_name": "RakeshM",
+          "stage": "Add Product: Hotel Stay - Rydges Rotorua or Simila",
+          "created_at": "2024-12-02 20:21:36"
+        }
+      ],
+      "master_id": "I08",
+      "original_id": "I08_stage_duplicate_candidates",
+      "query": "I08_stage_duplicate_candidates",
+      "display_id": "I07"
+    },
+    {
+      "id": "I09_followup_duplicate_candidates",
+      "title": "Possible duplicate follow-up records",
+      "count": 129,
+      "denominator": 25901,
+      "percent": 0.5,
+      "meaning": "Candidate duplicates, not proven duplicate conversations: free-text description and contact fields are intentionally excluded.",
+      "action": "Inspect candidate records in CRM before deduplication.",
+      "severity": "Medium",
+      "example": [
+        {
+          "auto_id": "4097",
+          "quoteid": "2350313",
+          "followup_type": "call_info",
+          "next_follow_up_date": "2025-04-07 16:59:00",
+          "outcome": "NULL",
+          "followup": "checked",
+          "calltime": "2025-04-07 16:59:00",
+          "created_at": "2025-04-07 21:29:32",
+          "created_by": "Ajay Athith"
+        },
+        {
+          "auto_id": "4098",
+          "quoteid": "2350313",
+          "followup_type": "call_info",
+          "next_follow_up_date": "2025-04-07 16:59:00",
+          "outcome": "NULL",
+          "followup": "checked",
+          "calltime": "2025-04-07 16:59:00",
+          "created_at": "2025-04-07 21:29:32",
+          "created_by": "Ajay Athith"
+        }
+      ],
+      "master_id": "I09",
+      "original_id": "I09_followup_duplicate_candidates",
+      "query": "I09_followup_duplicate_candidates",
+      "display_id": "I08"
+    },
+    {
+      "id": "I11_call_outcomes_missing",
+      "title": "Calls have no recorded outcome",
+      "count": 9626,
+      "denominator": 11698,
+      "percent": 82.29,
+      "meaning": "Contact-rate denominator excludes these calls, while call volume includes them.",
+      "action": "Measure outcome completeness by agent/time and define a separate unknown-outcome category.",
+      "severity": "High",
+      "example": [
+        {
+          "auto_id": 218,
+          "quoteid": 2245698,
+          "calltime": "2024-11-11T16:13:00.000",
+          "created_by": "Karthik Suriyan",
+          "outcome": null
+        },
+        {
+          "auto_id": 219,
+          "quoteid": 2020555,
+          "calltime": "2024-11-11T16:16:00.000",
+          "created_by": "Karthik Suriyan",
+          "outcome": null
+        }
+      ],
+      "master_id": "I11",
+      "original_id": "I11_call_outcomes_missing",
+      "query": "I11_call_outcomes_missing",
+      "display_id": "I09"
+    },
+    {
+      "id": "I12_call_before_creation",
+      "title": "Call timestamp precedes quote creation",
+      "count": 286,
+      "denominator": 11698,
+      "percent": 2.44,
+      "meaning": "This can distort first-response time; imports or backdated logs need checking.",
+      "action": "Reconcile source timezone and imported quote/call timestamps.",
+      "severity": "Medium",
+      "example": [
+        {
+          "auto_id": 257,
+          "quoteid": 2350193,
+          "calltime": "2024-11-12T15:52:00.000",
+          "created_at": "2024-11-12T21:22:14.000",
+          "created_by": "Mayur P"
+        },
+        {
+          "auto_id": 284,
+          "quoteid": 2348506,
+          "calltime": "2024-11-12T18:01:00.000",
+          "created_at": "2024-11-12T23:31:33.000",
+          "created_by": "Mayur P"
+        }
+      ],
+      "master_id": "I12",
+      "original_id": "I12_call_before_creation",
+      "query": "I12_call_before_creation",
+      "display_id": "I10"
+    },
+    {
+      "id": "I15_open_past_trips",
+      "title": "Open Created/Requote quotes have trips before last quote-record date",
+      "count": 51,
+      "denominator": 645,
+      "percent": 7.91,
+      "meaning": "Stale pipeline candidates as of 10 September; not proof the travel did not occur.",
+      "action": "Review disposition and trip rescheduling; do not automatically close records.",
+      "severity": "Medium",
+      "example": [
+        {
+          "quoteid": 2353578,
+          "quote_no": "TDU26439G",
+          "stage": "Created",
+          "created_at": "2025-10-16T13:23:28.000",
+          "trip": "2026-09-01T00:00:00.000",
+          "country": "Australia",
+          "pax": 14,
+          "owner": null
+        },
+        {
+          "quoteid": 2353978,
+          "quote_no": "TDU26508G",
+          "stage": "Created",
+          "created_at": "2025-11-10T10:23:43.000",
+          "trip": "2026-09-04T00:00:00.000",
+          "country": "Australia",
+          "pax": 25,
+          "owner": null
+        }
+      ],
+      "master_id": "I15",
+      "original_id": "I15_open_past_trips",
+      "query": "I15_open_past_trips",
+      "display_id": "I11"
+    },
+    {
+      "id": "I16_large_party_review",
+      "title": "Passenger count exceeds empirical 99th percentile",
+      "count": 92,
+      "denominator": 9973,
+      "percent": 0.92,
+      "meaning": "Review candidates above 200 pax; large groups are not inherently errors.",
+      "action": "Compare passenger manifest and FIT/Groups classification for the largest cases.",
+      "severity": "Low",
+      "example": [
+        {
+          "quoteid": 2347404,
+          "quote_no": "TDU24927G",
+          "stage": "Auto Rejected",
+          "created_at": "2024-11-02T16:08:01.000",
+          "trip": "2025-02-06T00:00:00.000",
+          "country": "Australia",
+          "pax": 250,
+          "owner": null
+        },
+        {
+          "quoteid": 2347423,
+          "quote_no": "TDU24937G",
+          "stage": "Auto Rejected",
+          "created_at": "2024-11-07T00:59:24.000",
+          "trip": "2025-02-06T00:00:00.000",
+          "country": "Australia",
+          "pax": 255,
+          "owner": null
+        }
+      ],
+      "master_id": "I16",
+      "original_id": "I16_large_party_review",
+      "query": "I16_large_party_review",
+      "display_id": "I12"
+    },
+    {
+      "id": "I18_future_call_dates",
+      "title": "Call records are dated after the review date",
+      "count": 1,
+      "denominator": 11698,
+      "percent": 0.01,
+      "meaning": "These are future-dated call_info entries as of 21 September 2026, not completed historical calls.",
+      "action": "Check whether scheduled contact was recorded as a completed call.",
+      "severity": "Medium",
+      "example": [
+        {
+          "auto_id": 24081,
+          "quoteid": 2356685,
+          "followup_type": "call_info",
+          "calltime": "2026-09-28T14:17:00.000",
+          "created_at": "2026-05-28T18:47:48.000",
+          "created_by": "Harsh Purswani"
+        }
+      ],
+      "master_id": "I17",
+      "original_id": "I18_future_call_dates",
+      "query": "I18_future_call_dates",
+      "display_id": "I13"
+    },
+    {
+      "id": "I19_payment_dates",
+      "title": "Payment processing date is missing or invalid",
+      "count": 1037,
+      "denominator": 2339,
+      "percent": 44.34,
+      "meaning": "Payment-date trends are incomplete; added_on is a record timestamp, not necessarily cash receipt date.",
+      "action": "Confirm the payment lifecycle and canonical receipt date before cash-flow reporting.",
+      "severity": "High",
+      "example": [
+        {
+          "auto_id": "1",
+          "quoteid": "2261017",
+          "source": "initial",
+          "process_date": "NULL",
+          "added_on": "2024-11-08 11:15:23",
+          "total_amount": "41226"
+        },
+        {
+          "auto_id": "4",
+          "quoteid": "2261017",
+          "source": "final",
+          "process_date": "NULL",
+          "added_on": "2024-11-08 18:39:46",
+          "total_amount": "41856"
+        }
+      ],
+      "master_id": "I18",
+      "original_id": "I19_payment_dates",
+      "query": "I19_payment_dates",
+      "display_id": "I14"
+    },
+    {
+      "id": "I20_pax_disagreement",
+      "title": "Populated no_pax differs from adults + children + infants",
+      "count": 1433,
+      "denominator": 6575,
+      "percent": 21.79,
+      "meaning": "Two passenger measures disagree; no_pax may use a different definition. Dashboard uses adults + children + infants.",
+      "action": "Confirm whether infants/free-of-charge passengers belong in each measure before standardizing.",
+      "severity": "Medium",
+      "example": [
+        {
+          "quoteid": "9",
+          "quote_no": "TDU00004G",
+          "no_pax": "18",
+          "adults": "1",
+          "children": "0",
+          "infants": "0",
+          "calculated_pax": 1
+        },
+        {
+          "quoteid": "13",
+          "quote_no": "TDU00006G",
+          "no_pax": "4",
+          "adults": "1",
+          "children": "0",
+          "infants": "0",
+          "calculated_pax": 1
+        }
+      ],
+      "master_id": "I19",
+      "original_id": "I20_pax_disagreement",
+      "query": "I20_pax_disagreement",
+      "display_id": "I15"
+    },
+    {
+      "id": "I21_country_case",
+      "title": "Country uses inconsistent casing",
+      "count": 2,
+      "denominator": 9973,
+      "percent": 0.02,
+      "meaning": "Raw groupings split Australia into two labels; dashboard title-case normalization already combines them.",
+      "action": "Standardize the country dictionary upstream.",
+      "severity": "Low",
+      "example": [
+        {
+          "quoteid": "2350802",
+          "quote_no": "TDU31527",
+          "country": "AUSTRALIA"
+        },
+        {
+          "quoteid": "2350805",
+          "quote_no": "TDU31528",
+          "country": "AUSTRALIA"
+        }
+      ],
+      "master_id": "I20",
+      "original_id": "I21_country_case",
+      "query": "I21_country_case",
+      "display_id": "I16"
+    },
+    {
+      "id": "I22_creation_batch",
+      "title": "Quote creation timestamps cluster in one second",
+      "count": 327,
+      "denominator": 9973,
+      "percent": 3.28,
+      "meaning": "327 records share one second, have missing creation actors, and are exactly the only quotes with populated totals. This strongly suggests a batch/import boundary, not an organic demand spike; import provenance is unconfirmed.",
+      "action": "Confirm migration history and preserve original creation timestamps before using October 2024 as a trend baseline.",
+      "severity": "High",
+      "example": [
+        {
+          "quoteid": "1333228",
+          "quote_no": "TDU12569G",
+          "created_at": "2024-10-08 17:04:46",
+          "created_by": "",
+          "total": "0.00000000",
+          "quotestage": "Auto Rejected"
+        },
+        {
+          "quoteid": "1397762",
+          "quote_no": "TDU12967G",
+          "created_at": "2024-10-08 17:04:46",
+          "created_by": "",
+          "total": "23852.00000000",
+          "quotestage": "Completed (Accounts)"
+        }
+      ],
+      "master_id": "I21",
+      "original_id": "I22_creation_batch",
+      "query": "I22_creation_batch",
+      "display_id": "I17"
+    },
+    {
+      "id": "I23_acceptance_audit_gap",
+      "title": "Current accepted-family quotes lack an Accepted audit event",
+      "count": 179,
+      "denominator": 983,
+      "percent": 18.21,
+      "meaning": "Current state and event history cannot be fully reconciled; the first-observed acceptance series is incomplete.",
+      "action": "Obtain full audit history or an authoritative acceptance timestamp before measuring historical sales.",
+      "severity": "High",
+      "example": [
+        {
+          "quoteid": 9,
+          "quote_no": "TDU00004G",
+          "stage": "On Ground",
+          "created_at": "2024-09-16T22:06:03.000",
+          "trip": "2024-09-22T00:00:00.000",
+          "country": "Australia",
+          "pax": 1,
+          "owner": null
+        },
+        {
+          "quoteid": 13,
+          "quote_no": "TDU00006G",
+          "stage": "Accounts - Reconciliation",
+          "created_at": "2024-09-17T11:52:00.000",
+          "trip": "2024-10-26T00:00:00.000",
+          "country": "Australia",
+          "pax": 1,
+          "owner": null
+        }
+      ],
+      "master_id": "I22",
+      "original_id": "I23_acceptance_audit_gap",
+      "query": "I23_acceptance_audit_gap",
+      "display_id": "I18"
+    }
+  ],
+  "appendices": [
+    {
+      "id": "appendix-a",
+      "title": "Appendix A — detailed data issue log",
+      "text": "Counts and examples are preserved from v1. All affected rows remain downloadable. Issue numbers below are consecutive; the crosswalk records each old reference. Counts overlap and must not be summed. Possible duplicates and large parties are review candidates, not confirmed errors."
+    },
+    {
+      "id": "appendix-b",
+      "title": "Appendix B — method and sources",
+      "text": "Original analysis prepared 21 September 2026; revised for Suyash’s review.\n\nReviewed Suyash’s local Streamlit dashboard, its calculation code and all **7 supplied CRM CSV exports (281,155 rows)**. No source data or dashboard code was changed. The files are exports from `dev2yourbestwayh_v5`, per the handover; there was no live-system refresh. File hashes identify the exact version reviewed.\n\n| file | rows | columns |\n| --- | --- | --- |\n| daily_runs.csv | 11822 | 8 |\n| vtiger_payment_history.csv | 2339 | 19 |\n| vtiger_quotes.csv | 9973 | 71 |\n| vtiger_quotescf.csv | 9973 | 51 |\n| vtiger_quotes_followup.csv | 25901 | 15 |\n| vtiger_quote_stage_track.csv | 221070 | 5 |\n| vtiger_users.csv | 77 | 15 |\n\nQuote creation spans **16 September 2024–10 September 2026**. Quote analysis uses **9,935 non-deleted quotes**, excluding **38 deleted**; data-quality checks use all **9,973 quotes** unless stated. Stage logs span 2 October 2024–11 September 2026; queue runs cover 25 June–31 August 2026; payment records were added 8 November 2024–20 August 2026. These are record ranges, not known extraction timestamps. There is no shared verified snapshot cutoff.\n\nDashboard baseline: **Treat as today = 18 August 2026**, all four callers, Per person; trends cover **5–18 August**, with Sundays hidden. By person uses **1–18 August**. Pipeline defaults to **Created / Requote**. The dashboard’s CSV download was saved: **791 quotes**, trip dates **1 August–31 October 2026**, all non-deleted stages. It is a trip-window export, not the full dataset or a sales ledger. The full CSV inputs and derived quote export—not screen readings—drive this report.\n\n**Definitions:** “accepted” means current accepted-family stage, not revenue or unique acceptance events. Resolved win rate = accepted ÷ (accepted + manually rejected family), excluding Auto Rejected and unresolved quotes. “First acceptance” means first *observed* Accepted audit event; audit history is incomplete. Country is destination. FIT/Groups is a quote-number suffix proxy, not a product catalogue. Latest queue assignee is an ownership proxy. Payment source (`initial`/`final`) is not lead source.\n\nAll six dashboard tabs were opened and captured. Every panel’s calculation was reviewed, with computed tables exported. Hourly panels inherit the dashboard’s Melbourne-to-India timezone assumption; the CSVs contain no timezone metadata to independently establish it.\n\nEvidence: [source_inventory.csv](evidence/source_inventory.csv), [date_ranges.csv](evidence/date_ranges.csv), [quote_analysis_export.csv](evidence/quote_analysis_export.csv), [dashboard_next_three_months_export.csv](evidence/dashboard_next_three_months_export.csv), and the UI-downloaded file `ui_next_three_months_export.csv`."
+    },
+    {
+      "id": "appendix-c",
+      "title": "Appendix C — supporting analysis and panel evidence",
+      "text": "The earlier calculations, detailed profiles and dashboard-panel extracts remain available below. Sales findings retain the same definitions and caveats. Dashboard implementation findings are in the separate Suyash note, and the complete unmodified v1 report is preserved in archive_v1."
+    }
+  ],
+  "support": [
+    {
+      "title": "3. Sales trends",
+      "text": "**August’s decline is concentrated in Australia.** Australian quotes fell **300 → 220 (−26.7%)**; New Zealand increased **139 → 142 (+2.2%)**. FIT fell **327 → 270 (−17.4%)** and Groups **112 → 92 (−17.9%)**. Creation accounts `abhisheks` and `Dhiraj` account for **−37 and −31**, together **68/77 (88.3%)** of the net decline. Creator is a recorded system actor, not an established sales owner or cause.\n\n| month | quotes | accepted | resolved | resolved_win_pct |\n| --- | --- | --- | --- | --- |\n| 2026-01 | 466 | 41 | 374 | 10.96 |\n| 2026-02 | 370 | 31 | 274 | 11.31 |\n| 2026-03 | 393 | 35 | 312 | 11.22 |\n| 2026-04 | 423 | 36 | 327 | 11.01 |\n| 2026-05 | 356 | 40 | 291 | 13.75 |\n| 2026-06 | 411 | 52 | 297 | 17.51 |\n| 2026-07 | 439 | 35 | 230 | 15.22 |\n| 2026-08 | 362 | 20 | 63 | 31.75 |\n| 2026-09 | 6 | 2 | 2 | 100.0 |\n\n**Observed acceptance activity also fell:** first-observed acceptance events decreased **62 in July → 36 in August (−41.9%)**. This is a different time basis from quote-created cohorts. **179 current accepted-family quotes have no matching Accepted audit event**, and **164 quotes with an observed acceptance are no longer in the accepted family**. Neither the audit series nor current-stage counts alone are a complete historical sales ledger.\n\n**Seasonality is suggestive, not established.** The largest complete quote-created month is **September 2025 (662)**; the smallest complete month is **November 2024 (157)**. August 2026 is **253 quotes below August 2025 (615 → 362, −41.1%)**. Fewer than two full annual cycles are available, the first/last months are partial, and logging coverage changes. Do not infer a recurring seasonal pattern from the peak alone. The open trip horizon is concentrated in **November–December 2026: 302/643 future-trip open quotes (47.0%)**, which is useful for workload planning, not proof of seasonal sales.\n\n**September is not a full-month comparison:** just **6 non-deleted quotes** are present through 10 September; quote volume after that is not supplied. Across the creation-date span, **55 days have zero non-deleted quote records**, including **36 Sundays** and **19 other days**. Zero records can reflect inactivity or export gaps. The largest daily spike is **330 quotes on 8 October 2024**: **327 share exactly 17:04:46**, have missing creation actors, and account for every populated quote total. This strongly suggests a batch/import boundary; the origin is unconfirmed. Treat this spike separately from organic demand. The complete affected extract and an example appear under I17 in Appendix A.\n\n**Call trends cannot explain the sales decline as a cause.** Team calls drop from **66 on 17 August** to **43 on 18 August**, **9 on 19 August** and **1 on 20 August**. There are **7 queue-run days with zero team calls during 21–31 August**, and just **1 logged team call in that entire interval**. Queue rows rise **230 on 18 August → 413 on 31 August (+79.6%)**. A broken/incomplete export and changes in logging behavior remain competing explanations.\n\nEvidence: [monthly_quote_cohorts.csv](evidence/monthly_quote_cohorts.csv), [first_acceptance_month.csv](evidence/first_acceptance_month.csv), [jul_aug_driver_country.csv](evidence/jul_aug_driver_country.csv), [jul_aug_driver_segment.csv](evidence/jul_aug_driver_segment.csv), [jul_aug_driver_created_by.csv](evidence/jul_aug_driver_created_by.csv), [daily_quote_volume.csv](evidence/daily_quote_volume.csv), [zero_quote_days.csv](evidence/zero_quote_days.csv), [calls_queue_daily.csv](evidence/calls_queue_daily.csv), [accepted_without_audit.csv](evidence/accepted_without_audit.csv), [acceptance_reversals.csv](evidence/acceptance_reversals.csv).",
+      "queries": [
+        "monthly_quote_cohorts",
+        "first_acceptance_month",
+        "jul_aug_driver_country",
+        "jul_aug_driver_segment",
+        "jul_aug_driver_created_by",
+        "panel_default_horizon",
+        "daily_quote_volume",
+        "gap_weekdays",
+        "calls_queue_daily",
+        "accepted_without_audit",
+        "acceptance_reversals",
+        "I22_creation_batch"
+      ]
+    },
+    {
+      "title": "4. Top and bottom performers",
+      "text": "**Destination:** Australia leads accepted-quote volume (**745**) versus New Zealand (**238**), mainly alongside a much larger quote base (**7,422 vs 2,438**). The current accepted share of all quotes is similar (**10.04% vs 9.76%**). Resolved win rates are **14.15% vs 12.49%**; this excludes Auto Rejected and cannot establish destination profitability. **75 unknown destinations** have no accepted quotes, but missing location is not a meaningful bottom-performing geography.\n\n| country | quotes | accepted | rejected | auto_rejected | resolved_win_pct |\n| --- | --- | --- | --- | --- | --- |\n| Australia | 7422 | 745 | 4521 | 1732 | 14.15 |\n| New Zealand | 2438 | 238 | 1667 | 280 | 12.49 |\n| Unknown | 75 | 0 | 17 | 58 | 0.0 |\n\n**Product and vendor: unavailable.** Product ID is missing on **9,973/9,973 quotes**; there are **0 exported product or vendor dimension tables**, and no field dictionary for the opaque custom fields. Tour type and quote type are populated on only **1 record each**, quote category on **2**. No valid top/bottom product or vendor ranking can be produced. **Lead source is also unmapped across the 9,973 quotes**; payment `source` has **859 initial**, **178 final**, and **1,302 NULL** values and must not be substituted.\n\n**Available segment proxy:** FIT has **714 accepted / 6,825 quotes (10.46%)**; Groups has **269 / 3,110 (8.65%)**. Among manually resolved quotes the ordering reverses (**13.42% FIT vs 14.41% Groups**) because the denominators exclude different mixes of Auto Rejected and unresolved quotes. Report both denominators; do not label Groups a weaker product.\n\n| login | calls | quotes |\n| --- | --- | --- |\n| ArunP | 159 | 80 |\n| HarshP | 185 | 140 |\n| hemant | 204 | 176 |\n| karthik | 4 | 4 |\n\nEvidence: [destinations.csv](evidence/destinations.csv), [fit_group_proxy.csv](evidence/fit_group_proxy.csv), [schema_unsupported_dimensions.csv](evidence/schema_unsupported_dimensions.csv), [team_call_rank.csv](evidence/team_call_rank.csv), [panel_person_summary.csv](evidence/panel_person_summary.csv), [panel_accounts_volume.csv](evidence/panel_accounts_volume.csv), [panel_accounts_rejection.csv](evidence/panel_accounts_rejection.csv), [payment_source_profile.csv](evidence/payment_source_profile.csv).",
+      "queries": [
+        "destinations",
+        "fit_group_proxy",
+        "schema_unsupported_dimensions",
+        "team_call_rank",
+        "panel_person_summary",
+        "panel_accounts_volume",
+        "panel_accounts_rejection",
+        "payment_source_profile",
+        "all_field_missingness"
+      ]
+    },
+    {
+      "title": "5. Data gaps",
+      "text": "**Missingness is concentrated, so a single completeness rate is misleading.**\n\nProof: full field-level completeness, date coverage, missingness by month/stage/agent, unsupported-dimension schema and row-level examples are included in the evidence pack. Empty/NULL values and invalid zero dates are counted separately; they are not silently converted to zero.",
+      "queries": [
+        "all_field_missingness",
+        "missing_amount_by_month",
+        "missing_outcome_by_month",
+        "missing_outcome_by_agent",
+        "missing_owner_by_stage",
+        "missing_trip_by_stage",
+        "country_raw_values",
+        "date_ranges",
+        "numeric_checks",
+        "schema_unsupported_dimensions",
+        "accepted_without_audit"
+      ]
+    }
+  ],
+  "panels": [
+    {
+      "panel": "Header KPIs",
+      "finding": "17 August: 66 calls, 96/242 worked (39.7%), 214 carryover rows; 18 August: 43 calls, 44/193 worked (22.8%), 135 current carryover quotes. Backlog units/populations differ.",
+      "evidence_query": "panel_worked"
+    },
+    {
+      "panel": "Calls logged",
+      "finding": "5–18 August: Hemant 164, Arun 142, Harsh 133, Karthik 0. Sundays hidden in charts; the exported functions retain all dates.",
+      "evidence_query": "call_rank_14d"
+    },
+    {
+      "panel": "Queue worked",
+      "finding": "Hemant 234/368 (63.6%), Harsh 183/355 (51.5%), Arun 84/489 (17.2%), Karthik 26/1142 (2.3%). Worked can be any caller outcome or a stage change, not necessarily the assigned caller doing the work.",
+      "evidence_query": "worked_rank_14d"
+    },
+    {
+      "panel": "Contact rate",
+      "finding": "Arun displays 109/109 (100%) recognized outcomes, but 142 calls exist; 33 are outside that denominator. Do not interpret this as all calls connected.",
+      "evidence_query": "contact_rank_14d"
+    },
+    {
+      "panel": "Outcome mix",
+      "finding": "5–18 August has 403 recognized outcomes across 439 calls. Inspect missing/other outcomes alongside the plotted distribution.",
+      "evidence_query": "panel_outcomes"
+    },
+    {
+      "panel": "Channel mix",
+      "finding": "1 of 4 unavailable panels; channel extension table absent.",
+      "evidence_query": "schema_unsupported_dimensions"
+    },
+    {
+      "panel": "Calls by hour",
+      "finding": "90-day in-window raw peak: 343 calls in the 17:00 IST hour, versus 341 at 12:00. Chart divides by per-agent active days, so raw totals and displayed averages differ. Melbourne source timezone is assumed.",
+      "evidence_query": "hour_total_90d"
+    },
+    {
+      "panel": "Accepted this month",
+      "finding": "1–18 August attributes 25 accepted quotes to the four callers (14/6/4/1); other/unassigned quotes are separate. Excludes internal account #91445.",
+      "evidence_query": "dashboard_accepted_month_export"
+    },
+    {
+      "panel": "Quote lifecycle",
+      "finding": "Per-owner stage events: 25 accepted, 194 rejected, 6 requote. Event grain can differ from distinct quote grain.",
+      "evidence_query": "panel_lifecycle"
+    },
+    {
+      "panel": "Win rate",
+      "finding": "Business-wide daily Accepted/(Accepted+Rejected) events use current accepted-family filtering. Not a mature created-cohort conversion rate.",
+      "evidence_query": "panel_win_rate"
+    },
+    {
+      "panel": "Cycle time",
+      "finding": "Harsh 9.5 days/6 events; Hemant 14.2/14; Karthik 38.8/4; Arun 73/1. Small denominators and current-owner assignment limit comparisons.",
+      "evidence_query": "panel_cycle_time"
+    },
+    {
+      "panel": "Backlog and age",
+      "finding": "135 current carryover quotes at 18 August, oldest 50 days; snapshot stages and next-call dates affect inclusion/age.",
+      "evidence_query": "panel_carryover"
+    },
+    {
+      "panel": "Queue composition",
+      "finding": "18 August follow-up buckets: 146 carryover of 193 rows (75.6%); 37 other queue rows lie outside these buckets.",
+      "evidence_query": "panel_queue_composition"
+    },
+    {
+      "panel": "Unresponsive organisations",
+      "finding": "1 displayed account #12535579, 3 contact days and 0 reached (100% unanswered). Limited to outcomes and minimum-contact-day threshold.",
+      "evidence_query": "panel_unresponsive"
+    },
+    {
+      "panel": "Rejection reasons",
+      "finding": "1 of 4 unavailable panels; no closure-reason export. Cannot explain 6,205 manually rejected-family active quotes.",
+      "evidence_query": "quote_stages"
+    },
+    {
+      "panel": "Live basket",
+      "finding": "1,629 quotes includes 983 accepted-family and 645 Created/Requote plus 1 Requote After Confirmation. Includes completed/old-trip states, so “live” is not an open-sales-only count.",
+      "evidence_query": "quote_stages"
+    },
+    {
+      "panel": "FIT/Groups composition",
+      "finding": "Default 645 open quotes: 396 FIT, 200 Groups <=40 pax, 49 Groups >40. Suffix-based segment, not product.",
+      "evidence_query": "panel_default_composition"
+    },
+    {
+      "panel": "Destination",
+      "finding": "Default open book: Australia 392 vs New Zealand 253. Current overall quote-base split is different.",
+      "evidence_query": "panel_default_destination"
+    },
+    {
+      "panel": "Travel horizon",
+      "finding": "643 future-trip open quotes; November 172 and December 130 total 302 (47.0%). Date filter excludes trips on/before 18 August.",
+      "evidence_query": "panel_default_horizon"
+    },
+    {
+      "panel": "Passenger counts",
+      "finding": "Default open book: 396 FIT average 4.0 pax; 249 Groups average 40.8 pax. Underlying no_pax conflicts with derived pax on 1,433 populated records.",
+      "evidence_query": "I20_pax_disagreement"
+    },
+    {
+      "panel": "Origin map",
+      "finding": "1 of 4 unavailable panels; country cannot substitute for customer origin.",
+      "evidence_query": "schema_unsupported_dimensions"
+    },
+    {
+      "panel": "Next 3 months export",
+      "finding": "791 non-deleted quotes with trip dates 1 August–31 October; includes rejected stages and past days within August.",
+      "evidence_query": "dashboard_next_three_months_export"
+    },
+    {
+      "panel": "By-person hourly calls",
+      "finding": "Hourly raw counts use selected date range and only 09:00–18:59 IST; timezone not independently verified. 4 agent books exported.",
+      "evidence_query": "team_call_rank"
+    },
+    {
+      "panel": "Upcoming follow-ups",
+      "finding": "Four proxy-owned open books contain 517 quotes; overdue/unscheduled categories use snapshot schedules even when date is historical.",
+      "evidence_query": "panel_owned"
+    },
+    {
+      "panel": "Live book and travel month",
+      "finding": "4 book extracts expose trip date, last contact and next schedule; 51/645 business-wide open quotes have trips before 10 September.",
+      "evidence_query": "I15_open_past_trips"
+    },
+    {
+      "panel": "Region/Priority donut",
+      "finding": "1 of 4 unavailable panels; authoritative assignment table absent.",
+      "evidence_query": "schema_unsupported_dimensions"
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Quotes in August",
+      "value": "362",
+      "detail": "Latest complete month • 2026",
+      "number": 362
+    },
+    {
+      "label": "Change from July",
+      "value": "−18%",
+      "detail": "439 → 362 • 77 fewer quotes",
+      "number": -17.54
+    },
+    {
+      "label": "Win rate on decided quotes",
+      "value": "13%",
+      "detail": "270 of 2,105 • Jan–Jul 2026",
+      "number": 12.83
+    },
+    {
+      "label": "Automatically rejected",
+      "value": "21%",
+      "detail": "2,070 of 9,935 • snapshot",
+      "number": 20.84
+    },
+    {
+      "label": "Open book",
+      "value": "645",
+      "detail": "Created / Requote • snapshot",
+      "number": 645
+    },
+    {
+      "label": "Carry-over backlog",
+      "value": "135",
+      "detail": "Quotes • 18 Aug view • oldest 50 days",
+      "number": 135
+    }
+  ],
+  "actions": [
+    [
+      "Check Australian intake and routing",
+      "Suyash with Abhishek",
+      "Within 2 working days of review",
+      "Explain the 80-quote Australia decline and assign any routing fix."
+    ],
+    [
+      "Confirm caller assignments and logging coverage",
+      "Suyash with the dev team",
+      "Before named team comparisons are shared",
+      "Confirm Karthik’s assignment and whether the late-August export is complete."
+    ],
+    [
+      "Review repeat queue entries and automatic closures",
+      "Sales operations with the dev team",
+      "Within 5 working days of review",
+      "Agree an escalation rule; test a repeat-entry cap before rollout."
+    ],
+    [
+      "Triage November–December trips and past-trip open quotes",
+      "Abhishek with assigned callers",
+      "Within 3 working days of a refreshed export",
+      "Give each relevant quote a next step; verify 51 past-trip records individually."
+    ],
+    [
+      "Review customer #53082 before further quoting",
+      "Abhishek with the account contact",
+      "Within 2 working days of review",
+      "Review 7 open quotes and record why the previous 31 decided quotes were lost."
+    ],
+    [
+      "Choose one conversion improvement to test",
+      "Abhishek with Suyash",
+      "Agree within 1 week of review",
+      "Use a same-age quote group and a baseline win rate; avoid a target chosen from immature August results."
+    ],
+    [
+      "Repair the five decision-critical data gaps",
+      "Dev team with Suyash",
+      "Confirm scope within 1 week of review",
+      "Restore logging, ownership, time-valid history and usable commercial fields."
+    ]
+  ]
+}
