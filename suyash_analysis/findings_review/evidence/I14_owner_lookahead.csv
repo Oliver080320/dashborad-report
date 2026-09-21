@@ -1,0 +1,53 @@
+quoteid,quote_no,stage,created_at,trip,country,pax,owner,owner_on_aug18
+2356727,TDU35990,Created,2026-05-27 22:33:03,2026-11-23,Australia,2,hemant,HarshP
+2356736,TDU27176G,Created,2026-05-28 15:50:40,2026-12-02,Australia,260,karthik,ArunP
+2356928,TDU36135,Created,2026-06-13 21:16:39,2026-11-11,New Zealand,2,hemant,HarshP
+2357162,TDU36302,Created,2026-06-27 16:54:04,2026-12-26,Australia,2,hemant,HarshP
+2357266,TDU27329G,Created,2026-07-07 13:53:53,2026-09-17,Australia,24,ArunP,karthik
+2357291,TDU36390,Created,2026-07-09 17:06:27,2027-04-27,Australia,5,hemant,HarshP
+2357307,TDU27339G,Created,2026-07-10 10:45:56,2026-10-20,Australia,50,karthik,ArunP
+2357326,TDU36415,Created,2026-07-11 21:28:33,2026-10-12,Australia,6,hemant,HarshP
+2357393,TDU36470,Created,2026-07-16 20:59:43,2027-01-01,Australia,2,HarshP,hemant
+2357405,TDU27358G,Created,2026-07-17 17:00:14,2026-10-03,Australia,48,karthik,ArunP
+2357409,TDU27360G,Created,2026-07-17 19:02:58,2026-10-15,Australia,16,ArunP,karthik
+2357415,TDU36488,Created,2026-07-17 22:13:14,2026-10-08,Australia,7,hemant,HarshP
+2357428,TDU36501,Created,2026-07-18 18:23:58,2026-09-10,Australia,3,HarshP,hemant
+2357448,TDU27369G,Created,2026-07-20 15:47:39,2026-11-18,Australia,240,karthik,ArunP
+2357462,TDU36524,Requote,2026-07-21 16:35:34,2027-01-05,New Zealand,2,HarshP,hemant
+2357503,TDU36556,Created,2026-07-23 21:23:53,2026-11-06,Australia,3,hemant,HarshP
+2357510,TDU36561,Created,2026-07-24 18:18:39,2026-12-02,New Zealand,2,HarshP,hemant
+2357519,TDU27385G,Created,2026-07-25 12:35:12,2026-12-10,Australia,40,ArunP,karthik
+2357528,TDU36572,Created,2026-07-25 16:38:56,2026-12-09,New Zealand,5,HarshP,hemant
+2357541,TDU36583,Created,2026-07-25 21:20:28,2026-12-06,New Zealand,4,HarshP,hemant
+2357568,TDU36594,Created,2026-07-28 19:02:16,2026-09-20,Australia,4,hemant,HarshP
+2357570,TDU36596,Created,2026-07-28 20:20:25,2026-10-22,Australia,7,HarshP,hemant
+2357596,TDU36617,Created,2026-07-30 14:51:33,2027-01-15,Australia,3,hemant,HarshP
+2357624,TDU36638,Created,2026-07-31 17:38:05,2026-09-02,Australia,2,hemant,HarshP
+2357631,TDU36645,Created,2026-07-31 23:01:23,2026-12-24,Australia,4,hemant,HarshP
+2357651,TDU36662,Created,2026-08-01 22:16:16,2026-11-13,New Zealand,2,HarshP,hemant
+2357671,TDU36675,Created,2026-08-03 18:28:01,2026-11-14,New Zealand,2,hemant,HarshP
+2357687,TDU36685,Created,2026-08-04 16:09:33,2026-11-22,Australia,8,hemant,HarshP
+2357688,TDU36686,Created,2026-08-04 16:26:26,2026-10-02,New Zealand,7,HarshP,hemant
+2357701,TDU36699,Created,2026-08-04 23:13:38,2026-11-06,Australia,6,hemant,HarshP
+2357710,TDU27439G,Created,2026-08-05 16:33:54,2026-09-15,New Zealand,15,ArunP,karthik
+2357716,TDU36710,Created,2026-08-05 18:35:45,2026-10-05,Australia,4,HarshP,hemant
+2357728,TDU36718,Requote,2026-08-06 15:14:15,2026-09-30,Australia,2,HarshP,hemant
+2357732,TDU36722,Created,2026-08-06 16:53:56,2026-11-07,New Zealand,4,HarshP,hemant
+2357734,TDU36724,Created,2026-08-06 17:33:48,2026-11-16,New Zealand,6,HarshP,hemant
+2357753,TDU27451G,Created,2026-08-07 08:30:13,2026-12-06,Australia,59,karthik,ArunP
+2357763,TDU36741,Accepted,2026-08-07 17:00:43,2027-01-15,Australia,2,HarshP,hemant
+2357788,TDU36759,Created,2026-08-08 15:12:38,2026-12-19,Australia,4,HarshP,hemant
+2357792,TDU36763,Created,2026-08-08 16:28:41,2026-12-19,New Zealand,6,HarshP,hemant
+2357810,TDU36773,Created,2026-08-10 14:46:40,2026-12-25,New Zealand,6,HarshP,hemant
+2357813,TDU36776,Created,2026-08-10 18:39:36,2026-12-15,New Zealand,2,hemant,HarshP
+2357815,TDU36778,Created,2026-08-10 19:10:07,2026-11-11,New Zealand,10,HarshP,hemant
+2357816,TDU36779,Created,2026-08-10 20:00:25,2026-12-23,Australia,4,hemant,HarshP
+2357834,TDU36792,Created,2026-08-11 20:30:53,2026-11-07,New Zealand,7,HarshP,hemant
+2357835,TDU36793,Created,2026-08-11 20:44:52,2026-11-11,Australia,2,hemant,HarshP
+2357836,TDU36794,Created,2026-08-11 21:07:35,2026-10-16,Australia,2,hemant,HarshP
+2357845,TDU36799,Created,2026-08-12 15:08:51,2026-11-01,Australia,3,hemant,HarshP
+2357857,TDU36810,Created,2026-08-12 23:11:02,2026-12-18,New Zealand,3,HarshP,hemant
+2357864,TDU36813,Created,2026-08-13 17:48:30,2027-02-16,New Zealand,6,hemant,HarshP
+2357906,TDU36847,Created,2026-08-14 21:08:43,2026-11-22,Australia,2,hemant,HarshP
+2357910,TDU36851,Created,2026-08-14 22:24:34,2026-10-25,New Zealand,4,hemant,HarshP
+2357914,TDU36855,Accepted,2026-08-14 23:42:31,2026-09-20,Australia,9,hemant,HarshP

@@ -1,0 +1,78 @@
+id,user_name,first_name,last_name,title,department,profile_picture_path,status,quote_view,file_access,quote_pricing,alias_name,delete_tag,mailbox_all,view_followup
+1,admin,,Administrator,admin,,,Active,both,all,1,,1,1,1
+11,kunal,Kunal,Ramchandani,block,,,Active,both,all,1,,1,1,1
+18,abhisheks,Abhishek,Sonthalia,admin,,,Active,both,all,1,,1,1,1
+38,mayur,Mayur,P,sales,"East,Gujarat,North,South,West,West Central Mumbai,West Harbour Mumbai Solapur & Nagpur,West Western Mumbai Pune & Nashik",Profile Images/mayur_1755845101.JPG,Active,both,all,0,,0,1,1
+41,crmadmin,Harshal,Shah,admin,,,Active,both,all,1,,1,1,1
+43,karthik,Karthik,Suriyan,sales,"East,Gujarat,North,South,West,West Central Mumbai,West Harbour Mumbai Solapur & Nagpur,West Western Mumbai Pune & Nashik",Profile Images/karthik_1756528774.jpeg,Active,both,all,1,,0,1,0
+65,pawan,Pawan,Yadav,block,,,Active,both,all,0,,0,1,1
+79,jobm,Job,Mathew,admin,,,Active,both,all,1,,1,1,1
+85,Arun,Arun,Karotiya,block,,,Active,both,all,0,,0,0,1
+89,PankajB,Pankaj,Bisht,block,,Profile Images/PankajB_1757499916.png,Active,both,all,0,,0,0,0
+92,RakeshM,Rakesh,Mulchandani,admin,,,Active,both,all,1,,1,1,1
+95,HarshP,Harsh,Purswani,block,"East,Gujarat,North,South,West,West Central Mumbai,West Harbour Mumbai Solapur & Nagpur,West Western Mumbai Pune & Nashik",Profile Images/HarshP_1774954613.jpeg,Active,both,all,0,,0,0,1
+107,crmadminlee,Lee,N,admin,,,Active,both,all,1,Developer,1,1,1
+114,maharshi,Maharshi,Mankodi,admin,,,Active,both,all,1,Raphael,1,1,1
+117,pranav,Pranav,Gaikwad,block,,,Active,both,all,0,,0,1,1
+123,arya,Arya,Prajapati,block,,,Active,both,all,1,,1,1,1
+133,Simran_Prajapati,Simran,Prajapati,block,,,Active,both,all,0,,0,1,1
+145,Nisarg,Nisarg,Rathod,block,,,Active,both,all,0,,0,1,1
+152,hemant,Hemant,Dongrani,sales,"East,Gujarat,North,South,West,West Central Mumbai,West Harbour Mumbai Solapur & Nagpur,West Western Mumbai Pune & Nashik",,Active,fit,all,0,,0,0,1
+154,Dhiraj,Dhiraj,Salvi,sales,"East,Gujarat,North,South,West,West Central Mumbai,West Harbour Mumbai Solapur & Nagpur,West Western Mumbai Pune & Nashik",Profile Images/Dhiraj_1756528784.jpeg,Active,both,all,1,,0,0,0
+159,Siddhesh,Siddhesh,Subhedar,block,,Profile Images/Siddhesh_1758171736.png,Active,both,assigned_only,0,,0,0,0
+161,pankaj,Pankaj,Kale,block,,,Active,both,all,0,,0,1,1
+162,Kunjan,Kunjan,Shah,block,,,Active,both,all,1,,0,0,0
+165,snehasawant,Sneha,Sawant,block,,,Active,both,all,0,,0,1,1
+166,shivam,Shivam,Sharma,block,,,Active,both,all,1,,1,1,1
+167,abhisheksharma,Abhishek,Sharma,block,,,Active,both,all,1,,1,1,1
+168,tausif,Tausif,Momin,block,"East,Gujarat,South",,Active,both,all,1,,0,0,0
+169,rohitmokal,Rohit,Mokal,block,South,,Active,both,assigned_only,1,,0,0,0
+170,minita,Minita,Tirodkar,block,,,Active,both,all,1,,0,0,1
+171,Laukik,Laukik,Dhawde,block,,,Active,both,all,1,,1,1,1
+172,tester,Test,User,admin,,,Active,both,all,0,,0,0,0
+173,Prasanta,Prasanta,Dawn,external,East,Profile Images/Prasanta_1758014957.png,Active,both,assigned_only,0,,0,0,0
+179,Ela,Ela,Agapito,external,"Indonesia,Phillippines",Profile Images/Ela_1757409144.jpg,Active,both,assigned_only,0,,0,0,0
+180,Pradeep,Pradeep,Shukla,block,North,,Active,both,assigned_only,1,,0,0,0
+181,Nishant,Nishant,Dhaybar,block,,,Active,both,all,1,,1,1,1
+182,Aashish,Aashish,Shinde,block,,,Active,both,all,1,,1,1,1
+183,Pratik,Pratik,Phansekar,block,,,Active,both,all,1,,0,0,1
+184,Priyanka,Priyanka,Pandav,block,,,Active,both,all,1,,0,1,1
+185,Glenn,Glenn,Lewis,block,,,Active,both,all,1,,1,1,1
+186,Komal,Komal,Maheshwari,block,,,Active,both,all,1,Kate,1,1,1
+187,Andre,Andre,Fermush,block,"Indonesia,Malaysia",,Active,both,all,0,,0,0,1
+188,Ajay,Ajay,Athith,block,South,Profile Images/Ajay_1758095859.JPG,Active,both,assigned_only,0,,0,0,0
+189,Anindita,Anindita,Bhattacharya,block,,,Active,both,all,1,,1,1,1
+191,ankita,Ankita,Patil,block,"West,West Central Mumbai,West Harbour Mumbai Solapur & Nagpur,West Western Mumbai Pune & Nashik",,Active,both,assigned_only,0,,0,0,0
+192,deepesh,Deepesh,Khot,block,,,Active,both,assigned_only,0,,0,0,1
+193,Rachana,Rachana,Hingorani,block,,Profile Images/Rachana_1755949010.jpeg,Active,both,all,1,,0,0,0
+194,Sidhikka,Sidhikka,Lotlikar,block,,Profile Images/Sidhikka_1758103725.jpeg,Active,both,all,1,,0,0,1
+195,Sakthi,Sakthi,Nadar,block,,,Active,both,all,0,,0,0,1
+196,Abhishek U,Abhishek,Upadhyay,block,,,Active,both,all,0,,0,0,1
+197,Jacqueline,,Chong,block,Singapore,,Active,both,assigned_only,0,,0,0,0
+198,Hemal,Hemal,Lotiya,block,Gujarat,Profile Images/Hemal_1757952816.jpeg,Active,both,assigned_only,0,,0,1,0
+209,KUNJAN2,KUNJAN2,SHAH2,block,,,Active,both,all,1,,0,1,0
+210,Jacc,Jacc,Tai,block,"Malaysia,Singapore",Profile Images/Jacc_1757910858.jpg,Active,both,assigned_only,0,,0,1,0
+211,Deepak,Deepak,Gole,block,North,,Active,both,assigned_only,0,,0,1,0
+212,MonsurH,Monsur,Hussain,block,,,Active,both,all,1,,1,1,1
+213,Chern,Chern,Foong,block,,,Active,both,all,1,,1,1,1
+214,merlinlee,Merlin,Lee,block,,,Active,both,all,1,,1,1,1
+215,AmanPreet,AmanPreet,Kaur,admin,,,Active,both,all,1,,1,1,1
+216,omkar,Omkar,Vidwans,block,"East,Gujarat,North,South,West,West Central Mumbai,West Harbour Mumbai Solapur & Nagpur,West Western Mumbai Pune & Nashik",,Active,both,all,0,,0,1,1
+223,Manthan,Manthan,Soni,admin,,,Active,both,all,1,,1,1,1
+224,Aneesha,A,B,block,,,Active,both,all,1,,1,1,1
+225,ChamodiD,Chamodi,Dahanayake,block,,,Active,both,all,1,,1,1,1
+226,ArunP,Arun,Prabhakaran,sales,"East,Gujarat,North,South,West,West Central Mumbai,West Harbour Mumbai Solapur & Nagpur,West Western Mumbai Pune & Nashik",Profile Images/ArunP_1775623739.jpg,Active,both,all,0,,0,1,1
+227,joTang,Jo,Tang,admin,,,Active,both,all,1,,1,1,1
+228,IffazI,Iffaz,Ibn,block,,,Active,both,all,1,,1,1,1
+229,Divyanshu,Divyanshu,Kumar,block,,,Active,both,all,1,,1,1,1
+230,Daniel,Daniel,Montes,admin,,,Active,both,all,1,,1,1,1
+231,Neha,Neha,Bhuva,admin,,,Active,both,all,0,,0,1,0
+232,Gagan,Gagan,Purushotham,admin,,,Active,both,all,1,,1,1,1
+233,Zafran,Zafran,Ibrahim,account,,,Active,both,all,1,,1,1,1
+234,Sheneli,Sheneli,Weerasinghe,account,,,Active,both,all,1,,1,1,1
+235,yujiet,Yujie,Tan,admin,,,Active,both,all,1,,1,1,1
+236,Massimo,Massimo,Cavoli,admin,,,Active,both,all,1,,1,1,1
+237,haodongg,Haodong,Gu,admin,,,Active,both,all,1,,1,1,1
+238,huikail,HuiKai,Ling,admin,,,Active,both,all,1,,1,1,1
+239,pmsTest,PMS,Test,sales,,,Active,both,all,1,,1,1,1
+240,prajna,Prajna,test,external,,,Active,both,all,1,,1,1,1

@@ -1,0 +1,6 @@
+# Needs Python 3.11 or newer (pandas 3 won't install on older versions).
+# These are the exact versions the dashboard was built and tested with.
+pandas==3.0.3
+streamlit==1.58.0
+altair==6.2.2
+tzdata>=2024.1

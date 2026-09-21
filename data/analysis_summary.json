@@ -1,0 +1,20 @@
+{
+  "queueLatest": "2026-08-31",
+  "latestQuotes": 413,
+  "carryover": 381,
+  "followup": {
+    "Past scheduled date": 293,
+    "Due that day": 20,
+    "No follow-up record": 99,
+    "Future scheduled date": 1
+  },
+  "portfolioQuotes": 9935,
+  "stageGroups": {
+    "Post-acceptance / delivery": 984,
+    "Rejected": 8275,
+    "Sales in progress": 676
+  },
+  "amountMissing": 9608,
+  "unmatchedStageEvents": 9154,
+  "salesStale": 521
+}

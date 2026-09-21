@@ -1,0 +1,5 @@
+dimension,eligible_quotes,usable_product_ids,reason
+Product,9973,0.0,productidwp empty/NULL; no product table or line-item export
+Vendor,9973,,No mapped vendor column or vendor table; opaque cf codes not interpreted
+Lead source,9973,,No mapped lead-source field. Payment source is initial/final and is not acquisition channel
+Origin location,9973,,Country is destination; region_id has 327 zeros and 9646 NULLs; region lookup absent

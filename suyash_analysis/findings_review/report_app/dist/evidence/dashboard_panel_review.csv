@@ -1,0 +1,34 @@
+panel,finding,evidence_query
+Header KPIs,"17 August: 66 calls, 96/242 worked (39.7%), 214 carryover rows; 18 August: 43 calls, 44/193 worked (22.8%), 135 current carryover quotes. Backlog units/populations differ.",panel_worked
+Calls logged,"5–18 August: Hemant 164, Arun 142, Harsh 133, Karthik 0. Sundays hidden in charts; the exported functions retain all dates.",call_rank_14d
+Queue worked,"Hemant 234/368 (63.6%), Harsh 183/355 (51.5%), Arun 84/489 (17.2%), Karthik 26/1142 (2.3%). Worked can be any caller outcome or a stage change, not necessarily the assigned caller doing the work.",worked_rank_14d
+Contact rate,"Arun displays 109/109 (100%) recognized outcomes, but 142 calls exist; 33 are outside that denominator. Do not interpret this as all calls connected.",contact_rank_14d
+Outcome mix,5–18 August has 403 recognized outcomes across 439 calls. Inspect missing/other outcomes alongside the plotted distribution.,panel_outcomes
+Channel mix,1 of 4 unavailable panels; channel extension table absent.,schema_unsupported_dimensions
+Calls by hour,"90-day in-window raw peak: 343 calls in the 17:00 IST hour, versus 341 at 12:00. Chart divides by per-agent active days, so raw totals and displayed averages differ. Melbourne source timezone is assumed.",hour_total_90d
+Accepted this month,1–18 August attributes 25 accepted quotes to the four callers (14/6/4/1); other/unassigned quotes are separate. Excludes internal account #91445.,dashboard_accepted_month_export
+Quote lifecycle,"Per-owner stage events: 25 accepted, 194 rejected, 6 requote. Event grain can differ from distinct quote grain.",panel_lifecycle
+Win rate,Business-wide daily Accepted/(Accepted+Rejected) events use current accepted-family filtering. Not a mature created-cohort conversion rate.,panel_win_rate
+Cycle time,Harsh 9.5 days/6 events; Hemant 14.2/14; Karthik 38.8/4; Arun 73/1. Small denominators and current-owner assignment limit comparisons.,panel_cycle_time
+Backlog and age,"135 current carryover quotes at 18 August, oldest 50 days; snapshot stages and next-call dates affect inclusion/age.",panel_carryover
+Coverage,"18 August: 193/517 (37.3%). Denominator is current open future-trip quotes ever in queue, not all quotes eligible on that historical date.",panel_coverage
+Quotes owned now,"Hemant 173, Harsh 170, Karthik 100, Arun 74 = 517 proxy-owned open quotes; 128 of 645 open quotes are outside these owners.",panel_owned
+Capacity versus demand,"18 August modeled demand 170 versus assumed 336 slots; this is a configuration scenario, not observed staffing capacity. Future schedules and snapshot cohorts can suppress demand.",panel_capacity
+Queue composition,18 August follow-up buckets: 146 carryover of 193 rows (75.6%); 37 other queue rows lie outside these buckets.,panel_queue_composition
+Unresponsive organisations,"1 displayed account #12535579, 3 contact days and 0 reached (100% unanswered). Limited to outcomes and minimum-contact-day threshold.",panel_unresponsive
+Account insights,Internal account #91445 ranks first with 252 included quotes. #53082 has 31/31 manually resolved rejected; organisation names unavailable.,panel_accounts_volume
+Rejection reasons,"1 of 4 unavailable panels; no closure-reason export. Cannot explain 6,205 manually rejected-family active quotes.",quote_stages
+Live basket,"1,629 quotes includes 983 accepted-family and 645 Created/Requote plus 1 Requote After Confirmation. Includes completed/old-trip states, so “live” is not an open-sales-only count.",quote_stages
+FIT/Groups composition,"Default 645 open quotes: 396 FIT, 200 Groups <=40 pax, 49 Groups >40. Suffix-based segment, not product.",panel_default_composition
+Destination,Default open book: Australia 392 vs New Zealand 253. Current overall quote-base split is different.,panel_default_destination
+Travel horizon,643 future-trip open quotes; November 172 and December 130 total 302 (47.0%). Date filter excludes trips on/before 18 August.,panel_default_horizon
+Passenger counts,"Default open book: 396 FIT average 4.0 pax; 249 Groups average 40.8 pax. Underlying no_pax conflicts with derived pax on 1,433 populated records.",I20_pax_disagreement
+Origin map,1 of 4 unavailable panels; country cannot substitute for customer origin.,schema_unsupported_dimensions
+Next 3 months export,791 non-deleted quotes with trip dates 1 August–31 October; includes rejected stages and past days within August.,dashboard_next_three_months_export
+By-person summary,"1–18 August: Hemant 129 created-in-range under current ownership, Harsh 96, Arun 52, Karthik 23; these are not creation-actor counts.",panel_person_summary
+By-person hourly calls,Hourly raw counts use selected date range and only 09:00–18:59 IST; timezone not independently verified. 4 agent books exported.,team_call_rank
+Upcoming follow-ups,Four proxy-owned open books contain 517 quotes; overdue/unscheduled categories use snapshot schedules even when date is historical.,panel_owned
+Live book and travel month,"4 book extracts expose trip date, last contact and next schedule; 51/645 business-wide open quotes have trips before 10 September.",I15_open_past_trips
+Region/Priority donut,1 of 4 unavailable panels; authoritative assignment table absent.,schema_unsupported_dimensions
+Quote timeline,Three timeline lists (queue/calls/stages) use all supplied history; reversal matcher handles misspelling Confrmation only. 20 current rejection records use Confirmation.,I10_stage_spelling
+Data notes,Documents 5 stand-ins and 4 unavailable panels; the snapshot caveat is real and quantified by 36 later-created basket quotes and 52 changed owners.,I13_future_quotes_in_historical_basket

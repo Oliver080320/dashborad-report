@@ -1,0 +1,165 @@
+quoteid,created_at,stage_l
+2348364,2025-01-27 17:28:13,rejected after confrmation qa pending
+2349379,2025-02-07 23:37:42,rejected after confrmation qa completed
+2349448,2025-02-26 04:46:50,rejected after confrmation qa pending
+2349845,2025-02-27 19:18:09,rejected after confrmation qa pending
+2349898,2025-02-28 21:29:49,rejected after confrmation qa pending
+2349933,2025-03-06 22:27:31,rejected after confrmation qa pending
+2349944,2025-03-11 09:54:53,rejected
+2349873,2025-03-12 14:29:22,auto rejected
+2349520,2025-03-12 19:50:55,rejected after confrmation qa completed
+2350074,2025-03-19 10:45:18,rejected after confrmation qa completed
+2350130,2025-03-21 11:06:10,rejected after confrmation qa pending
+2350237,2025-04-08 00:14:17,rejected after confrmation qa completed
+2348458,2025-04-08 22:34:23,auto rejected
+2349952,2025-04-08 23:22:29,rejected after confrmation qa completed
+2350618,2025-04-24 19:53:05,rejected after confrmation qa completed
+2350606,2025-05-06 16:09:45,rejected after confrmation qa completed
+2350829,2025-05-09 18:52:30,rejected after confrmation qa completed
+2350288,2025-05-12 17:00:39,rejected
+2351009,2025-05-24 19:13:20,rejected after confrmation qa completed
+2350895,2025-05-25 19:41:46,rejected after confrmation qa completed
+2348394,2025-05-26 15:43:04,rejected after confrmation qa completed
+2351027,2025-05-26 22:29:14,rejected after confrmation qa completed
+2350807,2025-05-30 13:16:27,auto rejected
+2350990,2025-06-03 13:21:01,rejected
+2347930,2025-06-05 10:07:25,rejected after confrmation qa completed
+2350564,2025-06-16 22:13:09,rejected after confrmation qa completed
+2351051,2025-06-16 22:40:16,rejected after confrmation qa completed
+2351323,2025-06-23 23:32:24,rejected after confrmation qa completed
+2351355,2025-06-26 15:48:11,rejected after confrmation qa pending
+2351489,2025-07-01 11:37:02,rejected after confrmation qa completed
+2350702,2025-07-01 11:38:13,rejected after confrmation qa completed
+2350693,2025-07-01 11:41:28,rejected after confrmation qa completed
+2350873,2025-07-01 22:26:44,rejected after confrmation qa completed
+2350465,2025-07-02 20:46:00,rejected
+2351547,2025-07-04 17:26:22,rejected after confrmation qa completed
+2351658,2025-07-14 22:07:42,rejected after confrmation qa completed
+2351854,2025-07-21 14:41:37,rejected after confrmation qa completed
+2351083,2025-07-22 14:09:35,rejected after confrmation qa completed
+2350560,2025-07-25 15:45:35,rejected after confrmation qa completed
+2351465,2025-07-28 07:35:37,rejected after confrmation qa completed
+2351325,2025-07-28 18:23:40,rejected after confrmation qa pending
+2352044,2025-07-30 19:17:30,rejected after confrmation qa completed
+2352116,2025-08-04 17:56:00,rejected after confrmation qa completed
+2352140,2025-08-05 16:47:14,rejected after confrmation qa pending
+2351992,2025-08-06 10:12:51,rejected
+2352156,2025-08-08 13:39:26,rejected after confrmation qa pending
+2352161,2025-08-09 00:09:12,rejected after confrmation qa completed
+2352238,2025-08-11 21:37:03,rejected after confrmation qa pending
+2352054,2025-08-11 22:48:48,rejected after confrmation qa completed
+2350461,2025-08-11 22:51:08,rejected after confrmation qa completed
+2351892,2025-08-12 21:15:11,rejected after confrmation qa pending
+2352262,2025-08-13 14:42:10,rejected after confrmation qa pending
+2352263,2025-08-13 14:47:07,rejected after confrmation qa pending
+2352276,2025-08-13 17:30:34,rejected after confrmation qa pending
+2351331,2025-08-18 12:00:04,auto rejected
+2352395,2025-08-20 12:09:42,rejected after confrmation qa completed
+2352253,2025-08-20 12:27:19,rejected after confrmation qa pending
+2352254,2025-08-20 12:29:42,rejected after confrmation qa pending
+2352393,2025-08-20 12:34:56,rejected after confrmation qa completed
+2352085,2025-08-21 12:51:26,rejected after confrmation qa completed
+2352463,2025-08-22 17:57:03,rejected after confrmation qa pending
+2352347,2025-08-24 00:47:21,rejected after confrmation qa completed
+2352405,2025-08-25 09:15:49,rejected after confrmation qa completed
+2351136,2025-08-25 09:17:39,rejected after confrmation qa completed
+2352372,2025-08-25 09:19:22,rejected after confrmation qa completed
+2351805,2025-08-25 18:35:25,rejected after confrmation qa completed
+2352572,2025-08-26 20:16:50,rejected after confrmation qa completed
+2352586,2025-08-26 23:45:48,rejected after confrmation qa completed
+2352639,2025-08-29 18:34:02,rejected after confrmation qa completed
+2351864,2025-09-04 13:57:51,rejected after confrmation qa completed
+2351917,2025-09-10 10:39:48,rejected after confrmation qa pending
+2352425,2025-09-10 16:49:37,rejected after confrmation qa pending
+2352585,2025-09-10 22:46:01,rejected after confrmation qa completed
+2352629,2025-09-10 23:14:06,rejected after confrmation qa pending
+2352751,2025-09-11 19:47:49,rejected after confrmation qa completed
+2353022,2025-09-13 22:21:13,rejected
+2351249,2025-09-18 20:38:41,rejected after confrmation qa pending
+2353159,2025-09-22 18:11:23,rejected after confrmation qa pending
+2352964,2025-09-23 22:33:49,rejected after confrmation qa completed
+2353231,2025-09-24 14:21:24,rejected after confrmation qa completed
+2353280,2025-09-25 23:07:04,rejected after confrmation qa pending
+2353394,2025-10-06 15:05:01,rejected
+2353395,2025-10-06 15:09:09,rejected
+2353396,2025-10-06 15:10:37,rejected
+2353397,2025-10-06 15:15:29,rejected
+2352993,2025-10-06 15:57:05,rejected after confrmation qa completed
+2352731,2025-10-08 00:07:05,rejected after confrmation qa pending
+2353465,2025-10-08 15:18:15,rejected after confrmation qa completed
+2353085,2025-10-08 23:07:25,rejected after confrmation qa pending
+2353426,2025-10-10 14:44:06,rejected after confrmation qa pending
+2353541,2025-10-13 21:20:01,rejected after confrmation qa completed
+2353266,2025-10-14 17:27:35,rejected after confrmation qa pending
+2353265,2025-10-14 17:27:41,rejected after confrmation qa pending
+2353554,2025-10-16 18:35:32,rejected after confrmation qa completed
+2352321,2025-10-22 16:40:15,rejected after confrmation qa pending
+2353349,2025-10-24 23:24:38,rejected after confrmation qa pending
+2353787,2025-10-30 23:23:36,rejected after confrmation qa pending
+2351525,2025-10-31 21:45:04,rejected after confrmation qa pending
+2353321,2025-11-03 23:25:49,rejected after confrmation qa pending
+2353726,2025-11-05 22:38:06,rejected after confrmation qa pending
+2353764,2025-11-10 13:45:30,rejected after confrmation qa pending
+2353371,2025-11-13 23:19:53,rejected after confrmation qa pending
+2353688,2025-11-14 22:49:49,rejected after confrmation qa pending
+2353946,2025-11-18 21:06:11,rejected after confrmation qa pending
+2353320,2025-11-20 09:23:11,rejected
+2351374,2025-11-24 17:09:50,rejected after confrmation qa pending
+2354365,2025-12-01 20:58:27,rejected after confrmation qa pending
+2353935,2025-12-08 21:00:07,rejected after confrmation qa pending
+2354367,2025-12-10 01:07:38,rejected after confrmation qa pending
+2354120,2025-12-13 00:10:09,rejected after confrmation qa pending
+2354579,2025-12-16 23:27:47,rejected after confrmation qa pending
+2354355,2025-12-17 21:05:57,rejected after confrmation qa pending
+2354607,2025-12-19 19:11:54,rejected after confrmation qa pending
+2354663,2025-12-22 19:36:19,rejected after confrmation qa pending
+2354035,2026-01-04 01:18:41,rejected after confrmation qa pending
+2354604,2026-01-06 14:44:59,rejected after confrmation qa pending
+2354712,2026-01-20 12:51:40,rejected after confrmation qa pending
+2354984,2026-01-21 10:06:34,rejected after confrmation qa pending
+2355077,2026-01-21 11:21:44,rejected after confrmation qa pending
+2355115,2026-01-23 21:49:51,rejected after confrmation qa pending
+2355186,2026-01-29 22:02:06,rejected after confrmation qa pending
+2354464,2026-01-31 16:17:57,rejected after confrmation qa pending
+2355024,2026-02-03 03:27:51,rejected after confrmation qa completed
+2355213,2026-02-06 20:56:10,rejected after confrmation qa pending
+2354815,2026-02-07 14:55:55,rejected after confrmation qa pending
+2355320,2026-02-08 01:06:27,rejected after confrmation qa pending
+2355105,2026-02-09 12:17:05,auto rejected
+2355225,2026-02-10 19:45:43,rejected after confrmation qa pending
+2354949,2026-02-11 23:34:00,rejected after confrmation qa pending
+2354938,2026-02-11 23:34:07,rejected after confrmation qa pending
+2354967,2026-02-12 10:01:44,rejected after confrmation qa completed
+2354923,2026-02-17 21:51:26,rejected after confrmation qa pending
+2354281,2026-02-18 00:53:48,rejected after confrmation qa pending
+2353797,2026-02-23 14:52:47,rejected
+2354710,2026-02-26 23:35:49,rejected after confrmation qa completed
+2355447,2026-03-05 15:32:27,rejected after confrmation qa pending
+2355485,2026-03-21 16:01:12,rejected after confrmation qa pending
+2355388,2026-03-26 10:08:31,rejected after confrmation qa completed
+2354525,2026-03-26 10:09:34,rejected after confrmation qa completed
+2355916,2026-03-26 12:03:24,rejected after confrmation qa pending
+2355981,2026-03-31 11:30:00,auto rejected
+2355776,2026-04-04 15:51:26,rejected after confrmation qa pending
+2355126,2026-04-11 09:41:50,rejected after confrmation qa pending
+2355980,2026-04-11 10:12:44,rejected after confrmation qa pending
+2352338,2026-04-11 18:02:09,rejected after confrmation qa pending
+2356181,2026-04-13 16:36:08,rejected after confrmation qa pending
+2355919,2026-04-16 14:37:43,rejected after confrmation qa pending
+2356063,2026-04-24 14:42:48,rejected after confrmation qa completed
+2356368,2026-04-27 21:35:49,rejected after confrmation qa pending
+2355933,2026-05-07 20:51:00,auto rejected
+2355970,2026-05-08 15:00:05,rejected after confrmation qa completed
+2356510,2026-05-11 12:14:06,rejected
+2356509,2026-05-13 18:58:31,rejected after confrmation qa pending
+2356786,2026-06-03 18:50:16,rejected after confrmation qa pending
+2355157,2026-06-10 16:46:15,rejected
+2356187,2026-06-10 16:47:03,rejected after confrmation qa pending
+2357017,2026-06-24 20:36:10,rejected after confrmation qa pending
+2356743,2026-07-13 15:50:30,rejected after confrmation qa pending
+2357324,2026-07-14 18:23:28,rejected after confrmation qa pending
+2357406,2026-07-17 17:27:02,rejected after confrmation qa pending
+2356314,2026-07-30 12:24:16,auto rejected
+2357328,2026-08-01 15:40:33,rejected after confrmation qa pending
+2356698,2026-08-12 09:09:47,rejected
+2357969,2026-08-19 12:04:48,created

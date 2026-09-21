@@ -1,0 +1,792 @@
+quote_no,type,owner_name,stage,stage_bucket,created_at,trip,pax
+TDU30120,FIT,,Rejected,Rejected,2024-12-26 20:35:22,2026-08-12,6
+TDU25740G,Groups,,Rejected,Rejected,2025-05-16 17:43:25,2026-09-01,20
+TDU25936G,Groups,,Created,Created,2025-06-30 10:23:06,2026-10-19,11
+TDU26035G,Groups,,Rejected,Rejected,2025-07-20 02:28:24,2026-08-01,300
+TDU26055G,Groups,,Rejected,Rejected,2025-07-25 19:56:32,2026-09-01,20
+TDU26147G,Groups,Karthik Suriyan,Accepted,Accepted,2025-08-12 22:17:01,2026-09-02,47
+TDU26193G,Groups,,Rejected,Rejected,2025-08-20 17:10:54,2026-08-22,75
+TDU26373G,Groups,Arun Prabhakaran,Created,Created,2025-09-24 05:27:39,2026-10-23,44
+TDU26439G,Groups,,Created,Created,2025-10-16 13:23:28,2026-09-01,14
+TDU33590,FIT,Harsh Purswani,Rejected,Rejected,2025-10-17 17:49:08,2026-09-01,3
+TDU33591,FIT,Harsh Purswani,Rejected,Rejected,2025-10-17 18:28:59,2026-09-01,5
+TDU33593,FIT,Harsh Purswani,Rejected,Rejected,2025-10-17 18:37:29,2026-09-01,8
+TDU33594,FIT,Harsh Purswani,Rejected,Rejected,2025-10-17 18:52:55,2026-09-01,10
+TDU26448G,Groups,,Rejected,Rejected,2025-10-20 07:00:35,2026-08-17,75
+TDU33657,FIT,,Rejected,Rejected,2025-10-23 10:48:31,2026-08-08,6
+TDU33821,FIT,Harsh Purswani,Rejected,Rejected,2025-11-04 21:04:03,2026-10-04,6
+TDU26490G,Groups,,Accepted,Accepted,2025-11-05 15:38:52,2026-09-03,43
+TDU26508G,Groups,,Created,Created,2025-11-10 10:23:43,2026-09-04,25
+TDU26509G,Groups,,Created,Created,2025-11-10 10:37:04,2026-08-28,11
+TDU26527G,Groups,,Created,Created,2025-11-17 10:52:49,2026-08-28,11
+TDU26528G,Groups,Karthik Suriyan,Rejected,Rejected,2025-11-17 15:04:43,2026-10-07,32
+TDU26531G,Groups,Karthik Suriyan,Rejected,Rejected,2025-11-18 06:11:07,2026-10-05,20
+TDU26550G,Groups,,Rejected,Rejected,2025-11-19 23:41:14,2026-10-01,15
+TDU26551G,Groups,,Rejected,Rejected,2025-11-20 01:08:48,2026-10-05,15
+TDU26594G,Groups,,Accepted,Accepted,2025-11-26 17:15:44,2026-10-05,40
+TDU34324,FIT,Harsh Purswani,On Ground,Accepted,2025-12-11 21:14:40,2026-08-20,2
+TDU26635G,Groups,Karthik Suriyan,Rejected After Confrmation QA completed,Rejected,2025-12-11 21:29:50,2026-09-27,30
+TDU26644G,Groups,,Created,Created,2025-12-17 09:42:39,2026-08-24,20
+TDU34386,FIT,,Created,Created,2025-12-18 11:25:31,2026-10-05,8
+TDU26663G,Groups,Karthik Suriyan,Rejected,Rejected,2025-12-22 20:30:49,2026-10-19,20
+TDU26664G,Groups,Karthik Suriyan,Rejected,Rejected,2025-12-22 22:38:32,2026-10-26,20
+TDU26680G,Groups,,Rejected,Rejected,2025-12-27 20:15:25,2026-08-06,13
+TDU34536,FIT,,Auto Rejected,Other,2026-01-05 11:05:03,2026-08-08,5
+TDU34545,FIT,Harsh Purswani,Rejected,Rejected,2026-01-06 00:13:42,2026-10-05,3
+TDU26697G,Groups,,Rejected,Rejected,2026-01-06 02:06:28,2026-08-01,30
+TDU34555,FIT,,Rejected,Rejected,2026-01-06 18:35:24,2026-08-04,10
+TDU26702G,Groups,Karthik Suriyan,Rejected,Rejected,2026-01-08 07:24:36,2026-09-20,25
+TDU26705G,Groups,,Accounts - Reconciliation,Accepted,2026-01-09 10:32:48,2026-08-03,15
+TDU26718G,Groups,,Rejected,Rejected,2026-01-12 15:45:45,2026-09-12,300
+TDU26728G,Groups,,Auto Rejected,Other,2026-01-14 11:18:48,2026-08-18,25
+TDU34668,FIT,,Auto Rejected,Other,2026-01-14 12:06:12,2026-08-12,2
+TDU34670,FIT,,Created,Created,2026-01-14 12:38:07,2026-10-01,10
+TDU34676,FIT,,Created,Created,2026-01-14 18:12:42,2026-10-21,2
+TDU26763G,Groups,,Created,Created,2026-01-22 11:03:29,2026-09-16,30
+TDU26769G,Groups,Karthik Suriyan,Rejected,Rejected,2026-01-23 16:11:55,2026-09-11,30
+TDU26772G,Groups,,Rejected After Confrmation QA pending,Rejected,2026-01-24 05:42:38,2026-08-21,28
+TDU26774G,Groups,Karthik Suriyan,Rejected,Rejected,2026-01-24 18:55:30,2026-09-05,25
+TDU34794,FIT,,Auto Rejected,Other,2026-01-27 09:22:18,2026-08-01,4
+TDU34806,FIT,,Rejected,Rejected,2026-01-27 22:43:58,2026-10-15,2
+TDU34807,FIT,Harsh Purswani,Rejected,Rejected,2026-01-27 22:44:57,2026-10-15,4
+TDU34811,FIT,Harsh Purswani,Rejected,Rejected,2026-01-28 19:00:23,2026-09-05,2
+TDU34813,FIT,Harsh Purswani,Rejected,Rejected,2026-01-28 21:16:30,2026-08-14,5
+TDU26786G,Groups,Karthik Suriyan,Rejected,Rejected,2026-01-29 13:02:15,2026-10-27,30
+TDU34844,FIT,Hemant Dongrani,Rejected,Rejected,2026-01-30 16:32:46,2026-08-01,2
+TDU34888,FIT,,Rejected,Rejected,2026-02-02 21:37:06,2026-10-01,3
+TDU34935,FIT,Hemant Dongrani,Rejected,Rejected,2026-02-07 11:58:04,2026-10-07,2
+TDU34941,FIT,Hemant Dongrani,Rejected,Rejected,2026-02-07 13:54:58,2026-08-02,3
+TDU26806G,Groups,,Auto Rejected,Other,2026-02-09 10:48:24,2026-08-13,21
+TDU26807G,Groups,,Created,Created,2026-02-09 10:59:30,2026-09-18,11
+TDU34969,FIT,,Created,Created,2026-02-10 20:56:20,2026-08-22,6
+TDU34985,FIT,,Rejected,Rejected,2026-02-13 16:28:10,2026-10-10,8
+TDU26818G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-02-13 19:07:11,2026-08-10,100
+TDU35004,FIT,,Created,Created,2026-02-16 11:23:40,2026-09-13,3
+TDU26826G,Groups,Karthik Suriyan,Rejected,Rejected,2026-02-16 13:31:05,2026-08-06,13
+TDU26831G,Groups,,Rejected,Rejected,2026-02-18 07:47:17,2026-09-01,14
+TDU26832G,Groups,,Rejected,Rejected,2026-02-18 08:18:52,2026-08-31,14
+TDU35040,FIT,Harsh Purswani,Rejected,Rejected,2026-02-19 19:31:36,2026-08-17,8
+TDU35047,FIT,,Accepted,Accepted,2026-02-19 21:23:39,2026-09-14,6
+TDU35055,FIT,Harsh Purswani,Rejected,Rejected,2026-02-20 16:56:56,2026-10-03,8
+TDU35062,FIT,Harsh Purswani,Rejected,Rejected,2026-02-20 19:38:24,2026-10-03,8
+TDU26850G,Groups,Karthik Suriyan,Rejected,Rejected,2026-02-21 19:31:16,2026-09-24,12
+TDU26853G,Groups,Harsh Purswani,Rejected,Rejected,2026-02-21 21:43:11,2026-09-24,12
+TDU26855G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-02-22 01:33:09,2026-08-23,182
+TDU26860G,Groups,Karthik Suriyan,Rejected,Rejected,2026-02-24 12:05:42,2026-09-26,30
+TDU26862G,Groups,,Created,Created,2026-02-24 16:30:29,2026-09-01,20
+TDU26863G,Groups,Karthik Suriyan,Rejected,Rejected,2026-02-25 11:55:37,2026-08-22,15
+TDU35090,FIT,Harsh Purswani,Created,Created,2026-02-25 15:01:56,2026-10-05,4
+TDU35091,FIT,Harsh Purswani,Created,Created,2026-02-25 15:03:30,2026-10-11,4
+TDU26873G,Groups,Karthik Suriyan,Rejected,Rejected,2026-02-26 14:29:40,2026-09-17,24
+TDU26876G,Groups,,Accepted,Accepted,2026-02-26 19:52:18,2026-10-30,36
+TDU26880G,Groups,,Rejected,Rejected,2026-02-27 11:56:51,2026-08-22,20
+TDU35111,FIT,Harsh Purswani,Rejected,Rejected,2026-02-27 14:55:32,2026-10-05,6
+TDU35118,FIT,Karthik Suriyan,Auto Rejected,Other,2026-02-27 20:57:39,2026-10-03,11
+TDU35131,FIT,,Rejected,Rejected,2026-02-28 17:17:44,2026-09-09,8
+TDU35133,FIT,,Rejected,Rejected,2026-02-28 18:26:10,2026-09-01,8
+TDU35145,FIT,Harsh Purswani,Rejected,Rejected,2026-02-28 21:47:24,2026-08-13,2
+TDU26892G,Groups,Karthik Suriyan,Rejected,Rejected,2026-03-04 00:27:13,2026-09-10,30
+TDU26895G,Groups,,Rejected,Rejected,2026-03-04 14:58:45,2026-08-05,400
+TDU26896G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-03-04 15:00:30,2026-08-05,400
+TDU26897G,Groups,Karthik Suriyan,Rejected,Rejected,2026-03-04 15:04:47,2026-09-04,30
+TDU35183,FIT,,Created,Created,2026-03-05 14:15:06,2026-08-29,10
+TDU35184,FIT,,Created,Created,2026-03-05 14:28:39,2026-09-03,10
+TDU26903G,Groups,,Rejected,Rejected,2026-03-06 10:44:36,2026-08-05,400
+TDU26904G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-03-06 11:08:34,2026-08-03,100
+TDU35204,FIT,Harsh Purswani,Rejected,Rejected,2026-03-06 21:39:27,2026-10-09,3
+TDU26908G,Groups,Karthik Suriyan,Rejected,Rejected,2026-02-27 20:57:39,2026-10-03,11
+TDU26912G,Groups,,Accepted,Accepted,2026-03-10 15:42:57,2026-10-31,20
+TDU35238,FIT,,Rejected,Rejected,2026-03-10 23:37:09,2026-09-01,2
+TDU35241,FIT,,Rejected,Rejected,2026-03-11 11:28:41,2026-08-17,6
+TDU35242,FIT,,Rejected,Rejected,2026-03-11 16:16:29,2026-09-20,7
+TDU35254,FIT,Hemant Dongrani,Rejected,Rejected,2026-03-12 16:37:23,2026-09-01,7
+TDU35256,FIT,Harsh Purswani,Rejected,Rejected,2026-03-12 17:50:21,2026-09-20,6
+TDU26925G,Groups,,Rejected,Rejected,2026-03-14 16:08:29,2026-10-03,23
+TDU26927G,Groups,Karthik Suriyan,Rejected,Rejected,2026-03-14 21:44:15,2026-09-03,20
+TDU26932G,Groups,Karthik Suriyan,Rejected,Rejected,2026-03-16 18:40:33,2026-09-09,20
+TDU26935G,Groups,,Accepted,Accepted,2026-03-17 12:35:11,2026-09-04,22
+TDU35368,FIT,Harsh Purswani,Rejected,Rejected,2026-03-24 17:47:48,2026-10-15,10
+TDU26961G,Groups,Karthik Suriyan,Rejected,Rejected,2026-03-25 13:11:30,2026-09-17,20
+TDU35395,FIT,Hemant Dongrani,Rejected,Rejected,2026-03-26 19:57:19,2026-10-28,2
+TDU35400,FIT,Hemant Dongrani,Rejected,Rejected,2026-03-27 15:14:04,2026-08-22,2
+TDU35408,FIT,Hemant Dongrani,Rejected,Rejected,2026-03-27 19:43:22,2026-09-13,5
+TDU35409,FIT,Harsh Purswani,Rejected,Rejected,2026-03-27 19:45:26,2026-08-31,4
+TDU26976G,Groups,Karthik Suriyan,Rejected,Rejected,2026-03-28 21:58:34,2026-08-04,11
+TDU26981G,Groups,,Rejected After Confrmation QA pending,Rejected,2026-03-31 11:12:49,2026-09-13,32
+TDU35439,FIT,Harsh Purswani,Rejected,Rejected,2026-03-31 21:24:51,2026-09-24,4
+TDU35465,FIT,Hemant Dongrani,Rejected,Rejected,2026-04-02 22:06:56,2026-08-19,2
+TDU26995G,Groups,Karthik Suriyan,Rejected,Rejected,2026-04-03 14:02:18,2026-10-19,32
+TDU26998G,Groups,Karthik Suriyan,Rejected,Rejected,2026-04-03 22:56:03,2026-09-12,20
+TDU35479,FIT,Hemant Dongrani,Rejected,Rejected,2026-04-03 23:20:10,2026-08-15,3
+TDU35486,FIT,,Rejected,Rejected,2026-04-04 18:46:41,2026-09-19,5
+TDU27013G,Groups,Arun Prabhakaran,Auto Rejected,Other,2026-04-08 12:26:34,2026-08-09,50
+TDU35518,FIT,,Created,Created,2026-04-08 12:28:09,2026-09-29,10
+TDU35519,FIT,,Created,Created,2026-04-08 12:34:02,2026-09-27,10
+TDU27018G,Groups,,Created,Created,2026-04-08 18:49:00,2026-09-08,23
+TDU27024G,Groups,,Rejected,Rejected,2026-04-09 13:02:20,2026-09-23,23
+TDU27025G,Groups,,Rejected,Rejected,2026-04-09 13:22:41,2026-09-13,23
+TDU35536,FIT,,Rejected,Rejected,2026-04-09 17:36:40,2026-09-26,3
+TDU35542,FIT,,Rejected,Rejected,2026-04-09 21:52:53,2026-09-15,10
+TDU35543,FIT,,Rejected,Rejected,2026-04-09 22:04:33,2026-09-01,4
+TDU35548,FIT,,Accounts - Reconciliation,Accepted,2026-04-10 10:24:39,2026-08-08,2
+TDU27028G,Groups,,Rejected,Rejected,2026-04-10 23:37:01,2026-09-15,20
+TDU27029G,Groups,Karthik Suriyan,Rejected,Rejected,2026-04-10 23:38:34,2026-09-15,20
+TDU35559,FIT,,Rejected,Rejected,2026-04-11 17:30:05,2026-08-08,5
+TDU35562,FIT,Harsh Purswani,Rejected,Rejected,2026-04-11 21:47:02,2026-08-01,5
+TDU27035G,Groups,,Rejected,Rejected,2026-04-11 22:15:08,2026-08-30,16
+TDU35565,FIT,,Rejected,Rejected,2026-04-11 22:33:57,2026-08-30,8
+TDU35567,FIT,,Rejected,Rejected,2026-04-11 22:44:00,2026-08-30,2
+TDU35568,FIT,,Rejected,Rejected,2026-04-11 22:58:56,2026-08-08,2
+TDU35570,FIT,,Rejected,Rejected,2026-04-11 23:01:45,2026-08-30,4
+TDU35575,FIT,,Accepted,Accepted,2026-04-11 23:45:45,2026-10-10,2
+TDU35577,FIT,,Auto Rejected,Other,2026-04-13 12:50:05,2026-08-02,6
+TDU35579,FIT,,Rejected After Confrmation QA pending,Rejected,2026-04-13 16:17:31,2026-09-15,3
+TDU27038G,Groups,,Rejected After Confrmation QA pending,Rejected,2026-04-13 20:46:19,2026-10-03,28
+TDU27046G,Groups,,Accepted,Accepted,2026-04-15 09:49:12,2026-10-23,15
+TDU27047G,Groups,,Created,Created,2026-04-15 09:49:16,2026-10-23,15
+TDU27048G,Groups,Karthik Suriyan,Created,Created,2026-04-15 11:14:47,2026-10-15,15
+TDU35612,FIT,,Rejected,Rejected,2026-04-16 20:29:06,2026-09-20,1
+TDU35627,FIT,Hemant Dongrani,Rejected,Rejected,2026-04-17 20:28:53,2026-10-15,10
+TDU35636,FIT,Hemant Dongrani,Rejected,Rejected,2026-04-18 16:33:24,2026-10-06,3
+TDU35647,FIT,,Rejected,Rejected,2026-04-20 17:33:46,2026-09-29,7
+TDU35652,FIT,Harsh Purswani,Rejected,Rejected,2026-04-20 20:52:23,2026-08-15,6
+TDU35660,FIT,Karthik Suriyan,Rejected,Rejected,2026-04-21 16:25:12,2026-08-05,2
+TDU27058G,Groups,Karthik Suriyan,Rejected,Rejected,2026-04-22 04:58:53,2026-09-21,14
+TDU35672,FIT,,Rejected,Rejected,2026-04-22 16:24:58,2026-10-31,3
+TDU35673,FIT,,Rejected,Rejected,2026-04-22 16:42:55,2026-10-23,9
+TDU35676,FIT,Hemant Dongrani,Rejected,Rejected,2026-04-22 18:17:12,2026-08-23,4
+TDU27061G,Groups,,Created,Created,2026-04-23 13:19:48,2026-09-16,20
+TDU35685,FIT,,Auto Rejected,Other,2026-04-23 16:47:26,2026-08-28,11
+TDU35687,FIT,,Rejected,Rejected,2026-04-23 17:24:54,2026-08-22,10
+TDU35688,FIT,,Rejected,Rejected,2026-04-23 18:00:14,2026-10-29,2
+TDU35689,FIT,,Rejected,Rejected,2026-04-23 19:51:09,2026-10-20,2
+TDU35691,FIT,,Rejected,Rejected,2026-04-23 20:35:33,2026-10-04,8
+TDU35692,FIT,,Rejected,Rejected,2026-04-23 20:44:16,2026-10-15,10
+TDU35693,FIT,Hemant Dongrani,Rejected,Rejected,2026-04-23 21:03:09,2026-08-30,4
+TDU35697,FIT,Hemant Dongrani,Rejected,Rejected,2026-04-24 18:01:59,2026-10-23,9
+TDU35699,FIT,Hemant Dongrani,Rejected,Rejected,2026-04-24 19:00:17,2026-10-12,4
+TDU27067G,Groups,Karthik Suriyan,Rejected,Rejected,2026-04-25 16:30:39,2026-09-03,26
+TDU35710,FIT,Hemant Dongrani,Rejected,Rejected,2026-04-25 17:39:29,2026-09-15,8
+TDU35713,FIT,Hemant Dongrani,Rejected,Rejected,2026-04-25 18:35:58,2026-09-21,8
+TDU27071G,Groups,Arun Prabhakaran,Created,Created,2026-04-26 18:13:26,2026-09-27,100
+TDU27072G,Groups,,Created,Created,2026-04-27 09:18:11,2026-10-08,20
+TDU27073G,Groups,,Created,Created,2026-04-27 10:57:20,2026-08-21,20
+TDU27075G,Groups,Karthik Suriyan,Rejected,Rejected,2026-04-27 12:15:36,2026-09-06,29
+TDU35721,FIT,,Rejected,Rejected,2026-04-27 18:08:03,2026-09-20,2
+TDU35729,FIT,Hemant Dongrani,Rejected,Rejected,2026-04-27 23:04:32,2026-10-12,5
+TDU35730,FIT,Hemant Dongrani,Rejected,Rejected,2026-04-27 23:10:06,2026-10-12,5
+TDU35731,FIT,,Rejected,Rejected,2026-04-27 23:19:56,2026-10-15,5
+TDU27079G,Groups,Karthik Suriyan,Rejected,Rejected,2026-04-28 12:11:53,2026-10-01,16
+TDU27080G,Groups,Karthik Suriyan,Rejected,Rejected,2026-04-28 12:15:43,2026-08-26,18
+TDU27082G,Groups,Karthik Suriyan,Rejected,Rejected,2026-04-28 13:45:20,2026-08-05,50
+TDU27085G,Groups,,Accounts - Reconciliation,Accepted,2026-04-29 12:11:51,2026-08-02,45
+TDU27087G,Groups,Karthik Suriyan,Rejected,Rejected,2026-04-29 12:27:32,2026-10-03,40
+TDU27088G,Groups,Karthik Suriyan,Rejected,Rejected,2026-04-29 13:40:45,2026-10-04,30
+TDU35740,FIT,Hemant Dongrani,Rejected,Rejected,2026-04-29 17:09:41,2026-10-15,6
+TDU35747,FIT,,Rejected,Rejected,2026-04-30 16:06:22,2026-08-02,4
+TDU35750,FIT,Hemant Dongrani,Rejected,Rejected,2026-04-30 19:32:56,2026-10-10,6
+TDU35755,FIT,,Rejected,Rejected,2026-04-30 21:15:31,2026-08-04,4
+TDU27096G,Groups,,Rejected,Rejected,2026-05-01 12:36:37,2026-08-19,16
+TDU35770,FIT,Hemant Dongrani,Rejected,Rejected,2026-05-02 16:08:39,2026-09-01,3
+TDU27102G,Groups,Karthik Suriyan,Rejected,Rejected,2026-05-04 15:03:25,2026-08-17,23
+TDU27104G,Groups,Karthik Suriyan,Rejected,Rejected,2026-05-04 17:06:27,2026-10-20,14
+TDU35784,FIT,,Rejected,Rejected,2026-05-04 19:58:28,2026-09-21,6
+TDU35785,FIT,Hemant Dongrani,Rejected,Rejected,2026-05-04 20:01:42,2026-09-28,6
+TDU35787,FIT,Hemant Dongrani,Rejected,Rejected,2026-05-04 20:24:34,2026-10-29,4
+TDU35788,FIT,,Rejected,Rejected,2026-05-04 20:32:23,2026-08-12,2
+TDU35790,FIT,Harsh Purswani,Rejected,Rejected,2026-05-04 20:51:25,2026-09-11,2
+TDU35795,FIT,Harsh Purswani,Rejected,Rejected,2026-05-04 22:14:18,2026-09-15,2
+TDU27109G,Groups,Karthik Suriyan,Rejected,Rejected,2026-05-06 06:49:29,2026-10-15,20
+TDU27113G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-05-06 12:31:06,2026-08-05,400
+TDU27114G,Groups,Arun Prabhakaran,Created,Created,2026-05-06 13:25:36,2026-09-19,50
+TDU27116G,Groups,,Rejected,Rejected,2026-05-06 15:06:04,2026-10-01,38
+TDU35812,FIT,Harsh Purswani,Rejected,Rejected,2026-05-06 20:52:41,2026-08-22,2
+TDU35817,FIT,Hemant Dongrani,Rejected,Rejected,2026-05-06 22:26:40,2026-10-20,3
+TDU35818,FIT,Harsh Purswani,Rejected,Rejected,2026-05-06 22:33:05,2026-10-20,2
+TDU35819,FIT,Hemant Dongrani,Rejected,Rejected,2026-05-06 22:43:20,2026-09-12,2
+TDU27117G,Groups,Karthik Suriyan,Rejected,Rejected,2026-05-07 09:22:07,2026-08-15,30
+TDU35825,FIT,,Rejected After Confrmation QA pending,Rejected,2026-05-07 16:25:57,2026-08-21,2
+TDU27121G,Groups,Arun Prabhakaran,Accepted,Accepted,2026-05-08 16:34:03,2026-09-16,56
+TDU35843,FIT,,Rejected,Rejected,2026-05-09 16:50:55,2026-09-15,2
+TDU35846,FIT,Harsh Purswani,Rejected,Rejected,2026-05-09 17:06:38,2026-09-28,7
+TDU35851,FIT,Hemant Dongrani,Rejected,Rejected,2026-05-09 20:47:59,2026-09-28,2
+TDU35852,FIT,Hemant Dongrani,Rejected,Rejected,2026-05-09 20:54:54,2026-09-20,2
+TDU35856,FIT,Hemant Dongrani,Rejected,Rejected,2026-05-09 21:49:47,2026-08-25,2
+TDU27125G,Groups,Karthik Suriyan,Requote,Requote,2026-05-10 17:01:22,2026-10-04,20
+TDU27127G,Groups,Karthik Suriyan,Rejected,Rejected,2026-05-11 12:47:19,2026-10-15,16
+TDU35869,FIT,,Rejected,Rejected,2026-05-11 18:36:14,2026-08-01,2
+TDU35871,FIT,Harsh Purswani,Rejected,Rejected,2026-05-11 21:02:17,2026-10-15,2
+TDU35872,FIT,,Rejected,Rejected,2026-05-11 22:07:07,2026-09-05,6
+TDU27134G,Groups,Karthik Suriyan,Rejected,Rejected,2026-05-11 22:57:29,2026-10-01,15
+TDU35879,FIT,,Rejected,Rejected,2026-05-12 22:44:57,2026-09-15,7
+TDU27140G,Groups,Karthik Suriyan,Rejected,Rejected,2026-05-13 12:03:13,2026-09-03,20
+TDU35881,FIT,,Rejected,Rejected,2026-05-13 16:19:19,2026-08-01,2
+TDU35883,FIT,Hemant Dongrani,Rejected,Rejected,2026-05-13 19:09:38,2026-09-25,3
+TDU35885,FIT,Harsh Purswani,Rejected,Rejected,2026-05-13 21:14:42,2026-10-26,2
+TDU27141G,Groups,Karthik Suriyan,Rejected,Rejected,2026-05-14 18:05:25,2026-10-02,12
+TDU35895,FIT,,Rejected,Rejected,2026-05-14 20:56:01,2026-08-29,2
+TDU27142G,Groups,Karthik Suriyan,Created,Created,2026-05-14 21:34:17,2026-10-24,10
+TDU35897,FIT,,Rejected,Rejected,2026-05-14 22:14:08,2026-10-21,5
+TDU27143G,Groups,,Accepted,Accepted,2026-05-14 22:37:10,2026-08-18,11
+TDU35900,FIT,Harsh Purswani,Rejected,Rejected,2026-05-15 18:28:27,2026-08-14,2
+TDU35902,FIT,,Accepted,Accepted,2026-05-15 18:58:26,2026-10-20,4
+TDU35903,FIT,Harsh Purswani,Rejected,Rejected,2026-05-15 19:59:30,2026-08-05,4
+TDU35906,FIT,,Rejected,Rejected,2026-05-15 20:13:51,2026-10-05,5
+TDU27144G,Groups,Karthik Suriyan,Rejected,Rejected,2026-05-16 15:45:33,2026-10-02,12
+TDU35912,FIT,Harsh Purswani,Rejected,Rejected,2026-05-16 16:07:33,2026-08-25,10
+TDU27145G,Groups,Karthik Suriyan,Rejected,Rejected,2026-05-16 17:12:24,2026-08-22,14
+TDU35921,FIT,,Rejected,Rejected,2026-05-18 15:12:09,2026-09-01,10
+TDU35924,FIT,,Rejected,Rejected,2026-05-18 18:53:42,2026-08-09,2
+TDU35926,FIT,,Rejected,Rejected,2026-05-18 19:34:30,2026-08-08,9
+TDU35928,FIT,,Rejected,Rejected,2026-05-18 20:12:37,2026-10-18,3
+TDU27148G,Groups,Karthik Suriyan,Rejected,Rejected,2026-05-19 08:15:47,2026-08-15,28
+TDU27149G,Groups,Karthik Suriyan,Rejected,Rejected,2026-05-19 08:40:16,2026-08-19,40
+TDU35934,FIT,,Rejected,Rejected,2026-05-19 17:57:06,2026-09-16,2
+TDU35937,FIT,,Auto Rejected,Other,2026-05-19 21:29:25,2026-08-17,2
+TDU35939,FIT,Harsh Purswani,Rejected,Rejected,2026-05-19 22:50:02,2026-09-25,2
+TDU27151G,Groups,Karthik Suriyan,Rejected,Rejected,2026-05-20 05:06:46,2026-08-15,28
+TDU35942,FIT,,Rejected,Rejected,2026-05-20 18:08:10,2026-09-24,5
+TDU35953,FIT,Hemant Dongrani,Rejected,Rejected,2026-05-21 17:38:56,2026-09-18,2
+TDU27154G,Groups,,Rejected,Rejected,2026-05-22 13:00:50,2026-08-15,80
+TDU27155G,Groups,Karthik Suriyan,Rejected,Rejected,2026-05-22 14:05:48,2026-10-05,30
+TDU35962,FIT,,Rejected,Rejected,2026-05-22 18:35:23,2026-10-31,3
+TDU35963,FIT,Harsh Purswani,Rejected,Rejected,2026-05-22 18:42:42,2026-10-10,3
+TDU27158G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-05-23 16:21:50,2026-08-23,150
+TDU27159G,Groups,Karthik Suriyan,Rejected,Rejected,2026-05-23 16:46:50,2026-08-14,25
+TDU27163G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-05-23 18:08:48,2026-10-11,90
+TDU27164G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-05-23 19:35:19,2026-10-28,300
+TDU35972,FIT,,Auto Rejected,Other,2026-05-24 17:00:12,2026-08-01,3
+TDU27165G,Groups,Karthik Suriyan,Rejected,Rejected,2026-05-24 17:15:17,2026-10-05,40
+TDU27166G,Groups,,Created,Created,2026-05-24 17:15:20,2026-09-01,20
+TDU35973,FIT,,Rejected,Rejected,2026-05-25 15:33:50,2026-09-04,3
+TDU35974,FIT,,Rejected,Rejected,2026-05-25 17:04:44,2026-10-24,2
+TDU35975,FIT,Harsh Purswani,Rejected,Rejected,2026-05-25 21:39:56,2026-08-01,6
+TDU35976,FIT,,Rejected,Rejected,2026-05-26 13:20:46,2026-08-10,2
+TDU27170G,Groups,,Rejected,Rejected,2026-05-26 14:07:02,2026-08-01,110
+TDU35979,FIT,Hemant Dongrani,Rejected,Rejected,2026-05-26 17:42:01,2026-10-10,5
+TDU35980,FIT,,Rejected,Rejected,2026-05-26 18:18:29,2026-09-20,3
+TDU35981,FIT,,Rejected,Rejected,2026-05-26 18:46:02,2026-10-17,8
+TDU35991,FIT,,Rejected,Rejected,2026-05-27 22:40:56,2026-08-02,4
+TDU35997,FIT,,Rejected,Rejected,2026-05-28 17:44:18,2026-08-26,2
+TDU27177G,Groups,Karthik Suriyan,Rejected,Rejected,2026-05-29 10:38:01,2026-10-01,14
+TDU36002,FIT,,Accounts - Reconciliation,Accepted,2026-05-29 13:24:14,2026-08-03,5
+TDU36008,FIT,Hemant Dongrani,Rejected,Rejected,2026-05-29 22:53:56,2026-10-23,4
+TDU36009,FIT,,Rejected,Rejected,2026-05-29 23:08:54,2026-08-15,2
+TDU36010,FIT,,Rejected,Rejected,2026-05-29 23:21:10,2026-08-20,4
+TDU27180G,Groups,,Auto Rejected,Other,2026-05-30 08:14:40,2026-08-06,20
+TDU27182G,Groups,,Rejected,Rejected,2026-05-30 13:39:35,2026-08-01,100
+TDU27183G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-05-30 13:44:27,2026-08-01,100
+TDU36013,FIT,Harsh Purswani,Rejected,Rejected,2026-05-30 14:40:11,2026-10-17,2
+TDU36015,FIT,,Rejected,Rejected,2026-05-30 14:47:31,2026-09-03,6
+TDU36016,FIT,Harsh Purswani,Rejected,Rejected,2026-05-30 15:15:29,2026-09-28,2
+TDU36018,FIT,,Rejected,Rejected,2026-05-30 17:05:47,2026-09-25,3
+TDU27184G,Groups,,Rejected,Rejected,2026-05-30 17:21:04,2026-08-01,100
+TDU27186G,Groups,Karthik Suriyan,Rejected,Rejected,2026-05-30 18:02:59,2026-09-26,20
+TDU36021,FIT,Harsh Purswani,Rejected,Rejected,2026-05-30 21:18:52,2026-10-15,2
+TDU36022,FIT,,Rejected,Rejected,2026-05-30 22:05:44,2026-10-12,3
+TDU36027,FIT,,Created,Created,2026-06-01 12:22:50,2026-10-23,2
+TDU27189G,Groups,,Created,Created,2026-06-01 17:49:50,2026-10-11,15
+TDU27190G,Groups,Karthik Suriyan,Rejected,Rejected,2026-06-02 18:46:31,2026-08-08,12
+TDU27193G,Groups,Karthik Suriyan,Rejected,Rejected,2026-06-03 00:14:46,2026-10-11,35
+TDU27194G,Groups,Karthik Suriyan,Auto Rejected,Other,2026-06-03 10:36:13,2026-08-03,20
+TDU27195G,Groups,,Auto Rejected,Other,2026-06-03 11:10:03,2026-08-18,55
+TDU36046,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-03 15:09:43,2026-10-17,4
+TDU36048,FIT,Hemant Dongrani,Created,Created,2026-06-03 15:18:09,2026-10-24,4
+TDU27199G,Groups,Karthik Suriyan,Rejected,Rejected,2026-06-03 18:32:46,2026-08-17,30
+TDU27200G,Groups,Karthik Suriyan,Accepted,Accepted,2026-06-03 19:04:01,2026-09-24,20
+TDU36051,FIT,,Rejected,Rejected,2026-06-03 20:39:13,2026-10-10,8
+TDU36052,FIT,Harsh Purswani,Rejected,Rejected,2026-06-03 20:41:48,2026-10-17,4
+TDU27202G,Groups,Karthik Suriyan,Rejected,Rejected,2026-06-04 11:27:40,2026-09-28,20
+TDU27203G,Groups,Karthik Suriyan,Rejected,Rejected,2026-06-04 13:57:04,2026-10-20,20
+TDU36058,FIT,,Rejected,Rejected,2026-06-04 17:30:20,2026-10-16,8
+TDU27206G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-06-04 19:14:44,2026-08-05,110
+TDU27207G,Groups,Karthik Suriyan,Rejected,Rejected,2026-06-04 19:57:03,2026-08-13,34
+TDU36061,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-04 21:34:06,2026-08-25,4
+TDU36063,FIT,,Created,Created,2026-06-05 10:03:35,2026-09-18,8
+TDU27208G,Groups,,Created,Created,2026-06-05 10:43:22,2026-10-06,20
+TDU27209G,Groups,Arun Prabhakaran,Accepted,Accepted,2026-06-05 12:11:42,2026-10-25,60
+TDU27210G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-06-05 13:24:22,2026-08-18,280
+TDU36065,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-05 14:37:25,2026-08-02,7
+TDU36072,FIT,,Rejected,Rejected,2026-06-05 17:04:47,2026-08-21,2
+TDU36073,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-05 18:12:36,2026-10-05,6
+TDU36085,FIT,Harsh Purswani,Rejected,Rejected,2026-06-06 17:42:43,2026-09-11,2
+TDU36086,FIT,Harsh Purswani,Rejected,Rejected,2026-06-06 19:24:54,2026-09-15,8
+TDU36087,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-06 20:07:13,2026-09-15,8
+TDU27213G,Groups,Karthik Suriyan,Auto Rejected,Other,2026-06-08 12:34:53,2026-08-08,40
+TDU27214G,Groups,Karthik Suriyan,Rejected,Rejected,2026-06-08 14:27:51,2026-09-02,14
+TDU27215G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-06-08 15:28:50,2026-08-05,110
+TDU27216G,Groups,Karthik Suriyan,Rejected,Rejected,2026-06-08 15:40:10,2026-08-20,30
+TDU36090,FIT,,Final QA,Accepted,2026-06-08 18:22:13,2026-09-05,2
+TDU36092,FIT,Harsh Purswani,Created,Created,2026-06-08 19:00:29,2026-10-20,6
+TDU27217G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-06-08 20:44:52,2026-10-11,90
+TDU27218G,Groups,Karthik Suriyan,Rejected,Rejected,2026-06-09 13:32:10,2026-10-16,12
+TDU36096,FIT,,Rejected,Rejected,2026-06-09 15:32:26,2026-08-25,2
+TDU36098,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-09 16:16:12,2026-10-15,6
+TDU36101,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-09 18:17:44,2026-09-15,4
+TDU36102,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-09 20:08:28,2026-10-21,2
+TDU36104,FIT,Harsh Purswani,Rejected,Rejected,2026-06-09 21:50:28,2026-09-11,4
+TDU36109,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-10 16:33:51,2026-10-03,4
+TDU36111,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-10 18:24:51,2026-10-15,2
+TDU36114,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-10 20:28:31,2026-10-09,10
+TDU36116,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-10 21:54:01,2026-08-09,2
+TDU27221G,Groups,,PRE QA - pending,Accepted,2026-06-11 10:20:16,2026-08-01,21
+TDU36122,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-11 20:59:29,2026-08-14,3
+TDU27222G,Groups,Karthik Suriyan,Rejected,Rejected,2026-06-12 12:11:51,2026-09-18,20
+TDU27223G,Groups,Karthik Suriyan,Rejected,Rejected,2026-06-12 12:24:37,2026-09-02,20
+TDU27224G,Groups,Karthik Suriyan,Accepted,Accepted,2026-06-12 12:27:18,2026-08-26,14
+TDU27225G,Groups,Karthik Suriyan,Rejected,Rejected,2026-06-12 15:37:16,2026-09-02,20
+TDU36128,FIT,Harsh Purswani,Rejected,Rejected,2026-06-12 20:27:12,2026-09-14,3
+TDU36129,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-12 20:50:47,2026-10-09,4
+TDU36130,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-12 21:00:06,2026-09-21,2
+TDU36131,FIT,Hemant Dongrani,Accepted,Accepted,2026-06-12 21:08:00,2026-09-29,2
+TDU27227G,Groups,Karthik Suriyan,Auto Rejected,Other,2026-06-13 17:55:48,2026-08-13,30
+TDU27231G,Groups,,Created,Created,2026-06-15 10:01:50,2026-10-13,15
+TDU36141,FIT,,Created,Created,2026-06-15 11:07:48,2026-08-26,6
+TDU36142,FIT,,Created,Created,2026-06-15 11:13:41,2026-08-26,6
+TDU27232G,Groups,,Auto Rejected,Other,2026-06-15 12:06:36,2026-08-16,25
+TDU27233G,Groups,,Created,Created,2026-06-15 13:10:47,2026-10-09,40
+TDU36145,FIT,,Rejected,Rejected,2026-06-15 15:00:02,2026-09-01,2
+TDU36148,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-15 18:02:52,2026-10-09,5
+TDU36151,FIT,,Rejected,Rejected,2026-06-15 19:52:40,2026-10-01,2
+TDU27234G,Groups,Karthik Suriyan,Rejected,Rejected,2026-06-15 19:58:37,2026-09-20,20
+TDU36152,FIT,Harsh Purswani,Rejected,Rejected,2026-06-15 20:09:07,2026-08-15,2
+TDU36153,FIT,Harsh Purswani,Created,Created,2026-06-15 20:23:20,2026-09-29,4
+TDU36158,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-15 21:06:21,2026-08-24,1
+TDU36161,FIT,Hemant Dongrani,Created,Created,2026-06-15 22:10:50,2026-10-15,3
+TDU36163,FIT,Hemant Dongrani,Created,Created,2026-06-15 23:07:24,2026-10-01,3
+TDU36164,FIT,,Created,Created,2026-06-16 10:13:55,2026-08-24,2
+TDU27235G,Groups,,Created,Created,2026-06-16 11:19:28,2026-09-02,20
+TDU27236G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-06-16 14:41:30,2026-10-06,300
+TDU27237G,Groups,Karthik Suriyan,Auto Rejected,Other,2026-06-16 14:51:30,2026-08-13,34
+TDU27238G,Groups,Arun Prabhakaran,Created,Created,2026-06-16 15:34:27,2026-10-06,300
+TDU27240G,Groups,Arun Prabhakaran,Created,Created,2026-06-16 18:13:28,2026-09-09,60
+TDU27241G,Groups,Karthik Suriyan,Created,Created,2026-06-16 18:39:23,2026-09-20,15
+TDU27242G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-06-16 19:21:57,2026-09-09,60
+TDU27243G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-06-16 19:39:25,2026-08-25,117
+TDU36171,FIT,Harsh Purswani,Rejected,Rejected,2026-06-16 23:00:03,2026-09-16,6
+TDU36172,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-16 23:13:33,2026-09-16,2
+TDU27245G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-06-17 03:59:55,2026-08-21,174
+TDU27246G,Groups,Arun Prabhakaran,Created,Created,2026-06-17 04:41:25,2026-09-19,58
+TDU36176,FIT,Harsh Purswani,Rejected,Rejected,2026-06-17 17:49:29,2026-10-01,4
+TDU36177,FIT,,Rejected,Rejected,2026-06-17 17:51:35,2026-09-10,2
+TDU36178,FIT,,Rejected,Rejected,2026-06-17 18:02:27,2026-09-12,2
+TDU36179,FIT,Harsh Purswani,Rejected,Rejected,2026-06-17 18:15:09,2026-08-04,4
+TDU36181,FIT,,Delivered,Accepted,2026-06-17 18:57:19,2026-09-27,5
+TDU36182,FIT,,Rejected,Rejected,2026-06-17 19:05:07,2026-09-15,2
+TDU36183,FIT,Hemant Dongrani,Accepted,Accepted,2026-06-17 20:15:05,2026-10-29,2
+TDU36184,FIT,Harsh Purswani,Rejected,Rejected,2026-06-17 21:55:35,2026-10-18,10
+TDU36186,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-18 17:22:10,2026-10-16,3
+TDU36189,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-18 18:13:29,2026-09-05,3
+TDU36191,FIT,Harsh Purswani,Rejected,Rejected,2026-06-18 18:41:24,2026-10-10,2
+TDU36194,FIT,Harsh Purswani,Rejected,Rejected,2026-06-18 21:15:08,2026-08-07,2
+TDU36195,FIT,Harsh Purswani,On Ground,Accepted,2026-06-18 21:22:57,2026-08-19,5
+TDU36196,FIT,Harsh Purswani,Delivered,Accepted,2026-06-18 21:31:52,2026-08-23,6
+TDU27251G,Groups,,Created,Created,2026-06-19 11:04:02,2026-10-06,15
+TDU27256G,Groups,Arun Prabhakaran,Created,Created,2026-06-19 16:30:15,2026-08-25,50
+TDU36207,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-19 18:02:31,2026-09-20,6
+TDU36208,FIT,Harsh Purswani,Rejected,Rejected,2026-06-19 18:07:12,2026-09-13,5
+TDU36209,FIT,Harsh Purswani,Rejected,Rejected,2026-06-19 18:26:48,2026-09-20,6
+TDU36212,FIT,Harsh Purswani,Created,Created,2026-06-19 18:57:48,2026-10-24,6
+TDU36213,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-19 19:25:41,2026-09-07,10
+TDU36214,FIT,Harsh Purswani,Accepted,Accepted,2026-06-19 19:42:02,2026-10-15,8
+TDU36216,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-19 20:48:08,2026-09-17,4
+TDU36217,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-19 21:15:21,2026-08-21,2
+TDU36218,FIT,Harsh Purswani,Rejected,Rejected,2026-06-19 21:26:03,2026-10-31,3
+TDU36221,FIT,Harsh Purswani,Created,Created,2026-06-19 22:12:21,2026-10-03,3
+TDU36223,FIT,Hemant Dongrani,Accepted,Accepted,2026-06-19 22:35:21,2026-09-21,2
+TDU36224,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-19 23:00:55,2026-10-10,4
+TDU27260G,Groups,Karthik Suriyan,Rejected,Rejected,2026-06-20 15:08:17,2026-09-15,23
+TDU27261G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-06-20 15:58:53,2026-08-06,60
+TDU36225,FIT,Harsh Purswani,Rejected,Rejected,2026-06-20 16:41:18,2026-10-05,3
+TDU36227,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-20 16:59:45,2026-09-13,2
+TDU36229,FIT,,Rejected,Rejected,2026-06-20 17:32:43,2026-10-06,2
+TDU27265G,Groups,Karthik Suriyan,Created,Created,2026-06-21 17:02:32,2026-09-04,22
+TDU27268G,Groups,Karthik Suriyan,Rejected,Rejected,2026-06-22 10:06:01,2026-10-17,22
+TDU36235,FIT,Harsh Purswani,Created,Created,2026-06-22 15:19:56,2026-10-20,6
+TDU27271G,Groups,Karthik Suriyan,Rejected,Rejected,2026-06-22 16:29:23,2026-09-27,15
+TDU27272G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-06-22 18:47:55,2026-10-06,310
+TDU27273G,Groups,,Created,Created,2026-06-22 19:06:10,2026-08-25,40
+TDU36237,FIT,,Auto Rejected,Other,2026-06-22 19:59:56,2026-08-18,10
+TDU36240,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-22 20:10:42,2026-09-15,5
+TDU36241,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-22 20:49:30,2026-09-25,2
+TDU36242,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-22 21:04:27,2026-09-07,10
+TDU27274G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-06-22 22:16:20,2026-09-02,229
+TDU27275G,Groups,Arun Prabhakaran,Created,Created,2026-06-22 22:19:04,2026-09-02,200
+TDU36246,FIT,,Delivered,Accepted,2026-06-23 10:20:24,2026-08-27,2
+TDU27278G,Groups,Arun Prabhakaran,Accepted,Accepted,2026-06-23 12:00:42,2026-09-01,135
+TDU27280G,Groups,Karthik Suriyan,Created,Created,2026-06-23 14:22:41,2026-10-23,40
+TDU36247,FIT,Harsh Purswani,Rejected,Rejected,2026-06-23 15:01:55,2026-09-19,2
+TDU27281G,Groups,Karthik Suriyan,Created,Created,2026-06-23 15:18:46,2026-09-03,14
+TDU36249,FIT,Harsh Purswani,Rejected,Rejected,2026-06-23 15:24:57,2026-08-25,2
+TDU36250,FIT,Harsh Purswani,Rejected,Rejected,2026-06-23 15:33:38,2026-10-20,2
+TDU27282G,Groups,Arun Prabhakaran,Created,Created,2026-06-23 15:38:53,2026-08-27,100
+TDU36252,FIT,Harsh Purswani,Accepted,Accepted,2026-06-23 16:02:34,2026-10-10,2
+TDU36253,FIT,Hemant Dongrani,Accepted,Accepted,2026-06-23 16:15:34,2026-10-17,2
+TDU36254,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-23 20:08:45,2026-09-19,2
+TDU36255,FIT,Harsh Purswani,Rejected,Rejected,2026-06-23 20:55:47,2026-08-16,8
+TDU36258,FIT,Harsh Purswani,Rejected,Rejected,2026-06-23 23:21:29,2026-08-20,3
+TDU27284G,Groups,Karthik Suriyan,Created,Created,2026-06-24 09:49:54,2026-09-24,16
+TDU27285G,Groups,Karthik Suriyan,Rejected,Rejected,2026-06-24 10:38:59,2026-08-26,14
+TDU27286G,Groups,Karthik Suriyan,Accepted,Accepted,2026-06-24 11:37:34,2026-10-13,22
+TDU36260,FIT,Harsh Purswani,Rejected,Rejected,2026-06-24 15:19:52,2026-08-31,2
+TDU36261,FIT,Harsh Purswani,Rejected,Rejected,2026-06-24 15:33:51,2026-08-02,2
+TDU36263,FIT,Harsh Purswani,Rejected,Rejected,2026-06-24 16:26:29,2026-10-22,2
+TDU36266,FIT,Harsh Purswani,Rejected,Rejected,2026-06-24 16:54:56,2026-09-15,2
+TDU36269,FIT,Harsh Purswani,Accounts - Reconciliation,Accepted,2026-06-24 21:55:29,2026-08-02,4
+TDU27288G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-06-24 22:42:59,2026-09-01,135
+TDU27289G,Groups,Karthik Suriyan,Rejected,Rejected,2026-06-25 10:53:34,2026-08-14,20
+TDU27292G,Groups,Karthik Suriyan,Created,Created,2026-06-25 13:18:56,2026-09-14,38
+TDU36278,FIT,Harsh Purswani,Rejected,Rejected,2026-06-25 22:16:41,2026-08-03,2
+TDU36279,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-25 22:32:12,2026-08-03,5
+TDU36280,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-25 22:42:31,2026-10-10,8
+TDU36281,FIT,,Created,Created,2026-06-26 09:50:16,2026-08-26,2
+TDU27294G,Groups,,Auto Rejected,Other,2026-06-26 11:23:38,2026-08-13,98
+TDU36285,FIT,Harsh Purswani,Rejected,Rejected,2026-06-26 16:44:58,2026-09-15,2
+TDU36286,FIT,Harsh Purswani,Rejected,Rejected,2026-06-26 17:18:02,2026-08-01,2
+TDU36292,FIT,Hemant Dongrani,Accepted,Accepted,2026-06-26 21:06:16,2026-10-17,2
+TDU36293,FIT,Harsh Purswani,Accepted,Accepted,2026-06-26 21:15:23,2026-10-25,2
+TDU36295,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-26 21:25:42,2026-09-21,2
+TDU36296,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-26 21:33:07,2026-08-10,3
+TDU36299,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-27 16:14:49,2026-10-05,3
+TDU36303,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-27 17:03:13,2026-09-05,5
+TDU36310,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-27 22:09:13,2026-09-25,2
+TDU27296G,Groups,Karthik Suriyan,Created,Created,2026-06-29 17:03:46,2026-10-08,20
+TDU27297G,Groups,Karthik Suriyan,Rejected,Rejected,2026-06-29 19:32:00,2026-09-15,40
+TDU27304G,Groups,Karthik Suriyan,Accepted,Accepted,2026-06-30 15:31:02,2026-09-25,14
+TDU36316,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-30 15:43:15,2026-08-16,5
+TDU36321,FIT,Hemant Dongrani,Rejected,Rejected,2026-06-30 23:24:59,2026-10-21,4
+TDU27307G,Groups,,Created,Created,2026-07-01 12:53:30,2026-08-22,30
+TDU27308G,Groups,Karthik Suriyan,Rejected,Rejected,2026-07-01 14:22:20,2026-10-16,20
+TDU36326,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-01 18:35:03,2026-09-13,2
+TDU36327,FIT,Harsh Purswani,Rejected,Rejected,2026-07-01 18:52:36,2026-09-06,1
+TDU36328,FIT,Hemant Dongrani,Accepted,Accepted,2026-07-01 19:57:58,2026-10-22,2
+TDU36330,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-01 21:00:05,2026-08-15,2
+TDU27312G,Groups,Karthik Suriyan,Rejected,Rejected,2026-07-02 05:16:57,2026-09-22,40
+TDU36340,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-02 18:57:55,2026-08-30,3
+TDU36342,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-02 22:33:20,2026-10-03,4
+TDU36343,FIT,Hemant Dongrani,Created,Created,2026-07-02 23:15:02,2026-10-01,2
+TDU27314G,Groups,Karthik Suriyan,Rejected,Rejected,2026-07-03 10:32:33,2026-08-13,35
+TDU27315G,Groups,Karthik Suriyan,Created,Created,2026-07-03 13:52:46,2026-10-18,20
+TDU27316G,Groups,Arun Prabhakaran,Created,Created,2026-07-03 17:20:09,2026-09-03,229
+TDU36347,FIT,Harsh Purswani,Created,Created,2026-07-03 17:49:14,2026-09-22,4
+TDU36350,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-03 22:43:09,2026-09-07,4
+TDU27318G,Groups,Karthik Suriyan,Created,Created,2026-07-04 14:01:34,2026-09-28,24
+TDU27321G,Groups,,Created,Created,2026-07-04 15:51:50,2026-09-15,30
+TDU36356,FIT,Harsh Purswani,Requote,Requote,2026-07-04 17:09:34,2026-10-18,6
+TDU36359,FIT,Harsh Purswani,Rejected,Rejected,2026-07-04 18:27:14,2026-09-25,4
+TDU36360,FIT,Harsh Purswani,Rejected,Rejected,2026-07-04 20:44:35,2026-09-15,2
+TDU36361,FIT,Harsh Purswani,Rejected,Rejected,2026-07-04 21:08:59,2026-09-25,4
+TDU27322G,Groups,,Rejected,Rejected,2026-07-06 09:22:07,2026-08-30,9
+TDU36365,FIT,Harsh Purswani,Rejected,Rejected,2026-07-06 15:16:40,2026-10-25,6
+TDU36366,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-06 17:40:46,2026-08-06,7
+TDU36367,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-06 19:00:01,2026-08-30,2
+TDU36368,FIT,Harsh Purswani,Rejected,Rejected,2026-07-06 20:56:45,2026-08-02,3
+TDU36370,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-06 21:47:20,2026-08-19,3
+TDU36371,FIT,,PRE QA - pending,Accepted,2026-07-07 11:00:45,2026-09-02,2
+TDU27329G,Groups,Arun Prabhakaran,Created,Created,2026-07-07 13:53:53,2026-09-17,24
+TDU36373,FIT,Hemant Dongrani,Accepted,Accepted,2026-07-07 20:05:11,2026-08-09,4
+TDU27330G,Groups,Karthik Suriyan,Requote,Requote,2026-07-08 20:43:28,2026-10-22,35
+TDU36378,FIT,Hemant Dongrani,Requote,Requote,2026-07-08 21:18:01,2026-10-10,2
+TDU36381,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-08 22:40:39,2026-10-03,8
+TDU36382,FIT,Harsh Purswani,Rejected,Rejected,2026-07-08 22:43:07,2026-10-17,8
+TDU36383,FIT,Harsh Purswani,Rejected,Rejected,2026-07-08 22:44:18,2026-09-20,2
+TDU36384,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-08 23:02:14,2026-09-14,2
+TDU27331G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-07-09 11:30:01,2026-10-06,300
+TDU27332G,Groups,Karthik Suriyan,Rejected,Rejected,2026-07-09 12:06:40,2026-08-31,29
+TDU27335G,Groups,Arun Prabhakaran,Created,Created,2026-07-09 13:31:48,2026-09-27,40
+TDU36389,FIT,Harsh Purswani,Rejected,Rejected,2026-07-09 16:59:24,2026-09-08,3
+TDU36391,FIT,Harsh Purswani,Rejected,Rejected,2026-07-09 17:17:15,2026-08-11,2
+TDU27336G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-07-09 19:24:28,2026-08-28,200
+TDU36395,FIT,Harsh Purswani,Rejected,Rejected,2026-07-09 21:45:25,2026-09-01,2
+TDU36396,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-09 22:01:07,2026-09-01,2
+TDU36397,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-09 22:07:25,2026-09-01,2
+TDU36398,FIT,Harsh Purswani,Rejected,Rejected,2026-07-09 22:13:53,2026-09-01,2
+TDU27338G,Groups,Karthik Suriyan,Created,Created,2026-07-10 10:26:05,2026-10-25,30
+TDU27339G,Groups,Karthik Suriyan,Created,Created,2026-07-10 10:45:56,2026-10-20,50
+TDU36403,FIT,,Created,Created,2026-07-10 13:04:50,2026-10-26,4
+TDU27341G,Groups,Karthik Suriyan,Accepted,Accepted,2026-07-10 13:13:50,2026-10-25,16
+TDU27342G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-07-10 13:34:00,2026-09-03,250
+TDU36404,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-10 20:57:58,2026-08-19,3
+TDU36405,FIT,Harsh Purswani,Rejected,Rejected,2026-07-10 21:10:16,2026-09-06,2
+TDU36407,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-10 22:03:42,2026-10-08,3
+TDU27344G,Groups,Karthik Suriyan,Accepted,Accepted,2026-07-11 14:23:51,2026-09-10,18
+TDU36408,FIT,Harsh Purswani,Rejected,Rejected,2026-07-11 17:07:55,2026-08-15,2
+TDU36409,FIT,Harsh Purswani,Rejected,Rejected,2026-07-11 18:45:08,2026-09-15,2
+TDU36412,FIT,Harsh Purswani,Rejected,Rejected,2026-07-11 21:05:13,2026-08-10,2
+TDU36413,FIT,Hemant Dongrani,Rejected After Confrmation QA pending,Rejected,2026-07-11 21:18:40,2026-09-14,2
+TDU36415,FIT,Hemant Dongrani,Created,Created,2026-07-11 21:28:33,2026-10-12,6
+TDU36417,FIT,Harsh Purswani,Rejected After Confrmation QA pending,Rejected,2026-07-11 21:55:07,2026-09-16,4
+TDU36418,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-11 22:08:37,2026-10-09,8
+TDU27346G,Groups,Karthik Suriyan,Rejected,Rejected,2026-07-11 22:44:33,2026-08-10,16
+TDU36420,FIT,Harsh Purswani,Created,Created,2026-07-13 16:10:30,2026-09-02,3
+TDU36421,FIT,Harsh Purswani,Rejected,Rejected,2026-07-13 16:20:02,2026-09-07,3
+TDU36424,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-13 21:34:30,2026-08-29,2
+TDU36426,FIT,,Created,Created,2026-07-14 11:16:58,2026-10-27,4
+TDU36431,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-14 20:19:55,2026-08-05,1
+TDU36432,FIT,,Rejected,Rejected,2026-07-14 20:44:06,2026-08-05,1
+TDU36433,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-14 20:48:06,2026-10-10,2
+TDU36434,FIT,Harsh Purswani,Rejected,Rejected,2026-07-14 21:07:56,2026-09-19,6
+TDU36435,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-14 22:10:32,2026-09-07,3
+TDU36448,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-15 20:47:20,2026-09-07,2
+TDU36449,FIT,,Rejected,Rejected,2026-07-15 20:48:35,2026-09-13,2
+TDU36450,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-15 20:50:39,2026-09-13,2
+TDU36452,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-15 21:10:45,2026-10-19,4
+TDU36454,FIT,Harsh Purswani,Rejected,Rejected,2026-07-15 21:31:18,2026-10-02,6
+TDU36455,FIT,Harsh Purswani,Rejected,Rejected,2026-07-15 21:51:41,2026-08-31,3
+TDU36456,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-15 22:44:54,2026-08-31,3
+TDU36457,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-15 22:50:59,2026-09-12,2
+TDU36458,FIT,,Auto Rejected,Other,2026-07-16 09:55:49,2026-08-15,4
+TDU27354G,Groups,,Created,Created,2026-07-16 09:56:30,2026-10-10,80
+TDU36459,FIT,,Auto Rejected,Other,2026-07-16 10:00:39,2026-08-15,4
+TDU27355G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-07-16 11:08:35,2026-09-23,45
+TDU27356G,Groups,Arun Prabhakaran,Created,Created,2026-07-16 13:43:25,2026-09-26,100
+TDU36461,FIT,Harsh Purswani,Rejected,Rejected,2026-07-16 14:59:55,2026-10-12,2
+TDU27357G,Groups,Karthik Suriyan,Created,Created,2026-07-16 17:25:07,2026-09-11,20
+TDU36464,FIT,Hemant Dongrani,Lead,Other,2026-07-16 17:39:02,2026-10-01,1
+TDU36468,FIT,Harsh Purswani,Created,Created,2026-07-16 18:38:06,2026-10-09,2
+TDU36469,FIT,,Accepted,Accepted,2026-07-16 20:24:43,2026-10-14,4
+TDU36472,FIT,Harsh Purswani,Rejected,Rejected,2026-07-16 21:15:24,2026-08-08,4
+TDU36473,FIT,Harsh Purswani,Rejected,Rejected,2026-07-16 21:52:20,2026-09-02,2
+TDU36474,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-16 23:16:20,2026-09-03,3
+TDU36478,FIT,Harsh Purswani,Rejected,Rejected,2026-07-16 23:58:08,2026-10-05,4
+TDU36479,FIT,,Delivered,Accepted,2026-07-17 10:09:35,2026-09-29,3
+TDU36480,FIT,Harsh Purswani,Accepted,Accepted,2026-07-17 15:14:54,2026-08-29,2
+TDU27358G,Groups,Karthik Suriyan,Created,Created,2026-07-17 17:00:14,2026-10-03,48
+TDU36482,FIT,Harsh Purswani,Rejected After Confrmation QA pending,Rejected,2026-07-17 17:15:33,2026-08-29,1
+TDU27359G,Groups,Karthik Suriyan,Rejected,Rejected,2026-07-17 18:03:49,2026-10-22,20
+TDU27360G,Groups,Arun Prabhakaran,Created,Created,2026-07-17 19:02:58,2026-10-15,16
+TDU27361G,Groups,Karthik Suriyan,Created,Created,2026-07-17 19:50:28,2026-10-16,16
+TDU36488,FIT,Hemant Dongrani,Created,Created,2026-07-17 22:13:14,2026-10-08,7
+TDU36490,FIT,Harsh Purswani,Lead,Other,2026-07-18 15:50:35,2026-10-20,2
+TDU36492,FIT,Hemant Dongrani,Lead,Other,2026-07-18 17:16:13,2026-09-01,2
+TDU36494,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-18 17:20:08,2026-10-25,2
+TDU36495,FIT,Harsh Purswani,Lead,Other,2026-07-18 17:29:53,2026-09-27,3
+TDU36496,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-18 17:31:25,2026-10-25,2
+TDU36497,FIT,Harsh Purswani,Rejected,Rejected,2026-07-18 17:33:26,2026-09-30,2
+TDU36500,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-18 18:21:17,2026-08-10,3
+TDU36501,FIT,Harsh Purswani,Created,Created,2026-07-18 18:23:58,2026-09-10,3
+TDU36502,FIT,Hemant Dongrani,Lead,Other,2026-07-18 18:54:00,2026-09-19,2
+TDU36504,FIT,Harsh Purswani,Rejected,Rejected,2026-07-18 20:30:12,2026-09-07,2
+TDU36505,FIT,Harsh Purswani,Rejected,Rejected,2026-07-18 20:49:20,2026-08-10,2
+TDU36506,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-18 20:58:38,2026-09-16,2
+TDU36508,FIT,Harsh Purswani,Rejected,Rejected,2026-07-18 21:18:53,2026-10-11,4
+TDU36509,FIT,Harsh Purswani,Accounts - Reconciliation,Accepted,2026-07-18 21:31:16,2026-08-11,5
+TDU36510,FIT,Hemant Dongrani,Requote,Requote,2026-07-18 22:20:51,2026-10-21,8
+TDU27363G,Groups,Arun Prabhakaran,Created,Created,2026-07-19 17:24:09,2026-10-23,48
+TDU27364G,Groups,Karthik Suriyan,Created,Created,2026-07-19 17:43:13,2026-09-16,40
+TDU36512,FIT,Hemant Dongrani,Created,Created,2026-07-20 15:19:32,2026-10-09,5
+TDU36513,FIT,Harsh Purswani,Rejected,Rejected,2026-07-20 15:47:14,2026-10-09,5
+TDU36515,FIT,Hemant Dongrani,Lead,Other,2026-07-20 16:01:25,2026-09-19,5
+TDU36516,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-20 17:58:04,2026-08-23,2
+TDU36519,FIT,Harsh Purswani,Accepted,Accepted,2026-07-20 22:33:32,2026-10-16,9
+TDU27370G,Groups,Karthik Suriyan,Rejected,Rejected,2026-07-20 22:38:46,2026-09-15,30
+TDU36520,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-20 23:18:31,2026-09-20,7
+TDU27371G,Groups,Karthik Suriyan,Rejected,Rejected,2026-07-21 03:42:34,2026-09-22,30
+TDU27372G,Groups,Arun Prabhakaran,Lead,Other,2026-07-21 10:08:52,2026-10-14,20
+TDU36525,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-21 18:43:39,2026-10-25,6
+TDU36528,FIT,Harsh Purswani,Requote,Requote,2026-07-21 20:35:24,2026-10-09,2
+TDU36529,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-21 21:17:53,2026-08-12,10
+TDU36532,FIT,Harsh Purswani,Requote,Requote,2026-07-21 22:38:09,2026-10-23,3
+TDU27374G,Groups,Arun Prabhakaran,Lead,Other,2026-07-22 07:40:14,2026-10-24,20
+TDU27376G,Groups,Karthik Suriyan,Created,Created,2026-07-22 07:48:20,2026-10-11,15
+TDU36535,FIT,Hemant Dongrani,Accepted,Accepted,2026-07-22 15:34:14,2026-09-01,2
+TDU36539,FIT,Harsh Purswani,Rejected,Rejected,2026-07-22 17:48:39,2026-08-29,2
+TDU36540,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-22 21:34:43,2026-08-26,6
+TDU36550,FIT,Harsh Purswani,Rejected,Rejected,2026-07-22 23:42:14,2026-09-14,2
+TDU36551,FIT,Harsh Purswani,Rejected,Rejected,2026-07-23 11:39:44,2026-09-19,5
+TDU27380G,Groups,Karthik Suriyan,Created,Created,2026-07-23 19:37:39,2026-10-11,13
+TDU36554,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-23 20:05:42,2026-10-10,6
+TDU27381G,Groups,Karthik Suriyan,Created,Created,2026-07-23 20:31:21,2026-10-20,13
+TDU36555,FIT,Harsh Purswani,Rejected,Rejected,2026-07-23 20:58:17,2026-10-09,2
+TDU36557,FIT,Hemant Dongrani,Created,Created,2026-07-23 21:57:08,2026-09-19,5
+TDU36558,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-23 22:30:34,2026-10-31,3
+TDU36559,FIT,Harsh Purswani,Rejected,Rejected,2026-07-23 23:28:50,2026-10-15,2
+TDU27383G,Groups,,Created,Created,2026-07-24 09:03:43,2026-10-23,15
+TDU36563,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-24 18:50:58,2026-09-20,2
+TDU36565,FIT,Harsh Purswani,Rejected,Rejected,2026-07-24 21:17:13,2026-09-20,2
+TDU36566,FIT,Harsh Purswani,Rejected,Rejected,2026-07-24 21:21:05,2026-09-28,2
+TDU36567,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-24 21:28:48,2026-10-15,6
+TDU36568,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-24 21:49:13,2026-10-27,5
+TDU36569,FIT,Hemant Dongrani,Created,Created,2026-07-25 14:49:42,2026-10-07,2
+TDU27388G,Groups,Karthik Suriyan,Created,Created,2026-07-25 15:02:56,2026-09-07,20
+TDU27389G,Groups,Karthik Suriyan,Created,Created,2026-07-25 15:28:43,2026-09-10,15
+TDU36570,FIT,Harsh Purswani,Created,Created,2026-07-25 16:07:10,2026-09-28,1
+TDU27390G,Groups,Karthik Suriyan,Created,Created,2026-07-25 16:37:00,2026-09-25,36
+TDU27391G,Groups,Karthik Suriyan,Created,Created,2026-07-25 16:41:27,2026-10-10,13
+TDU36573,FIT,Harsh Purswani,Rejected,Rejected,2026-07-25 16:49:47,2026-10-25,5
+TDU36574,FIT,Harsh Purswani,Rejected,Rejected,2026-07-25 17:03:26,2026-09-13,3
+TDU27392G,Groups,Karthik Suriyan,Created,Created,2026-07-25 17:17:19,2026-10-07,20
+TDU36576,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-25 17:42:45,2026-08-12,2
+TDU36578,FIT,Harsh Purswani,Rejected,Rejected,2026-07-25 18:22:05,2026-09-25,2
+TDU36580,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-25 19:00:23,2026-08-26,2
+TDU27397G,Groups,Karthik Suriyan,Rejected,Rejected,2026-07-27 11:29:24,2026-09-25,60
+TDU27398G,Groups,Karthik Suriyan,Lead,Other,2026-07-27 11:50:55,2026-09-17,90
+TDU27400G,Groups,Karthik Suriyan,Rejected,Rejected,2026-07-27 14:28:18,2026-10-10,13
+TDU36585,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-27 16:58:48,2026-10-01,2
+TDU36588,FIT,Hemant Dongrani,Accepted,Accepted,2026-07-27 19:31:20,2026-09-19,5
+TDU36589,FIT,Hemant Dongrani,Accepted,Accepted,2026-07-27 20:14:37,2026-08-03,1
+TDU36590,FIT,Harsh Purswani,Rejected,Rejected,2026-07-27 20:19:08,2026-08-16,2
+TDU36591,FIT,Harsh Purswani,Accepted,Accepted,2026-07-27 23:11:10,2026-10-01,5
+TDU27405G,Groups,Karthik Suriyan,Created,Created,2026-07-28 09:01:05,2026-09-27,25
+TDU27406G,Groups,Arun Prabhakaran,Created,Created,2026-07-28 09:20:27,2026-10-11,48
+TDU27407G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-07-28 09:29:33,2026-10-11,48
+TDU27408G,Groups,Karthik Suriyan,Created,Created,2026-07-28 14:57:27,2026-09-26,18
+TDU36592,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-28 17:53:32,2026-08-11,2
+TDU36593,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-28 17:58:06,2026-08-11,2
+TDU36594,FIT,Hemant Dongrani,Created,Created,2026-07-28 19:02:16,2026-09-20,4
+TDU36595,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-28 19:03:36,2026-08-01,3
+TDU36596,FIT,Harsh Purswani,Created,Created,2026-07-28 20:20:25,2026-10-22,7
+TDU36597,FIT,Harsh Purswani,Created,Created,2026-07-28 20:48:59,2026-08-23,4
+TDU36598,FIT,Harsh Purswani,Rejected,Rejected,2026-07-28 21:01:02,2026-10-18,7
+TDU27409G,Groups,Karthik Suriyan,Created,Created,2026-07-29 01:33:32,2026-10-21,18
+TDU36602,FIT,Hemant Dongrani,Created,Created,2026-07-29 14:55:35,2026-09-20,2
+TDU36608,FIT,Harsh Purswani,Rejected,Rejected,2026-07-29 19:10:46,2026-09-23,4
+TDU36609,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-29 20:18:25,2026-08-11,2
+TDU36612,FIT,Harsh Purswani,Rejected,Rejected,2026-07-29 22:19:42,2026-09-21,2
+TDU36614,FIT,Hemant Dongrani,Accounts - Reconciliation,Accepted,2026-07-29 22:28:27,2026-08-10,2
+TDU27412G,Groups,,Accepted,Accepted,2026-04-23 16:47:26,2026-08-28,11
+TDU36616,FIT,,Created,Created,2026-07-30 13:10:56,2026-10-20,2
+TDU36618,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-30 14:56:35,2026-08-30,3
+TDU36619,FIT,,Accepted,Accepted,2026-07-30 15:00:20,2026-08-31,4
+TDU36621,FIT,Harsh Purswani,Auto Rejected,Other,2026-07-30 15:37:10,2026-08-17,3
+TDU27414G,Groups,Karthik Suriyan,Created,Created,2026-07-30 15:40:44,2026-08-21,27
+TDU36625,FIT,Harsh Purswani,Rejected,Rejected,2026-07-30 16:39:25,2026-08-29,2
+TDU36629,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-30 17:34:09,2026-08-12,8
+TDU36630,FIT,Harsh Purswani,Accepted,Accepted,2026-07-30 17:34:15,2026-10-29,4
+TDU36631,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-30 17:43:03,2026-08-15,9
+TDU27415G,Groups,Karthik Suriyan,Created,Created,2026-07-30 22:07:22,2026-08-28,23
+TDU27416G,Groups,Karthik Suriyan,Created,Created,2026-07-31 00:19:28,2026-10-10,13
+TDU27417G,Groups,,Auto Rejected,Other,2026-07-31 11:07:45,2026-08-16,20
+TDU27420G,Groups,Arun Prabhakaran,Created,Created,2026-07-31 14:18:44,2026-10-18,30
+TDU36634,FIT,Hemant Dongrani,Rejected,Rejected,2026-07-31 16:05:08,2026-09-11,2
+TDU36636,FIT,Hemant Dongrani,Created,Created,2026-07-31 16:37:03,2026-10-17,7
+TDU36638,FIT,Hemant Dongrani,Created,Created,2026-07-31 17:38:05,2026-09-02,2
+TDU36640,FIT,Hemant Dongrani,Requote,Requote,2026-07-31 20:00:40,2026-10-03,2
+TDU36643,FIT,Harsh Purswani,Rejected,Rejected,2026-07-31 21:55:57,2026-08-02,2
+TDU36644,FIT,Hemant Dongrani,Created,Created,2026-07-31 22:09:49,2026-09-20,10
+TDU36646,FIT,Harsh Purswani,Rejected,Rejected,2026-07-31 23:02:35,2026-09-30,2
+TDU36648,FIT,Hemant Dongrani,Created,Created,2026-07-31 23:51:26,2026-10-21,4
+TDU36652,FIT,Harsh Purswani,Rejected,Rejected,2026-08-01 16:58:35,2026-10-20,3
+TDU36653,FIT,Hemant Dongrani,Accepted,Accepted,2026-08-01 17:32:25,2026-09-27,3
+TDU36654,FIT,Hemant Dongrani,Created,Created,2026-08-01 18:12:03,2026-10-31,7
+TDU36655,FIT,Harsh Purswani,Created,Created,2026-08-01 18:32:22,2026-09-19,7
+TDU36656,FIT,Harsh Purswani,Created,Created,2026-08-01 18:33:11,2026-09-07,3
+TDU27423G,Groups,Karthik Suriyan,Accepted,Accepted,2026-08-01 18:52:56,2026-09-16,26
+TDU36659,FIT,Harsh Purswani,Rejected,Rejected,2026-08-01 21:52:17,2026-10-21,2
+TDU27426G,Groups,Karthik Suriyan,Created,Created,2026-08-03 10:32:15,2026-10-15,30
+TDU27428G,Groups,Karthik Suriyan,Lead,Other,2026-08-03 11:09:37,2026-10-02,20
+TDU27429G,Groups,Karthik Suriyan,Created,Created,2026-08-03 13:41:38,2026-10-15,20
+TDU36671,FIT,Hemant Dongrani,Rejected,Rejected,2026-08-03 16:38:59,2026-08-06,2
+TDU36673,FIT,Hemant Dongrani,Rejected,Rejected,2026-08-03 17:06:59,2026-08-29,2
+TDU36674,FIT,Hemant Dongrani,Created,Created,2026-08-03 17:35:52,2026-10-01,5
+TDU36676,FIT,Hemant Dongrani,Created,Created,2026-08-03 18:51:32,2026-09-25,7
+TDU36679,FIT,Harsh Purswani,Created,Created,2026-08-03 20:04:51,2026-09-19,2
+TDU36680,FIT,Hemant Dongrani,Rejected,Rejected,2026-08-03 21:50:05,2026-08-07,4
+TDU27435G,Groups,Arun Prabhakaran,Created,Created,2026-08-04 14:42:12,2026-10-05,110
+TDU27436G,Groups,Karthik Suriyan,Lead,Other,2026-08-04 14:57:28,2026-10-01,180
+TDU36682,FIT,Hemant Dongrani,Created,Created,2026-08-04 15:12:06,2026-09-24,2
+TDU36686,FIT,Harsh Purswani,Created,Created,2026-08-04 16:26:26,2026-10-02,7
+TDU36689,FIT,Harsh Purswani,Created,Created,2026-08-04 17:44:59,2026-10-02,4
+TDU36691,FIT,,Rejected,Rejected,2026-08-04 20:43:54,2026-10-29,2
+TDU36697,FIT,Hemant Dongrani,Rejected,Rejected,2026-08-04 22:56:41,2026-08-20,3
+TDU36701,FIT,Hemant Dongrani,Created,Created,2026-08-05 14:50:36,2026-10-21,2
+TDU36702,FIT,Hemant Dongrani,Created,Created,2026-08-05 14:55:39,2026-09-15,10
+TDU36705,FIT,Hemant Dongrani,Created,Created,2026-08-05 16:31:42,2026-09-04,2
+TDU27439G,Groups,Arun Prabhakaran,Created,Created,2026-08-05 16:33:54,2026-09-15,15
+TDU36706,FIT,Hemant Dongrani,Rejected,Rejected,2026-08-05 16:53:11,2026-08-13,1
+TDU36709,FIT,Hemant Dongrani,Rejected,Rejected,2026-08-05 18:06:50,2026-08-20,2
+TDU36710,FIT,Harsh Purswani,Created,Created,2026-08-05 18:35:45,2026-10-05,4
+TDU36711,FIT,Hemant Dongrani,Created,Created,2026-08-05 18:48:12,2026-09-01,4
+TDU36715,FIT,Hemant Dongrani,Created,Created,2026-08-05 22:47:42,2026-09-23,2
+TDU27443G,Groups,Arun Prabhakaran,Lead,Other,2026-08-06 08:13:48,2026-10-01,125
+TDU27444G,Groups,Arun Prabhakaran,Created,Created,2026-08-06 09:00:15,2026-10-26,160
+TDU36716,FIT,Hemant Dongrani,Created,Created,2026-08-06 14:37:48,2026-10-19,8
+TDU36718,FIT,Harsh Purswani,Requote,Requote,2026-08-06 15:14:15,2026-09-30,2
+TDU36726,FIT,Hemant Dongrani,Created,Created,2026-08-06 18:29:41,2026-09-15,10
+TDU36727,FIT,Harsh Purswani,Created,Created,2026-08-06 19:52:43,2026-10-15,5
+TDU36728,FIT,Harsh Purswani,Rejected,Rejected,2026-08-06 19:53:31,2026-08-11,3
+TDU36731,FIT,Harsh Purswani,Created,Created,2026-08-06 20:54:25,2026-09-05,2
+TDU36736,FIT,,Auto Rejected,Other,2026-08-06 22:09:26,2026-09-15,12
+TDU27446G,Groups,Arun Prabhakaran,Created,Created,2026-08-06 22:09:26,2026-09-20,12
+TDU27452G,Groups,Karthik Suriyan,Created,Created,2026-08-07 09:08:03,2026-10-10,23
+TDU36739,FIT,Harsh Purswani,Created,Created,2026-08-07 16:11:03,2026-09-19,2
+TDU27456G,Groups,Arun Prabhakaran,Created,Created,2026-08-07 16:41:34,2026-09-20,15
+TDU36744,FIT,Harsh Purswani,Rejected,Rejected,2026-08-07 17:28:37,2026-08-30,5
+TDU36745,FIT,Hemant Dongrani,Created,Created,2026-08-07 17:47:27,2026-10-20,1
+TDU36747,FIT,Harsh Purswani,Created,Created,2026-08-07 18:43:21,2026-10-02,7
+TDU36749,FIT,Hemant Dongrani,Created,Created,2026-08-07 20:00:11,2026-09-26,4
+TDU36750,FIT,Hemant Dongrani,Created,Created,2026-08-07 20:09:10,2026-09-13,1
+TDU36757,FIT,Harsh Purswani,Created,Created,2026-08-08 14:53:18,2026-10-20,4
+TDU27464G,Groups,Arun Prabhakaran,Rejected,Rejected,2026-08-08 20:09:39,2026-09-17,20
+TDU36767,FIT,Hemant Dongrani,Created,Created,2026-08-08 21:37:00,2026-10-15,2
+TDU36768,FIT,Harsh Purswani,Created,Created,2026-08-08 21:39:38,2026-09-30,2
+TDU36769,FIT,Harsh Purswani,Created,Created,2026-08-08 21:43:28,2026-09-30,2
+TDU36770,FIT,Hemant Dongrani,Created,Created,2026-08-08 22:09:26,2026-09-15,2
+TDU36772,FIT,Harsh Purswani,Created,Created,2026-08-08 22:58:56,2026-09-09,2
+TDU36780,FIT,,Rejected,Rejected,2026-08-10 20:48:53,2026-08-24,2
+TDU36781,FIT,Hemant Dongrani,Accepted,Accepted,2026-08-10 20:50:50,2026-08-24,2
+TDU36783,FIT,Hemant Dongrani,Accepted,Accepted,2026-08-10 22:15:43,2026-10-01,2
+TDU36784,FIT,Harsh Purswani,Accepted,Accepted,2026-08-10 22:17:31,2026-10-07,2
+TDU27472G,Groups,,Created,Created,2026-08-11 10:46:09,2026-09-14,40
+TDU36786,FIT,,Delivered,Accepted,2026-08-11 11:55:35,2026-08-29,2
+TDU27473G,Groups,Arun Prabhakaran,Created,Created,2026-08-11 12:19:28,2026-10-05,100
+TDU36787,FIT,,Created,Created,2026-08-11 12:22:44,2026-10-12,7
+TDU36788,FIT,,Created,Created,2026-08-11 12:30:05,2026-10-12,7
+TDU27474G,Groups,,Created,Created,2026-08-11 12:56:07,2026-09-07,30
+TDU27475G,Groups,,Created,Created,2026-08-11 12:58:09,2026-09-21,20
+TDU36789,FIT,Harsh Purswani,Created,Created,2026-08-11 17:21:13,2026-08-29,3
+TDU36790,FIT,Harsh Purswani,Created,Created,2026-08-11 18:00:54,2026-10-10,8
+TDU36791,FIT,Hemant Dongrani,Rejected,Rejected,2026-08-11 18:04:14,2026-08-27,4
+TDU36794,FIT,Hemant Dongrani,Created,Created,2026-08-11 21:07:35,2026-10-16,2
+TDU36795,FIT,,Rejected,Rejected,2026-08-11 21:20:05,2026-09-26,3
+TDU36796,FIT,Hemant Dongrani,Created,Created,2026-08-11 21:41:30,2026-09-26,3
+TDU27480G,Groups,Arun Prabhakaran,Created,Created,2026-08-12 13:29:03,2026-09-17,24
+TDU36802,FIT,Harsh Purswani,Rejected,Rejected,2026-08-12 18:22:42,2026-08-16,2
+TDU36805,FIT,Hemant Dongrani,PRE QA - pending,Accepted,2026-08-12 22:13:39,2026-08-22,4
+TDU36806,FIT,Hemant Dongrani,Rejected,Rejected,2026-08-12 22:15:06,2026-09-12,2
+TDU36807,FIT,Harsh Purswani,Created,Created,2026-08-12 22:46:09,2026-09-07,2
+TDU36808,FIT,Harsh Purswani,Created,Created,2026-08-12 22:53:35,2026-09-11,10
+TDU36809,FIT,,Accepted,Accepted,2026-08-12 23:02:01,2026-09-27,1
+TDU36811,FIT,Hemant Dongrani,Rejected,Rejected,2026-08-12 23:15:05,2026-09-02,3
+TDU36812,FIT,,Created,Created,2026-08-13 13:22:33,2026-09-30,2
+TDU36818,FIT,Hemant Dongrani,Rejected,Rejected,2026-08-13 18:52:54,2026-08-25,6
+TDU36819,FIT,Hemant Dongrani,Rejected,Rejected,2026-08-13 19:07:35,2026-09-03,6
+TDU36822,FIT,Hemant Dongrani,Rejected,Rejected,2026-08-13 19:38:35,2026-10-08,2
+TDU36823,FIT,Hemant Dongrani,Rejected,Rejected,2026-08-13 19:48:05,2026-10-14,2
+TDU36830,FIT,Hemant Dongrani,Created,Created,2026-08-13 21:40:54,2026-10-05,3
+TDU36831,FIT,Hemant Dongrani,Created,Created,2026-08-13 21:49:14,2026-10-05,3
+TDU36834,FIT,Hemant Dongrani,Created,Created,2026-08-13 22:29:45,2026-09-18,2
+TDU36838,FIT,Hemant Dongrani,Rejected,Rejected,2026-08-13 23:14:44,2026-08-16,2
+TDU27491G,Groups,,Created,Created,2026-08-14 11:41:39,2026-09-19,20
+TDU36848,FIT,Hemant Dongrani,Created,Created,2026-08-14 21:23:36,2026-10-14,3
+TDU36851,FIT,Hemant Dongrani,Created,Created,2026-08-14 22:24:34,2026-10-25,4
+TDU36855,FIT,Hemant Dongrani,Accepted,Accepted,2026-08-14 23:42:31,2026-09-20,9
+TDU36856,FIT,,Created,Created,2026-08-16 17:30:44,2026-09-01,3
+TDU27497G,Groups,,Created,Created,2026-08-16 19:45:48,2026-09-22,14
+TDU27498G,Groups,,Created,Created,2026-08-17 09:07:08,2026-10-21,14
+TDU36857,FIT,Hemant Dongrani,Created,Created,2026-08-17 14:50:18,2026-10-08,2
+TDU36858,FIT,Hemant Dongrani,Created,Created,2026-08-17 14:58:49,2026-10-14,2
+TDU27502G,Groups,,Auto Rejected,Other,2026-08-17 18:23:41,2026-08-19,12
+TDU36865,FIT,Harsh Purswani,Created,Created,2026-08-17 20:47:38,2026-09-23,2
+TDU36868,FIT,Hemant Dongrani,Accepted,Accepted,2026-08-17 23:20:05,2026-09-07,2
+TDU36870,FIT,Harsh Purswani,Created,Created,2026-08-18 00:16:24,2026-10-14,1
+TDU36872,FIT,,Created,Created,2026-08-18 10:20:18,2026-10-17,3
+TDU36874,FIT,Harsh Purswani,Created,Created,2026-08-18 14:30:44,2026-08-24,2
+TDU27506G,Groups,Arun Prabhakaran,Created,Created,2026-08-18 15:11:35,2026-09-26,16
+TDU36880,FIT,Hemant Dongrani,Created,Created,2026-08-18 17:24:15,2026-10-23,4
+TDU36887,FIT,Harsh Purswani,Created,Created,2026-08-18 21:38:00,2026-08-21,2
+TDU36889,FIT,Hemant Dongrani,Created,Created,2026-08-18 22:57:46,2026-09-06,3
+TDU27510G,Groups,Karthik Suriyan,Created,Created,2026-08-18 23:03:33,2026-09-15,15
+TDU27511G,Groups,Arun Prabhakaran,Created,Created,2026-08-19 05:53:31,2026-10-27,200
+TDU36891,FIT,,Created,Created,2026-08-19 12:01:49,2026-08-20,5
+TDU36894,FIT,Harsh Purswani,Created,Created,2026-08-19 16:06:43,2026-08-21,3
+TDU36895,FIT,Hemant Dongrani,Created,Created,2026-08-19 16:21:36,2026-08-31,2
+TDU36896,FIT,Hemant Dongrani,Created,Created,2026-08-19 17:07:58,2026-09-24,2
+TDU36899,FIT,Hemant Dongrani,Created,Created,2026-08-19 17:58:44,2026-10-01,2
+TDU36901,FIT,Harsh Purswani,Created,Created,2026-08-19 20:12:25,2026-10-14,10
+TDU36904,FIT,Hemant Dongrani,Created,Created,2026-08-19 22:18:59,2026-08-23,2
+TDU36906,FIT,Hemant Dongrani,Created,Created,2026-08-19 22:23:35,2026-08-23,3
+TDU36912,FIT,Hemant Dongrani,Created,Created,2026-08-19 23:18:44,2026-10-27,6
+TDU36915,FIT,,Accepted,Accepted,2026-08-21 12:23:46,2026-10-01,1
+TDU37000,FIT,,Accepted,Accepted,2026-08-25 10:18:34,2026-10-01,1
+TDU27513G,Groups,,Created,Created,2026-09-10 13:09:29,2026-10-25,30

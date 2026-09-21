@@ -1,0 +1,206 @@
+Filters
+
+Treat as today
+
+Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+
+Selected date is 2026/08/18. Select the second date.
+
+Callers
+
+Karthik Suriyan
+Harsh Purswani
+Hemant Dongrani
+Arun Prabhakaran
+
+Series
+
+Per person
+
+Total
+
+Data: Sales Queue/data/*.csv. See the Data notes tab for what is approximated.
+
+Deploy
+Monitoring dashboard · sales queue
+Rebuilt from CSV exports · today = Tue 18 Aug 2026 · all 4 callers
+LAST WORKING DAY (17 AUG)
+Calls
+66
+across all 4 callers
+Queue worked
+39.7%
+96 of 242 surfaced
+Backlog
+214
+carry-over rows
+Contact rate
+75.4%
+46 of 61 reached
+TODAY (IN PROGRESS)
+Calls today
+43
+across all 4 callers
+Queue worked
+22.8%
+44 of 193 surfaced
+Backlog now
+135
+carry-over quotes · oldest 50d
+Contact rate
+82.1%
+32 of 39 reached
+keyboard_arrow_right
+
+🔎 Quote timeline — search a quote (e.g. TDU00456 or 456)
+
+Team activity
+
+Workload & capacity
+
+Account intelligence
+
+Quote pipeline
+
+By person
+
+Data notes
+
+Live basket by stage
+
+1,629 live quotes — excludes Rejected, Auto Rejected and Lead.
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+200
+220
+240
+260
+280
+300
+320
+340
+360
+380
+400
+420
+440
+460
+480
+500
+520
+540
+560
+580
+600
+620
+640
+Quotes
+Accounts - Recon…
+Created
+On Ground
+Accepted
+PRE QA - pending
+Requote
+PRE QA - completed
+Completed (Acco…
+Delivered
+Requote After Co…
+Payment Receive…
+Final QA
+
+Scope for the charts below
+
+Created / Requote
+
+All stages
+
+Composition: FIT vs Groups
+
+Groups split at 40 pax.
+FIT — 396 (61%)
+Groups >40 pax — 49 (8%)
+Groups ≤40 pax — 200 (3…
+
+Destination: Australia vs New Zealand
+
+Australia — 392 (61%)
+New Zealand — 253 (39%)
+
+Travel-date scope
+
+Created / Requote
+
+All
+
+Accepted
+
+Travel-date horizon
+
+Live quotes by trip month (trip still ahead).
+Aug 2026
+Sep 2026
+Oct 2026
+Nov 2026
+Dec 2026
+Jan 2027
+Feb 2027
+Mar 2027
+Apr 2027
+May 2027
+Jun 2027
+Jul 2027
+13+ months
+0
+100
+50
+150
+Quotes
+
+Passenger counts
+
+Adults + children + infants; zero-pax quotes excluded.
+
+FIT · avg 4.0 pax · 396 quotes
+
+1
+2
+3-4
+5-6
+7-10
+11+
+0
+20
+40
+60
+80
+100
+120
+140
+
+Groups · avg 40.8 pax · 249 quotes
+
+1-25
+26-50
+51-100
+101-200
+200+
+0
+100
+50
+150
+
+Where are our quotes?
+
+🚫
+
+Not available from this export — origin region comes from vtiger_quotes_info and vtiger_groups, which weren't exported.
+
+Download next 3 months report (CSV) — 791 quotes

@@ -1,0 +1,11 @@
+.sales-dashboard { padding-bottom:48px; }
+.sales-controls { display:flex; flex-wrap:wrap; align-items:end; gap:16px; margin-bottom:24px; }
+.sales-dashboard .native-select { padding:8px 10px; margin-left:6px; border:1px solid var(--border); border-radius:8px; background:var(--surface); color:var(--text); font:inherit; max-width:100%; }
+.sales-reset { border:1px solid var(--border); background:var(--surface); color:var(--text); padding:9px 14px; border-radius:8px; cursor:pointer; font:inherit; }
+.sales-reset:hover { background:var(--surface-hover, #eee); }
+.sales-note { color:var(--secondary); font-size:12px; line-height:1.6; margin:8px 0 0; }
+.sales-context { color:var(--secondary); font-size:13px; line-height:1.7; margin:12px 0; max-width:1050px; }
+.sales-quality { max-width:980px; color:var(--secondary); line-height:1.8; font-size:14px; }
+.sales-quality h3 { color:var(--text); }
+.sales-quality li { margin-bottom:12px; }
+@media(max-width:600px) { .sales-controls { gap:10px; } }

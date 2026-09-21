@@ -1,0 +1,145 @@
+        .tdu-queue-wrap { font-family: Arial, sans-serif; max-width: 1800px; margin: 0 auto; padding: 20px; }
+        .tdu-queue-wrap h1         { font-size: 1.4rem; margin-bottom: 4px; }
+        .tdu-queue-wrap .subtitle  { color: #666; font-size: 0.9rem; margin-bottom: 24px; }
+        .tdu-queue-wrap h2         { font-size: 1.1rem; border-bottom: 2px solid currentColor; padding-bottom: 4px; margin-top: 32px; }
+        .tdu-queue-wrap .carryover h2 { color: #92400e; }
+        .tdu-queue-wrap .sp1 h2    { color: #1C93C4; }
+        .tdu-queue-wrap .sp2 h2    { color: #F5A623; }
+        .tdu-queue-wrap .sp3 h2    { color: #EF6C24; }
+        .tdu-queue-wrap .sp4 h2    { color: #4A7B8C; }
+        .tdu-queue-wrap table      { width: 100%; border-collapse: collapse; margin-top: 8px; }
+        .tdu-queue-wrap th         { background: #f5f5f5; text-align: left; padding: 7px 10px; border-bottom: 2px solid #ddd; font-size: 0.85rem; }
+        .tdu-queue-wrap td         { padding: 6px 10px; border-bottom: 1px solid #eee; font-size: 0.875rem; vertical-align: top; }
+        .tdu-queue-wrap .org-row td { background: #fafafa; font-weight: bold; }
+        /* Stop a long organisation name from stretching the table and squeezing the
+           Action column (which made the Log/History buttons stack vertically). The org
+           name now wraps within a bounded width; the Action cell never wraps. */
+        .tdu-queue-wrap td.org-cell    { max-width: 240px; overflow-wrap: break-word; word-break: break-word; }
+        .tdu-queue-wrap td.action-cell { white-space: nowrap; }
+        .tdu-queue-wrap .empty     { color: #999; font-style: italic; padding: 12px 0; }
+        .tdu-queue-wrap .days-overdue { color: #c0392b; font-weight: bold; }
+        .tdu-queue-wrap .days-today   { color: #e67e22; font-weight: bold; }
+        .tdu-queue-wrap .days-soon    { color: #27ae60; }
+        .tdu-queue-wrap .log-btn { font-size: 0.78rem; padding: 2px 8px; cursor: pointer; border: 1px solid #aaa; border-radius: 3px; background: #fff; }
+        .tdu-queue-wrap .log-btn:hover { background: #f0f0f0; }
+        .tdu-queue-wrap dialog {
+            border: 1px solid #ccc; border-radius: 6px;
+            padding: 20px 24px; min-width: 340px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.18);
+            /* Re-centre: dashboard's global `* { margin:0 }` kills the dialog's default margin:auto. */
+            position: fixed; inset: 0; margin: auto;
+            overflow: visible; /* let the static Flatpickr calendar spill outside the dialog box */
+        }
+        .tdu-queue-wrap dialog::backdrop { background: rgba(0,0,0,0.35); }
+        .tdu-queue-wrap dialog h3  { margin: 0 0 16px; font-size: 1rem; }
+        .tdu-queue-wrap .form-row  { display: flex; align-items: center; margin-bottom: 10px; gap: 10px; }
+        .tdu-queue-wrap .form-row label { width: 100px; font-size: 0.875rem; flex-shrink: 0; }
+        .tdu-queue-wrap .form-row select,
+        .tdu-queue-wrap .form-row input { flex: 1; padding: 4px 6px; font-size: 0.875rem; }
+        .tdu-queue-wrap .dialog-actions { margin-top: 16px; text-align: right; }
+        .tdu-queue-wrap .dialog-actions button { padding: 5px 14px; font-size: 0.875rem; cursor: pointer; }
+        /* --- Embedded-in-dashboard fixes: neutralise the dashboard's global form
+           styling (select width:100%, button display:block) that stretches our
+           dropdowns and stacks our action buttons. Scoped to .tdu-queue-wrap so the
+           standalone page is unaffected. --- */
+        .tdu-queue-wrap #user-switcher,
+        .tdu-queue-wrap .priority-sel { width: auto; min-width: 0; max-width: 170px; display: inline-block; }
+        .tdu-queue-wrap td button { display: inline-block; width: auto; vertical-align: middle; }
+        .tdu-queue-wrap td .log-btn,
+        .tdu-queue-wrap td .hist-btn,
+        .tdu-queue-wrap td .claim-btn,
+        .tdu-queue-wrap td .addcall-btn { margin: 1px 0 1px 4px; }
+        /* Action buttons must stay legible inside the dashboard: its global button
+           colour is white (for the dark nav), which made our text invisible on white. */
+        .tdu-queue-wrap td button { color: #333; }
+        .tdu-queue-wrap td .log-btn { background: #334155; color: #fff; border-color: #334155; font-weight: 600; }
+        .tdu-queue-wrap td .log-btn:hover { background: #475569; }
+        /* Styled here, not inline, like its two siblings: an inline background would beat the
+           :hover rule below. Left out, it inherits the dashboard's global button style and
+           renders as a blank grey block. */
+        .tdu-queue-wrap td .hist-btn,
+        .tdu-queue-wrap td .claim-btn,
+        .tdu-queue-wrap td .addcall-btn { background: #fff; }
+        .tdu-queue-wrap td .addcall-btn { color: #333; text-indent: 0; font-size: 0.78rem; }
+        .tdu-queue-wrap td .hist-btn:hover,
+        .tdu-queue-wrap td .claim-btn:hover,
+        .tdu-queue-wrap td .addcall-btn:hover { background: #f0f0f0; }
+        /* Collapsible sections — the whole heading is a clickable accordion bar. */
+        .tdu-queue-wrap .section-toggle {
+            display: flex; align-items: center; gap: 10px;
+            cursor: pointer; user-select: none;
+            padding: 8px 10px; margin-top: 28px;
+            border-radius: 4px 4px 0 0;
+            transition: background 0.12s;
+        }
+        .tdu-queue-wrap .section-toggle:hover { background: rgba(0,0,0,0.045); }
+        .tdu-queue-wrap .section-toggle .section-title { flex: 0 1 auto; }
+        .tdu-queue-wrap .section-toggle .caret {
+            flex: 0 0 auto; width: 0; height: 0;
+            border-left: 9px solid currentColor;     /* triangle in the section's own colour */
+            border-top: 6px solid transparent;
+            border-bottom: 6px solid transparent;
+            transition: transform 0.18s ease;
+            transform: rotate(90deg);                /* points down while expanded */
+        }
+        .tdu-queue-wrap .queue-section.collapsed .section-toggle .caret { transform: rotate(0deg); }  /* points right when collapsed */
+        .tdu-queue-wrap .queue-section.collapsed .section-body { display: none; }
+        /* Flatpickr calendar — per-day schedule-load indicator (green/yellow/red).
+           static:true keeps the wrapper (not the input) as the flex item. */
+        .tdu-queue-wrap .form-row .flatpickr-wrapper { flex: 0 0 auto; }
+        .tdu-queue-wrap .form-row .flatpickr-wrapper input { width: 160px; }
+        /* Taller flex-column cell so our count badge (appended below the day number)
+           doesn't overflow material_blue's default single-line 39px cell height. */
+        .tdu-queue-wrap .flatpickr-day {
+            height: 46px; line-height: 22px;
+            display: flex; flex-direction: column;
+            align-items: center; justify-content: center;
+            box-sizing: border-box;
+        }
+        /* Warn/full colour lives on this inner circle (.tdu-day-num, see onScheduleDayCreate),
+           not the whole cell — material_blue's border-radius:150px would turn the taller
+           cell into an oval covering the count badge too. */
+        .tdu-queue-wrap .tdu-day-num {
+            display: inline-flex; align-items: center; justify-content: center;
+            width: 24px; height: 24px; border-radius: 50%;
+        }
+        .tdu-queue-wrap .tdu-day-num.tdu-day-safe { background: #e8f5e9; }
+        .tdu-queue-wrap .tdu-day-num.tdu-day-warn { background: #fff8e1; }
+        .tdu-queue-wrap .tdu-day-num.tdu-day-full { background: #fdecea; color: #c0392b; }
+        /* Hover/focus/selected: same oval-cell issue, so strip material_blue's cell-level
+           colour and move it onto .tdu-day-num instead. .today keeps its own grey circle. */
+        .tdu-queue-wrap .flatpickr-day:hover:not(.flatpickr-disabled),
+        .tdu-queue-wrap .flatpickr-day:focus:not(.flatpickr-disabled) {
+            background: none; border-color: transparent;
+        }
+        .tdu-queue-wrap .flatpickr-day:hover:not(.flatpickr-disabled) .tdu-day-num,
+        .tdu-queue-wrap .flatpickr-day:focus:not(.flatpickr-disabled) .tdu-day-num {
+            background: #e2e2e2;
+        }
+        .tdu-queue-wrap .flatpickr-day.today:hover:not(.flatpickr-disabled) .tdu-day-num,
+        .tdu-queue-wrap .flatpickr-day.today:focus:not(.flatpickr-disabled) .tdu-day-num {
+            background: #bbb; color: #fff;
+        }
+        .tdu-queue-wrap .flatpickr-day.selected {
+            background: none; border-color: transparent; color: inherit;
+        }
+        .tdu-queue-wrap .flatpickr-day.selected .tdu-day-num {
+            background: #42a5f5; color: #fff;
+        }
+        .tdu-queue-wrap .tdu-day-count {
+            display: block; font-size: 0.55rem; line-height: 1;
+            margin-top: 2px; color: #999;
+        }
+        .tdu-queue-wrap .tdu-day-count.tdu-day-safe { color: #2e7d32; }
+        .tdu-queue-wrap .tdu-day-count.tdu-day-warn { color: #b8860b; font-weight: bold; }
+        .tdu-queue-wrap .tdu-day-count.tdu-day-full { color: #c0392b; font-weight: bold; }
+        /* confirmDate.css's default Done button is near-invisible; override with theme accent. */
+        .tdu-queue-wrap .flatpickr-confirm {
+            background: #42a5f5;
+            color: #fff;
+            fill: #fff;
+            font-weight: bold;
+        }
+        .tdu-queue-wrap .flatpickr-confirm:hover {
+            background: #2f92e4;
+        }

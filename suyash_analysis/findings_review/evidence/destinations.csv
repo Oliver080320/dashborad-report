@@ -1,0 +1,4 @@
+country,quotes,accepted,rejected,auto_rejected,resolved,accepted_share_pct,resolved_win_pct
+Australia,7422,745,4521,1732,5266,10.04,14.15
+New Zealand,2438,238,1667,280,1905,9.76,12.49
+Unknown,75,0,17,58,17,0.0,0.0

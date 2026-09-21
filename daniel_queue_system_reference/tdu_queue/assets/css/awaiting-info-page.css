@@ -1,0 +1,139 @@
+/* Awaiting Information queue, standalone page (?view=awaiting_info).
+   Scoped under .tdu-ai-wrap so the dashboard's global styles don't leak in and this
+   page's styles don't leak out — same isolation pattern payment-deadline.css uses.
+   This page doesn't load queue.css, so base table/dialog/section styling is its own
+   copy rather than a share, matching payment-deadline.css's own precedent. */
+
+.tdu-ai-wrap { font-family: Arial, sans-serif; max-width: 1800px; margin: 0 auto; padding: 20px; }
+
+.tdu-ai-wrap .ai-page-header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.tdu-ai-wrap .ai-page-header h1 { font-size: 1.4rem; margin: 0; }
+.tdu-ai-wrap .ai-backlink {
+    margin-left: auto; font-size: 0.85rem; text-decoration: none;
+    padding: 4px 12px; border: 1px solid #334155; border-radius: 3px;
+    color: #334155; font-weight: 600; background: #fff;
+}
+.tdu-ai-wrap .ai-backlink + .ai-backlink { margin-left: 0; }
+.tdu-ai-wrap .ai-backlink:hover { background: #f1f5f9; }
+
+.tdu-ai-wrap .ai-page-subtitle { color: #666; font-size: 0.9rem; margin: 8px 0 4px; }
+.tdu-ai-wrap .ai-pool-count { color: #92400e; font-weight: 600; }
+.tdu-ai-wrap .ai-page-explainer {
+    color: #555; font-size: 0.82rem; margin: 0 0 24px;
+    max-width: 900px; line-height: 1.5;
+}
+
+/* Unrouted, collapsible, closed by default — same mechanics as Payment Deadline's own
+   .pd-pool: nothing on the page can act on those rows, so it stays out of the way. */
+.tdu-ai-wrap .ai-section { margin-top: 10px; }
+.tdu-ai-wrap .ai-section-toggle {
+    display: flex; align-items: center; gap: 8px;
+    cursor: pointer; user-select: none;
+    padding: 6px 10px; margin: 0;
+    border-bottom: 2px solid transparent;
+    border-radius: 4px 4px 0 0;
+    font-size: 0.92rem;
+    color: #92400e;
+    transition: background 0.12s, border-color 0.12s;
+}
+.tdu-ai-wrap .ai-section-toggle:hover { background: rgba(0,0,0,0.045); }
+.tdu-ai-wrap .ai-section:not(.collapsed) .ai-section-toggle { border-bottom-color: currentColor; }
+.tdu-ai-wrap .ai-caret {
+    flex: 0 0 auto; width: 0; height: 0;
+    border-left: 8px solid currentColor;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    transition: transform 0.18s ease;
+    transform: rotate(90deg);
+}
+.tdu-ai-wrap .ai-section.collapsed .ai-caret { transform: rotate(0deg); }
+.tdu-ai-wrap .ai-section.collapsed .ai-section-body { display: none; }
+.tdu-ai-wrap .ai-hint { color: #777; font-size: 0.78rem; margin: 2px 0 6px; font-style: italic; }
+.tdu-ai-wrap .ai-empty { color: #999; font-style: italic; padding: 10px 0; font-size: 0.875rem; }
+
+.tdu-ai-wrap .ai-table { width: 100%; border-collapse: collapse; margin-top: 6px; }
+.tdu-ai-wrap .ai-table th {
+    background: #f5f5f5; text-align: left; padding: 7px 10px;
+    border-bottom: 2px solid #ddd; font-size: 0.85rem;
+}
+.tdu-ai-wrap .ai-table td {
+    padding: 6px 10px; border-bottom: 1px solid #eee;
+    font-size: 0.875rem; vertical-align: top;
+}
+.tdu-ai-wrap .ai-org { max-width: 240px; overflow-wrap: break-word; word-break: break-word; font-weight: 600; }
+.tdu-ai-wrap .ai-unknown { color: #999; font-style: italic; }
+
+/* The organisation name is in every row's markup so the browser can regroup by toggling
+   .org-row alone (see awaiting-info-page.js's relayout). Only the row that opens a block
+   shows it. */
+.tdu-ai-wrap .ai-table tr:not(.org-row) .ai-org-name { display: none; }
+
+.tdu-ai-wrap .ai-table tr.ai-row--called { opacity: 0.45; background: #f9f9f9; }
+.tdu-ai-wrap .ai-called-today { color: #166534; font-size: 0.75rem; font-weight: 600; }
+.tdu-ai-wrap .ai-last-by { color: #666; font-size: 0.78rem; }
+.tdu-ai-wrap .ai-days-to-trip { color: #666; font-size: 0.78rem; }
+.tdu-ai-wrap .ai-blocked--red { color: #991b1b; font-weight: 600; }
+
+.tdu-ai-wrap .ai-missing { max-width: 340px; }
+.tdu-ai-wrap .ai-missing summary {
+    cursor: pointer; font-size: 0.8rem; color: #334155;
+    list-style: none; user-select: none;
+}
+.tdu-ai-wrap .ai-missing summary::-webkit-details-marker { display: none; }
+.tdu-ai-wrap .ai-missing summary::before {
+    content: ""; display: inline-block; margin-right: 6px;
+    width: 0; height: 0;
+    border-left: 7px solid currentColor;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    transition: transform 0.18s ease;
+    vertical-align: middle;
+}
+.tdu-ai-wrap .ai-missing details[open] > summary::before { transform: rotate(90deg); }
+.tdu-ai-wrap .ai-missing > details > div:first-of-type { margin-top: 4px; }
+
+.tdu-ai-wrap .ai-reason          { font-size: 0.8rem; line-height: 1.45; }
+.tdu-ai-wrap .ai-reason--total   { color: #991b1b; }
+.tdu-ai-wrap .ai-reason--partial { color: #334155; }
+.tdu-ai-wrap .ai-reason--other   { color: #555; font-style: italic; }
+
+.tdu-ai-wrap .ai-actions { white-space: nowrap; }
+.tdu-ai-wrap .ai-hist-btn,
+.tdu-ai-wrap .ai-log-btn {
+    font-size: 0.78rem; padding: 2px 8px; cursor: pointer;
+    border: 1px solid #aaa; border-radius: 3px; background: #fff; white-space: nowrap;
+}
+.tdu-ai-wrap td button { color: #333; }
+.tdu-ai-wrap .ai-log-btn { background: #334155; color: #fff; border-color: #334155; font-weight: 600; }
+.tdu-ai-wrap .ai-log-btn:hover { background: #475569; }
+.tdu-ai-wrap .ai-hist-btn:hover { background: #f0f0f0; }
+.tdu-ai-wrap .ai-hist-cell { background: #fafafa; padding: 4px 14px 10px; }
+
+.tdu-ai-wrap .ai-hist-table { width: 100%; font-size: 0.8rem; border-collapse: collapse; margin: 6px 0; }
+.tdu-ai-wrap .ai-hist-table th { background: #eef2ff; text-align: left; padding: 4px 8px; border-bottom: 1px solid #ddd; }
+.tdu-ai-wrap .ai-hist-table td { padding: 3px 8px; border-bottom: 1px solid #f0f0f0; }
+.tdu-ai-wrap .ai-hist-none { color: #999; font-size: 0.8rem; font-style: italic; }
+
+/* Outcome modal — same shape as payment-deadline.css's, re-declared for the same reason:
+   this page doesn't load queue.css either. */
+.tdu-ai-wrap dialog {
+    border: 1px solid #ccc; border-radius: 6px;
+    padding: 20px 24px; min-width: 340px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.18);
+    position: fixed; inset: 0; margin: auto;
+}
+.tdu-ai-wrap dialog::backdrop { background: rgba(0,0,0,0.35); }
+.tdu-ai-wrap dialog h3 { margin: 0 0 16px; font-size: 1rem; }
+.tdu-ai-wrap .form-row { display: flex; align-items: center; margin-bottom: 10px; gap: 10px; }
+.tdu-ai-wrap .form-row label { width: 100px; font-size: 0.875rem; flex-shrink: 0; }
+.tdu-ai-wrap .form-row select,
+.tdu-ai-wrap .form-row input { flex: 1; padding: 4px 6px; font-size: 0.875rem; }
+.tdu-ai-wrap .dialog-actions { margin-top: 16px; text-align: right; }
+.tdu-ai-wrap .dialog-actions button { padding: 5px 14px; font-size: 0.875rem; cursor: pointer; }
+
+/* What to ask for, shown inside the modal so the caller doesn't have to re-open the row's
+   own collapsed Missing cell mid-call. */
+.tdu-ai-wrap #ai-modal-missing { margin: 0 0 14px; font-size: 0.82rem; }
+.tdu-ai-wrap .ai-modal-missing-head { margin: 0 0 3px; color: #666; font-weight: 600; }
+.tdu-ai-wrap #ai-modal-missing ul { margin: 0; padding-left: 18px; color: #334155; }
+.tdu-ai-wrap #ai-modal-missing li { line-height: 1.45; }

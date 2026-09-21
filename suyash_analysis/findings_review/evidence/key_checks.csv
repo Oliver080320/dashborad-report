@@ -1,0 +1,8 @@
+file,key,blank_keys,duplicate_key_rows,exact_duplicate_rows
+daily_runs.csv,id,0,0,0
+vtiger_payment_history.csv,auto_id,0,0,0
+vtiger_quotes.csv,quoteid,0,0,0
+vtiger_quotescf.csv,quoteid,0,0,0
+vtiger_quotes_followup.csv,auto_id,0,0,0
+vtiger_quote_stage_track.csv,auto_id,0,0,0
+vtiger_users.csv,id,0,0,0

@@ -1,0 +1,186 @@
+/* Payment Deadline queue.
+   Scoped under .tdu-payment-wrap so the dashboard's global styles don't leak in and
+   this page's styles don't leak out, same isolation pattern queue.css uses. */
+
+.tdu-payment-wrap { font-family: Arial, sans-serif; max-width: 1800px; margin: 0 auto; padding: 20px; }
+
+.tdu-payment-wrap .pd-header { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+.tdu-payment-wrap .pd-header h1 { font-size: 1.4rem; margin: 0; }
+.tdu-payment-wrap .pd-backlink {
+    margin-left: auto; font-size: 0.85rem; text-decoration: none;
+    padding: 4px 12px; border: 1px solid #334155; border-radius: 3px;
+    color: #334155; font-weight: 600; background: #fff;
+}
+.tdu-payment-wrap .pd-backlink:hover { background: #f1f5f9; }
+
+.tdu-payment-wrap .pd-subtitle { color: #666; font-size: 0.9rem; margin: 8px 0 4px; }
+.tdu-payment-wrap .pd-pool-count { color: #92400e; font-weight: 600; }
+.tdu-payment-wrap .pd-explainer {
+    color: #555; font-size: 0.82rem; margin: 0 0 24px;
+    max-width: 900px; line-height: 1.5;
+}
+
+/* Urgency sections, matching the Follow-up queue's
+   collapsible SP1-4 look, queue.css's .queue-section/.section-toggle, kept as our own
+   copy since this page stays independent of queue.css. Unrouted is deliberately NOT
+   split this way: nothing on the page can act on those rows, so the extra grouping adds
+   more visual noise than it saves. It does reuse the same .pd-section/.pd-section-toggle
+   collapse mechanics for its own closed-by-default toggle (see .pd-pool below), just
+   without the per-bucket split. */
+.tdu-payment-wrap .pd-section { margin-top: 10px; }
+.tdu-payment-wrap .pd-section-toggle {
+    display: flex; align-items: center; gap: 8px;
+    cursor: pointer; user-select: none;
+    padding: 6px 10px; margin: 0;
+    border-bottom: 2px solid transparent;
+    border-radius: 4px 4px 0 0;
+    font-size: 0.92rem;
+    transition: background 0.12s, border-color 0.12s;
+}
+.tdu-payment-wrap .pd-section-toggle:hover { background: rgba(0,0,0,0.045); }
+/* The coloured rule only earns its place while expanded, where it separates the header
+   from the visible table below it. Collapsed, it has nothing to separate from — drawing
+   it anyway made a closed section look like it was cut off above a chunk of dead space. */
+.tdu-payment-wrap .pd-section:not(.collapsed) .pd-section-toggle { border-bottom-color: currentColor; }
+.tdu-payment-wrap .pd-caret {
+    flex: 0 0 auto; width: 0; height: 0;
+    border-left: 8px solid currentColor;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    transition: transform 0.18s ease;
+    transform: rotate(90deg); /* points down while expanded */
+}
+.tdu-payment-wrap .pd-section.collapsed .pd-caret { transform: rotate(0deg); } /* points right when collapsed */
+.tdu-payment-wrap .pd-section.collapsed .pd-section-body { display: none; }
+.tdu-payment-wrap .pd-progress {
+    display: inline-flex; align-items: center; gap: 5px;
+    margin-left: auto; font-size: 0.8rem; font-weight: normal;
+}
+.tdu-payment-wrap .pd-progress-track {
+    display: inline-block; width: 56px; height: 6px;
+    background: #e0e0e0; border-radius: 4px; overflow: hidden;
+}
+.tdu-payment-wrap .pd-progress-bar { display: block; height: 100%; background: currentColor; border-radius: 4px; }
+
+.tdu-payment-wrap .pd-escalate  .pd-section-toggle { color: #991b1b; }
+.tdu-payment-wrap .pd-overdue   .pd-section-toggle { color: #b45309; }
+.tdu-payment-wrap .pd-due-soon  .pd-section-toggle { color: #1C93C4; }
+.tdu-payment-wrap .pd-paid      .pd-section-toggle { color: #166534; }
+/* Amber rather than one of the urgency colours above, so Unrouted stays identifiable as
+   "this is a data problem, not work" even while collapsed. */
+.tdu-payment-wrap .pd-pool      .pd-section-toggle { color: #92400e; }
+
+.tdu-payment-wrap .pd-hint { color: #777; font-size: 0.78rem; margin: 2px 0 6px; font-style: italic; }
+.tdu-payment-wrap .pd-empty { color: #999; font-style: italic; padding: 10px 0; font-size: 0.875rem; }
+
+.tdu-payment-wrap .pd-table { width: 100%; border-collapse: collapse; margin-top: 6px; }
+.tdu-payment-wrap .pd-table th {
+    background: #f5f5f5; text-align: left; padding: 7px 10px;
+    border-bottom: 2px solid #ddd; font-size: 0.85rem;
+}
+.tdu-payment-wrap .pd-table td {
+    padding: 6px 10px; border-bottom: 1px solid #eee;
+    font-size: 0.875rem; vertical-align: top;
+}
+.tdu-payment-wrap .pd-table .pd-num { text-align: right; white-space: nowrap; }
+.tdu-payment-wrap .pd-org { max-width: 240px; overflow-wrap: break-word; word-break: break-word; font-weight: 600; }
+.tdu-payment-wrap .pd-unknown { color: #999; font-style: italic; }
+
+/* Overdue is the normal state in this queue, so it reads as emphasis rather than
+   alarm. The escalate badge carries the actual alarm. */
+.tdu-payment-wrap .pd-deadline--overdue { color: #b45309; font-weight: 600; }
+.tdu-payment-wrap .pd-days { color: #b45309; font-size: 0.75rem; }
+
+.tdu-payment-wrap .pd-row--escalate td { background: #fef2f2; }
+.tdu-payment-wrap .pd-row--pending  td { opacity: 0.62; }
+
+.tdu-payment-wrap .pd-badges { white-space: normal; }
+.tdu-payment-wrap .pd-badge {
+    display: inline-block; font-size: 0.72rem; padding: 1px 7px;
+    border-radius: 10px; margin: 1px 3px 1px 0; white-space: nowrap;
+}
+.tdu-payment-wrap .pd-badge--escalate     { background: #fee2e2; color: #991b1b; font-weight: 600; }
+.tdu-payment-wrap .pd-badge--pending-date { background: #dcfce7; color: #166534; }
+.tdu-payment-wrap .pd-badge--pending      { background: #e0e7ff; color: #3730a3; }
+.tdu-payment-wrap .pd-badge--unknown  { background: #f1f5f9; color: #475569; }
+
+.tdu-payment-wrap .pd-actions { white-space: nowrap; }
+.tdu-payment-wrap .pd-hist-btn,
+.tdu-payment-wrap .pd-log-btn {
+    font-size: 0.78rem; padding: 2px 8px; cursor: pointer;
+    border: 1px solid #aaa; border-radius: 3px; background: #fff; white-space: nowrap;
+}
+.tdu-payment-wrap .pd-hist-btn:hover,
+.tdu-payment-wrap .pd-log-btn:hover { background: #f0f0f0; }
+/* Action buttons must stay legible inside the dashboard: its global button colour is
+   white (for the dark nav), which made pd-hist-btn's text invisible on white. Same
+   fix as queue.css's ".tdu-queue-wrap td button" rule. .pd-log-btn keeps
+   its own white text below since a class selector outranks this element selector. */
+.tdu-payment-wrap td button { color: #333; }
+.tdu-payment-wrap .pd-log-btn { background: #334155; color: #fff; border-color: #334155; font-weight: 600; }
+.tdu-payment-wrap .pd-log-btn:hover { background: #475569; }
+/* Already has a scheduled next-call date — same "done, click to edit" look the
+   Follow-up queue uses, overriding the plain .pd-log-btn dark fill above. */
+.tdu-payment-wrap .pd-log-btn--pending { background: #fff; color: #27ae60; border-color: #27ae60; }
+.tdu-payment-wrap .pd-log-btn--pending:hover { background: #f0fdf4; }
+.tdu-payment-wrap .pd-hist-cell { background: #fafafa; padding: 4px 14px 10px; }
+
+.tdu-payment-wrap .pd-hist-table { width: 100%; font-size: 0.8rem; border-collapse: collapse; margin: 6px 0; }
+.tdu-payment-wrap .pd-hist-table th { background: #eef2ff; text-align: left; padding: 4px 8px; border-bottom: 1px solid #ddd; }
+.tdu-payment-wrap .pd-hist-table td { padding: 3px 8px; border-bottom: 1px solid #f0f0f0; }
+.tdu-payment-wrap .pd-hist-none { color: #999; font-size: 0.8rem; font-style: italic; }
+
+/* Outcome modal — same shape as queue.css's dialog/form-row, re-declared here since
+   this page doesn't load queue.css (kept independent, same as monitoring.css). */
+.tdu-payment-wrap dialog {
+    border: 1px solid #ccc; border-radius: 6px;
+    padding: 20px 24px; min-width: 340px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.18);
+    position: fixed; inset: 0; margin: auto;
+    overflow: visible; /* let the static Flatpickr calendar spill outside the dialog box — same as queue.css */
+}
+.tdu-payment-wrap dialog::backdrop { background: rgba(0,0,0,0.35); }
+.tdu-payment-wrap dialog h3 { margin: 0 0 16px; font-size: 1rem; }
+.tdu-payment-wrap .form-row { display: flex; align-items: center; margin-bottom: 10px; gap: 10px; }
+.tdu-payment-wrap .form-row label { width: 100px; font-size: 0.875rem; flex-shrink: 0; }
+.tdu-payment-wrap .form-row select,
+.tdu-payment-wrap .form-row input { flex: 1; padding: 4px 6px; font-size: 0.875rem; }
+.tdu-payment-wrap .dialog-actions { margin-top: 16px; text-align: right; }
+.tdu-payment-wrap .dialog-actions button { padding: 5px 14px; font-size: 0.875rem; cursor: pointer; }
+
+/* Flatpickr calendar — same structural fixes as queue.css, minus everything tied to
+   its per-day schedule-load colouring (no daily cap here, so no badges/onDayCreate,
+   default flatpickr day sizing/hover/selected styling is untouched and just works). */
+.tdu-payment-wrap .form-row .flatpickr-wrapper { flex: 0 0 auto; } /* static:true keeps the wrapper, not the input, as the flex item */
+.tdu-payment-wrap .form-row .flatpickr-wrapper input { width: 160px; }
+/* confirmDate.css's default Done button is near-invisible; override with theme accent. */
+.tdu-payment-wrap .flatpickr-confirm { background: #42a5f5; color: #fff; fill: #fff; font-weight: bold; }
+.tdu-payment-wrap .flatpickr-confirm:hover { background: #2f92e4; }
+
+/* material_blue.css paints a selectable day from the adjacent month at 0.3 text alpha
+   and a genuinely blocked one at 0.1, both transparent-backed with cursor:default. That
+   is a difference nobody can read at this size, so a perfectly valid date looks dead. It
+   bites often here: maxDate is this quote's trip date, so a trip early next month leaves
+   most of the valid range sitting in that faded trailing row. Restore "this is clickable"
+   on the adjacent-month days that aren't blocked, and make blocked days unmistakable
+   instead of merely dimmer. The disabled rule stays second so it wins on equal
+   specificity for a day that is both (a Sunday or post-trip date next month).
+   Both use colour rather than opacity on purpose: this file loads BEFORE the theme, so
+   the theme's .selected.nextMonthDay still wins the colour at equal specificity and a
+   selected day keeps its solid blue pill. An opacity here would have leaked into that
+   pill and faded it instead. */
+.tdu-payment-wrap .flatpickr-day.prevMonthDay,
+.tdu-payment-wrap .flatpickr-day.nextMonthDay {
+    color: #6b6b6b; /* lighter than an in-month day's #484848, still plainly legible */
+    cursor: pointer;
+}
+.tdu-payment-wrap .flatpickr-day.flatpickr-disabled,
+.tdu-payment-wrap .flatpickr-day.flatpickr-disabled:hover,
+.tdu-payment-wrap .flatpickr-day.notAllowed {
+    color: #c9c9c9;
+    cursor: not-allowed;
+    /* The theme's generic .flatpickr-day:hover grey still lands on blocked days, which
+       reads as a hit target, so blocked days get no hover feedback at all. */
+    background: none;
+    border-color: transparent;
+}

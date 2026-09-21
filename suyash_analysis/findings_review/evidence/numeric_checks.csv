@@ -1,0 +1,10 @@
+file,field,populated,invalid,negative,zero,median,p99,maximum
+vtiger_quotes,total,327,0,0,299,0.0,27647.38000000001,77660.0
+vtiger_quotes,total_new,327,0,0,299,0.0,27647.535400000008,77660.0
+vtiger_quotes,adults,9973,0,0,0,4.0,200.0,2550.0
+vtiger_quotes,children,9973,0,0,8421,0.0,4.0,60.0
+vtiger_quotes,infants,9973,0,0,9738,0.0,1.0,3.0
+vtiger_quotes,no_pax,6575,0,0,359,4.0,100.0,1010.0
+vtiger_payment_history,total_amount,1037,0,0,1,4404.0,110024.96000000054,219893.0
+vtiger_payment_history,trams_received_amount,1302,0,0,0,3362.0,72582.17000000003,150400.0
+vtiger_payment_history,balance_amount,0,0,0,0,,,

@@ -1,0 +1,938 @@
+    .tdu-monitoring-wrap {
+      /* Slate palette matches header.php/queue_view.php so this reads as part of the same system. */
+      --ink: #334155;
+      --muted: #64748B;
+      --faint: #94A3B8;
+      --paper: #F8FAFC;
+      --card: #FFFFFF;
+      --line: #E2E8F0;
+      --brand: #334155;
+      --alert: #C0392B;
+      --good: #3FA34D;
+      --radius: 14px;
+      --shadow: 0 1px 2px rgba(15, 23, 42, .05), 0 8px 24px rgba(15, 23, 42, .06);
+      font-family: Arial, sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.5;
+      max-width: 1800px;
+      margin: 0 auto;
+      padding: 24px 20px 60px;
+    }
+
+    .tdu-monitoring-wrap * {
+      box-sizing: border-box;
+    }
+
+    .tdu-monitoring-wrap h1 {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -.01em;
+      margin: 0 0 20px;
+    }
+
+    .tdu-monitoring-wrap .kpi-section {
+      margin: 0 0 20px;
+    }
+
+    .tdu-monitoring-wrap .kpi-section__label {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: var(--muted);
+      margin: 0 0 8px;
+    }
+
+    .tdu-monitoring-wrap .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+    }
+
+    .tdu-monitoring-wrap .kpi {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 18px 18px 16px;
+      box-shadow: var(--shadow);
+    }
+
+    .tdu-monitoring-wrap .kpi .label {
+      font-size: 12.5px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      font-weight: 600;
+    }
+
+    .tdu-monitoring-wrap .kpi .val {
+      font-size: 34px;
+      font-weight: 800;
+      letter-spacing: -.02em;
+      margin: 8px 0 2px;
+    }
+
+    .tdu-monitoring-wrap .kpi .val.alert {
+      color: var(--alert);
+    }
+
+    .tdu-monitoring-wrap .kpi .val.good {
+      color: var(--good);
+    }
+
+    .tdu-monitoring-wrap .kpi .sub {
+      font-size: 12.5px;
+      color: var(--faint);
+    }
+
+    .tdu-monitoring-wrap .familytabs {
+      display: inline-flex;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      overflow: hidden;
+      margin: 0 0 16px;
+    }
+
+    .tdu-monitoring-wrap .familytabs button {
+      font: inherit;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--muted);
+      background: #fff;
+      border: 0;
+      padding: 8px 16px;
+      cursor: pointer;
+    }
+
+    .tdu-monitoring-wrap .familytabs button+button {
+      border-left: 1px solid var(--line);
+    }
+
+    .tdu-monitoring-wrap .familytabs button.on {
+      background: var(--brand);
+      color: #fff;
+    }
+
+    .tdu-monitoring-wrap .familydesc {
+      font-size: 13px;
+      color: var(--muted);
+      margin: 0 0 16px;
+    }
+
+    .tdu-monitoring-wrap .filterbar {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 13px 16px;
+      margin: 0 0 26px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .tdu-monitoring-wrap .filterbar__lab {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: var(--muted);
+    }
+
+    .tdu-monitoring-wrap .fgroup {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .tdu-monitoring-wrap .fgroup__q {
+      font-size: 10.5px;
+      font-weight: 700;
+      color: var(--faint);
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+
+    .tdu-monitoring-wrap .fchk {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: var(--ink);
+      cursor: pointer;
+      padding: 4px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      user-select: none;
+    }
+
+    .tdu-monitoring-wrap .fchk input {
+      accent-color: var(--brand);
+      margin: 0;
+    }
+
+    .tdu-monitoring-wrap .fchk .dot {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: none;
+      flex: none;
+    }
+
+    .tdu-monitoring-wrap .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+
+    .tdu-monitoring-wrap .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 18px 18px 14px;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    .tdu-monitoring-wrap .card.span2 {
+      grid-column: 1 / -1;
+    }
+
+    .tdu-monitoring-wrap .card.feature {
+      border-color: #CBD5E1;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, .05), 0 14px 36px rgba(51, 65, 85, .12);
+    }
+
+    .tdu-monitoring-wrap .card__title {
+      font-size: 15.5px;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .tdu-monitoring-wrap .card__head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .tdu-monitoring-wrap .agg {
+      display: inline-flex;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      flex: none;
+    }
+
+    .tdu-monitoring-wrap .agg button {
+      font: inherit;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--muted);
+      background: #fff;
+      border: 0;
+      padding: 4px 9px;
+      cursor: pointer;
+      line-height: 1.4;
+    }
+
+    .tdu-monitoring-wrap .agg button+button {
+      border-left: 1px solid var(--line);
+    }
+
+    .tdu-monitoring-wrap .agg button.on {
+      background: var(--brand);
+      color: #fff;
+    }
+
+    .tdu-monitoring-wrap .card__answers {
+      font-size: 13.5px;
+      color: var(--muted);
+      margin: 5px 0 14px;
+    }
+
+    .tdu-monitoring-wrap .card__viz {
+      position: relative;
+      height: 250px;
+    }
+
+    /* Feature card (3.4) has axis titles + a denser chart, so it needs more height. */
+    .tdu-monitoring-wrap .card.feature .card__viz {
+      height: 340px;
+    }
+
+    .tdu-monitoring-wrap .card__foot {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+      padding-top: 12px;
+      border-top: 1px dashed var(--line);
+    }
+
+    .tdu-monitoring-wrap .chip {
+      font-size: 11.5px;
+      font-weight: 600;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: #E2E8F0;
+      color: #334155;
+      white-space: nowrap;
+    }
+
+    .tdu-monitoring-wrap .chip--caveat {
+      background: #FBEFDD;
+      color: #8A5A12;
+    }
+
+    .tdu-monitoring-wrap .card__download {
+      font-size: 11.5px;
+      font-weight: 600;
+      color: var(--brand);
+      text-decoration: none;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 3px 9px;
+      margin-left: auto;
+    }
+
+    .tdu-monitoring-wrap .card__download:hover {
+      text-decoration: underline;
+    }
+
+    .tdu-monitoring-wrap .heat {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+
+    .tdu-monitoring-wrap .heat .who {
+      font-size: 11px;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+
+    .tdu-monitoring-wrap .heat .cells {
+      display: flex;
+      gap: 5px;
+    }
+
+    .tdu-monitoring-wrap .heat .cell {
+      color: #fff;
+      border-radius: 5px;
+      padding: 4px 10px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    /* Custom legend for 4.3 — Chart.js's own legend wraps by text width (split an 8-item legend
+       6-then-2 instead of 4-and-4 by queue). One flex row per queue guarantees that grouping. */
+    .tdu-monitoring-wrap .legend-rows {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      margin-top: 8px;
+    }
+
+    .tdu-monitoring-wrap .legend-row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .tdu-monitoring-wrap .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      color: var(--ink);
+    }
+
+    .tdu-monitoring-wrap .legend-dot {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      flex: none;
+    }
+
+    @media (max-width:820px) {
+      .tdu-monitoring-wrap .kpis {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .tdu-monitoring-wrap .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Individual quote timeline modal. Recentred like queue.css's dialog: the embedding CRM
+       shell resets `* { margin: 0 }`, which kills <dialog>'s default margin:auto centering. */
+    .tdu-monitoring-wrap dialog#personTimelineModal {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 22px 26px;
+      min-width: 360px;
+      max-width: 620px;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, .05), 0 24px 60px rgba(15, 23, 42, .18);
+      position: fixed;
+      inset: 0;
+      margin: auto;
+    }
+
+    .tdu-monitoring-wrap dialog#personTimelineModal::backdrop {
+      background: rgba(15, 23, 42, .45);
+    }
+
+    /* Static label above the title, which personRenderTimeline() overwrites per search — keeps
+       the modal oriented regardless of which quote is loaded. */
+    .tdu-monitoring-wrap dialog#personTimelineModal .personTimelineEyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: var(--faint);
+      margin: 0 0 4px;
+    }
+
+    .tdu-monitoring-wrap dialog#personTimelineModal h3 {
+      margin: 0 0 14px;
+      font-size: 18px;
+      letter-spacing: -.01em;
+    }
+
+    .tdu-monitoring-wrap #personTimelineBody {
+      font-size: 13px;
+      max-height: 60vh;
+      overflow-y: auto;
+    }
+
+    .tdu-monitoring-wrap #personTimelineBody h4 {
+      font-size: 11.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .07em;
+      color: var(--faint);
+      margin: 16px 0 8px;
+    }
+
+    .tdu-monitoring-wrap #personTimelineBody h4:first-child {
+      margin-top: 0;
+    }
+
+    /* Owner/Stage/Travel date/Next call as small tags — replaced a middot-joined line that
+       read as one run-on sentence. */
+    .tdu-monitoring-wrap #personTimelineBody .personTimelineMeta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 0 0 14px;
+    }
+
+    .tdu-monitoring-wrap #personTimelineBody .personTimelineMeta__item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12.5px;
+      color: var(--ink);
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 4px 11px;
+    }
+
+    .tdu-monitoring-wrap #personTimelineBody .personTimelineMeta__label {
+      font-size: 9.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      color: var(--faint);
+    }
+
+    /* Chronological event list — replaced four separate lists (queue/calls/stage/rejection)
+       that didn't read as one timeline. Rail-and-dot treatment: a continuous line (::before)
+       plus a dot per event, coloured by type/bucket (set inline in by-person.js since the
+       colours are data-driven). */
+    .tdu-monitoring-wrap #personTimelineBody .personTimeline {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+
+    .tdu-monitoring-wrap #personTimelineBody .personTimeline::before {
+      content: '';
+      position: absolute;
+      left: 5px;
+      top: 8px;
+      bottom: 8px;
+      width: 2px;
+      background: var(--line);
+    }
+
+    .tdu-monitoring-wrap #personTimelineBody .personTimelineEvent {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      column-gap: 10px;
+      padding: 7px 8px 7px 26px;
+      margin: 0;
+      border-radius: 6px;
+    }
+
+    .tdu-monitoring-wrap #personTimelineBody .personTimelineEvent:hover {
+      background: var(--paper);
+    }
+
+    .tdu-monitoring-wrap #personTimelineBody .personTimelineEvent__dot {
+      position: absolute;
+      left: 0;
+      top: 12px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: 2px solid var(--card);
+      box-shadow: 0 0 0 1px var(--line);
+    }
+
+    .tdu-monitoring-wrap #personTimelineBody .personTimelineEvent__date {
+      flex: 0 0 auto;
+      font-size: 11.5px;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .tdu-monitoring-wrap #personTimelineBody .personTimelineEvent__kind {
+      flex: 0 0 auto;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+
+    .tdu-monitoring-wrap #personTimelineBody .personTimelineEvent__label {
+      flex: 1 1 100%;
+      font-size: 13px;
+      color: var(--ink);
+    }
+
+    .tdu-monitoring-wrap .dialog-actions {
+      margin-top: 16px;
+      text-align: right;
+    }
+
+    .tdu-monitoring-wrap .dialog-actions button {
+      padding: 6px 16px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--ink);
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .tdu-monitoring-wrap .dialog-actions button:hover {
+      border-color: var(--brand);
+    }
+
+    .tdu-monitoring-wrap .personSearchField {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .tdu-monitoring-wrap .personSearchField__icon {
+      position: absolute;
+      left: 10px;
+      width: 14px;
+      height: 14px;
+      color: var(--faint);
+      pointer-events: none;
+    }
+
+    .tdu-monitoring-wrap .personSearchField input[type="text"] {
+      padding: 7px 10px 7px 32px;
+      font-size: 13.5px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      min-width: 200px;
+    }
+
+    .tdu-monitoring-wrap .personSearchField input[type="text"]:focus-visible {
+      outline: 2px solid var(--brand);
+      outline-offset: 1px;
+    }
+
+    .tdu-monitoring-wrap #quoteTimelineBar button {
+      padding: 7px 16px;
+      font-size: 13.5px;
+      font-weight: 600;
+      color: #fff;
+      background: var(--brand);
+      border: 1px solid var(--brand);
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .tdu-monitoring-wrap #quoteTimelineBar button:hover {
+      background: #232D3A;
+    }
+
+    /* No other <table> exists on this dashboard to reuse — adapted from queue.css's rules. */
+    .tdu-monitoring-wrap #personDrillTable {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    .tdu-monitoring-wrap #personDrillTable th {
+      text-align: left;
+      padding: 6px 10px;
+      border-bottom: 2px solid var(--line);
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    /* Sortable headers — same click-to-sort affordance as #personLiveBookTable below. */
+    .tdu-monitoring-wrap #personDrillTable th[data-sort] {
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+    }
+
+    .tdu-monitoring-wrap #personDrillTable th[data-sort]:hover {
+      color: var(--ink);
+    }
+
+    .tdu-monitoring-wrap #personDrillTable td {
+      padding: 6px 10px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .tdu-monitoring-wrap #personDrillTable tbody tr:hover {
+      background: var(--paper);
+      cursor: pointer;
+    }
+
+    .tdu-monitoring-wrap #personDrillCard button {
+      padding: 4px 12px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+
+    /* Donut sits above the bar list (bars double as its legend). Fixed height, not .card__viz's
+       default 250px, since the bars below still need room in the same card. */
+    .tdu-monitoring-wrap .personBreakdownViz {
+      position: relative;
+      height: 190px;
+      margin-bottom: 10px;
+    }
+
+    .tdu-monitoring-wrap .personBreakdownBar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 6px 0;
+      padding: 3px 6px;
+      border-radius: 6px;
+      font-size: 12.5px;
+      cursor: pointer;
+      transition: background .12s ease;
+    }
+
+    .tdu-monitoring-wrap .personBreakdownBar:hover {
+      background: var(--paper);
+    }
+
+    .tdu-monitoring-wrap .personBreakdownBar.is-active {
+      background: #F1F5F9;
+    }
+
+    .tdu-monitoring-wrap .personBreakdownBar.is-active .personBreakdownBar__label {
+      color: var(--brand);
+      font-weight: 700;
+    }
+
+    .tdu-monitoring-wrap .personBreakdownBar__label {
+      width: 150px;
+      flex: none;
+      color: var(--ink);
+    }
+
+    .tdu-monitoring-wrap .personBreakdownBar__track {
+      flex: 1;
+      background: var(--line);
+      border-radius: 4px;
+      height: 8px;
+      overflow: hidden;
+    }
+
+    .tdu-monitoring-wrap .personBreakdownBar__fill {
+      height: 100%;
+      background: var(--brand);
+    }
+
+    .tdu-monitoring-wrap .personBreakdownBar__count {
+      width: 90px;
+      flex: none;
+      text-align: right;
+      color: var(--muted);
+    }
+
+    /* Live-book quote table — same look as #personDrillTable, with sortable headers. */
+    .tdu-monitoring-wrap #personLiveBookTable {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    .tdu-monitoring-wrap #personLiveBookTable th {
+      text-align: left;
+      padding: 6px 10px;
+      border-bottom: 2px solid var(--line);
+      color: var(--muted);
+      font-weight: 700;
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+    }
+
+    .tdu-monitoring-wrap #personLiveBookTable td {
+      padding: 6px 10px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .tdu-monitoring-wrap #personLiveBookTable tbody tr:hover {
+      background: var(--paper);
+      cursor: pointer;
+    }
+
+    .tdu-monitoring-wrap .personLiveBookFilterBar {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .tdu-monitoring-wrap .personLiveBookFilterBar .personSearchField {
+      flex: 1;
+      max-width: 320px;
+    }
+
+    .tdu-monitoring-wrap .personLiveBookFilterBar .personSearchField input[type="text"] {
+      width: 100%;
+    }
+
+    /* Summary tiles grouped into three labelled clusters (Activity/Outcome/Speed) instead of one
+       flat 5-column grid, so a tile also signals what kind of number it is. #personSummaryKpis
+       stays the click-delegation target for personRenderDrill(), so this needed no JS changes. */
+    .tdu-monitoring-wrap #personSummaryKpis {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .tdu-monitoring-wrap .personKpiGroup + .personKpiGroup {
+      padding-top: 14px;
+      border-top: 1px dashed var(--line);
+    }
+
+    .tdu-monitoring-wrap .personKpiGroup__label {
+      font-size: 10.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: var(--faint);
+      margin: 0 0 8px;
+    }
+
+    .tdu-monitoring-wrap .personKpiGroup__row {
+      display: grid;
+      gap: 10px;
+    }
+
+    .tdu-monitoring-wrap #personSummaryKpis .kpi {
+      padding: 12px 14px 10px;
+    }
+
+    .tdu-monitoring-wrap #personSummaryKpis .val {
+      font-size: 24px;
+      margin: 6px 0 2px;
+    }
+
+    /* Clickable tiles get a hover affordance plus an active state (.is-active, set by
+       personRenderDrill()) marking which drill-down is currently open. */
+    .tdu-monitoring-wrap #personSummaryKpis .kpi[data-book-filter] {
+      transition: border-color .12s ease, box-shadow .12s ease, transform .12s ease;
+    }
+
+    .tdu-monitoring-wrap #personSummaryKpis .kpi[data-book-filter]:hover {
+      border-color: var(--brand);
+      box-shadow: 0 1px 2px rgba(15, 23, 42, .05), 0 10px 22px rgba(51, 65, 85, .14);
+      transform: translateY(-1px);
+    }
+
+    .tdu-monitoring-wrap #personSummaryKpis .kpi[data-book-filter].is-active {
+      border-color: var(--brand);
+      background: #F1F5F9;
+    }
+
+    @media (max-width: 640px) {
+      .tdu-monitoring-wrap .personKpiGroup__row {
+        grid-template-columns: repeat(2, 1fr) !important;
+      }
+    }
+
+    /* Hover/focus help icon for tiles whose calculation isn't obvious from the label alone, such
+       as the ones scoped by resolution date rather than creation date. Pure CSS, with the text
+       living in the data-tip attribute. */
+    .tdu-monitoring-wrap .kpi__help {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 14px;
+      height: 14px;
+      margin-left: 4px;
+      border-radius: 50%;
+      background: var(--faint);
+      color: #FFFFFF;
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 1;
+      text-transform: none;
+      letter-spacing: normal;
+      cursor: help;
+    }
+
+    .tdu-monitoring-wrap .kpi__help:hover,
+    .tdu-monitoring-wrap .kpi__help:focus {
+      background: var(--brand);
+      outline: none;
+    }
+
+    .tdu-monitoring-wrap .kpi__help::after {
+      content: attr(data-tip);
+      position: absolute;
+      bottom: calc(100% + 8px);
+      left: 50%;
+      transform: translateX(-50%);
+      width: 220px;
+      padding: 8px 10px;
+      border-radius: 8px;
+      background: var(--ink);
+      color: #FFFFFF;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.4;
+      text-align: left;
+      white-space: normal;
+      box-shadow: var(--shadow);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity .12s ease;
+      z-index: 20;
+    }
+
+    .tdu-monitoring-wrap .kpi__help:hover::after,
+    .tdu-monitoring-wrap .kpi__help:focus::after {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    /* Caller + date-range control strip — consolidates what were three loose rows (select,
+       range toggle, range chip) into one visually distinct control panel. */
+    .tdu-monitoring-wrap .personControlBar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 14px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 10px 14px;
+    }
+
+    .tdu-monitoring-wrap .personControlBar__caller {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .tdu-monitoring-wrap .personControlBar__range {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    /* Custom-styled <select> (SVG chevron, no icon font) so it doesn't look like a bare browser
+       default next to the styled range toggle. Shared by the caller dropdown and the live-book
+       priority filter. */
+    .tdu-monitoring-wrap .personSelect {
+      font: inherit;
+      font-size: 13.5px;
+      font-weight: 700;
+      color: var(--ink);
+      background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='M5 7.5L10 12.5L15 7.5' stroke='%2364748B' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat right 10px center;
+      background-size: 14px;
+      appearance: none;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 7px 30px 7px 12px;
+      cursor: pointer;
+    }
+
+    .tdu-monitoring-wrap .personSelect:hover {
+      border-color: var(--brand);
+    }
+
+    .tdu-monitoring-wrap .personSelect:focus-visible {
+      outline: 2px solid var(--brand);
+      outline-offset: 1px;
+    }
+
+    /* Labelled rule marking a real boundary: everything above respects the date-range picker,
+       everything below (the live book) is always current. */
+    .tdu-monitoring-wrap .personSectionDivider {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .07em;
+    }
+
+    .tdu-monitoring-wrap .personSectionDivider::before,
+    .tdu-monitoring-wrap .personSectionDivider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--line);
+    }
+
+    /* Zebra striping — both tables can run 20-30+ rows and were hard to track with just a
+       1px border. */
+    .tdu-monitoring-wrap #personDrillTable tbody tr:nth-child(even),
+    .tdu-monitoring-wrap #personLiveBookTable tbody tr:nth-child(even) {
+      background: rgba(148, 163, 184, .06);
+    }
+
+    .tdu-monitoring-wrap #personLiveBookTable th[data-sort]:hover {
+      color: var(--ink);
+    }
